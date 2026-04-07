@@ -50,3 +50,10 @@ export async function saveUserCourseProgress(payload) {
     body: JSON.stringify(payload),
   })
 }
+
+export async function patchUserCourseProgress(username, patch) {
+  return request(`/progress/${encodeURIComponent(username)}`, {
+    method: 'PATCH',
+    body: JSON.stringify(patch),
+  })
+}

@@ -1,4 +1,4 @@
-import { getUserCourseProgress, saveUserCourseProgress } from '../progress.js'
+import { getUserCourseProgress, patchUserCourseProgress, saveUserCourseProgress } from '../progress.js'
 
 export default async function handler(req, res) {
   const username = decodeURIComponent(req.query.username)
@@ -17,7 +17,13 @@ export default async function handler(req, res) {
       return
     }
 
-    res.setHeader('Allow', 'GET, PUT')
+    if (req.method === 'PATCH') {
+      const next = await patchUserCourseProgress(username, req.body || {})
+      res.status(200).json(next)
+      return
+    }
+
+    res.setHeader('Allow', 'GET, PUT, PATCH')
     res.status(405).json({ message: 'Method Not Allowed' })
   } catch (error) {
     const message = error instanceof Error ? error.message : '服务器错误'

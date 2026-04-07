@@ -45,6 +45,5 @@ function submit() {
     </button>
 
     <p v-if="error" class="login-error">{{ error }}</p>
-    <p class="login-hint">当前有效账号：`Harry / poter`</p>
   </section>
 </template>

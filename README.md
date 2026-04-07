@@ -79,7 +79,13 @@ npm run serve
 - `POST /api/auth/login`：账号密码登录
 - `GET /api/progress/:username`：读取用户课程进度
 - `PUT /api/progress/:username`：保存用户课程进度
+- `PATCH /api/progress/:username`：部分更新用户课程进度
 - `GET /api/health`：健康检查
+
+登录数据说明：
+
+- `api/data/users.json` 使用 `passwordHash` 存储密码哈希（不再使用明文密码）
+- 当前哈希算法：`sha256(username + ":" + password)`
 
 数据持久化：
 
@@ -90,6 +96,26 @@ Vercel 需要配置的环境变量：
 
 - `KV_REST_API_URL`
 - `KV_REST_API_TOKEN`
+
+## 使用本地数据初始化 Vercel KV
+
+仓库已提供初始化脚本，会读取 `api/data` 下三份数据并写入 KV：
+
+- `users.json` -> `users`
+- `courseCatalog.json` -> `course:catalog`
+- `userCourseProgress.json` -> `progress:{username}`
+
+执行步骤：
+
+```bash
+npx vercel env pull .env.local
+npm run seed:kv
+```
+
+初始化后可通过现有接口验证：
+
+- `GET /api/progress/:username`
+- `POST /api/auth/login`
 
 说明：
 

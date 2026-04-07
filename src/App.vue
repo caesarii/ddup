@@ -1,14 +1,15 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import AppHeader from './components/AppHeader.vue'
-import CourseTabs from './components/CourseTabs.vue'
 import LessonPath from './components/LessonPath.vue'
 import PracticeQuestionCard from './components/PracticeQuestionCard.vue'
 import LoginPage from './components/LoginPage.vue'
 import {
   getCurrentUser,
+  patchUserCourseProgress,
   getUserCourseProgress,
   login,
+  logout,
   saveUserCourseProgress,
 } from './components/api'
 
@@ -311,12 +312,16 @@ const topTabs = [
   { id: 'profile', label: '个人中心', icon: '👤' },
 ]
 
-const homeCourseList = computed(() =>
-  courseTabs.map((course) => ({
-    ...course,
-    desc: course.id === 'hanzi' ? '已开放，包含关卡练习与答题挑战' : '课程开发中',
-  })),
-)
+const homeTrailNodes = computed(() => {
+  return lessons.map((lesson, idx) => ({
+    id: lesson.id,
+    title: lesson.title,
+    icon: completedLessonIds.value.includes(lesson.id) ? '★' : idx % 2 === 0 ? '✦' : '◉',
+    completed: completedLessonIds.value.includes(lesson.id),
+    locked: isLocked(lesson.id),
+    offset: idx % 2 === 1,
+  }))
+})
 
 const currentLesson = computed(() =>
   lessons.find((lesson) => lesson.id === activeLessonId.value),
@@ -494,6 +499,14 @@ function nextQuestion() {
     completedLessonIds.value.push(currentLesson.value.id)
   }
   showResult.value = true
+  void persistProgressPatch({
+    currentCourseId: selectedCourse.value,
+    activeLessonId: null,
+    questionIndex: 0,
+    completedLessonIds: completedLessonIds.value,
+    xp: xp.value,
+    lives: lives.value,
+  })
 }
 
 function closeResult() {
@@ -523,6 +536,15 @@ async function loadProgressForUser(user) {
   progressReady.value = true
 }
 
+async function persistProgressPatch(patch) {
+  if (!currentUser.value?.username || !progressReady.value) return
+  try {
+    await patchUserCourseProgress(currentUser.value.username, patch)
+  } catch {
+    // keep UI interactive even if persistence temporarily fails
+  }
+}
+
 async function handleLogin(payload) {
   loginError.value = ''
   loginLoading.value = true
@@ -540,6 +562,25 @@ function enterPractice(courseId) {
   selectedCourse.value = courseId
   activeLessonId.value = null
   currentTopPage.value = 'practice'
+  void persistProgressPatch({
+    currentCourseId: courseId,
+    activeLessonId: null,
+    questionIndex: 0,
+  })
+}
+
+function startLessonFromHome(lessonId) {
+  enterPractice('hanzi')
+  openLesson(lessonId)
+}
+
+function handleLogout() {
+  logout()
+  currentUser.value = null
+  progressReady.value = false
+  loginError.value = ''
+  loginLoading.value = false
+  currentTopPage.value = 'home'
 }
 
 onMounted(() => {
@@ -573,26 +614,44 @@ watch(
   </main>
 
   <main v-else class="shell">
-    <AppHeader :lives="lives" :xp="xp" />
-    <div class="auth-bar">
+    <AppHeader
+      :lives="lives"
+      :xp="xp"
+      :course-tabs="courseTabs"
+      :selected-course="selectedCourse"
+      @select-course="selectedCourse = $event"
+    />
+    <div v-if="currentTopPage !== 'home'" class="auth-bar">
       <span class="auth-user">当前用户：{{ currentUser.name }}</span>
     </div>
 
-    <section v-if="currentTopPage === 'home'" class="page-card">
-      <h2>课程列表</h2>
-      <p class="home-username">你好，{{ currentUser.name }}</p>
-      <p class="page-desc">选择课程后将直接进入练习场。</p>
-      <div class="home-course-list">
-        <button
-          v-for="course in homeCourseList"
-          :key="course.id"
-          class="course-entry"
-          :class="{ disabled: !course.enabled }"
-          @click="enterPractice(course.id)"
+    <section v-if="currentTopPage === 'home'" class="home-screen">
+      <article class="home-hero">
+        <p class="hero-kicker">SECTION 1, UNIT {{ completedLessonIds.length + 1 }}</p>
+        <h2>识字进阶：完成一课再进入下一课</h2>
+      </article>
+
+      <div class="home-path">
+        <div
+          v-for="(node, idx) in homeTrailNodes"
+          :key="node.id"
+          class="path-row"
+          :class="{ offset: node.offset }"
         >
-          <span class="course-entry-title">{{ course.label }}</span>
-          <span class="course-entry-desc">{{ course.desc }}</span>
-        </button>
+          <button
+            class="path-node-circle"
+            :class="{
+              done: node.completed,
+              locked: node.locked,
+            }"
+            :disabled="node.locked"
+            @click="startLessonFromHome(node.id)"
+          >
+            <span class="node-icon">{{ node.icon }}</span>
+          </button>
+          <p class="node-title">{{ node.title }}</p>
+
+        </div>
       </div>
     </section>
 
@@ -606,15 +665,10 @@ watch(
         <li><span>累计 XP</span><strong>{{ xp }}</strong></li>
         <li><span>课程完成率</span><strong>{{ completionRate }}%</strong></li>
       </ul>
+      <button class="link-btn profile-logout-btn" @click="handleLogout">退出登录</button>
     </section>
 
     <section v-else>
-      <CourseTabs
-        :course-tabs="courseTabs"
-        :selected-course="selectedCourse"
-        @select-course="selectedCourse = $event"
-      />
-
       <LessonPath
         v-if="selectedCourse === 'hanzi' && !activeLessonId"
         :lessons="lessons"

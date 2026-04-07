@@ -54,3 +54,9 @@ export async function saveUserCourseProgress(payload) {
   }
   return next
 }
+
+export async function patchUserCourseProgress(username, patch) {
+  const current = await getUserCourseProgress(username)
+  const merged = { ...current, ...patch, username }
+  return saveUserCourseProgress(merged)
+}
