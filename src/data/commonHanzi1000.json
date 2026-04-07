@@ -1,0 +1,7011 @@
+{
+  "name": "common-hanzi-1000",
+  "description": "Top 1000 common simplified Chinese characters by frequency rank",
+  "source": "https://raw.githubusercontent.com/ruddfawcett/hanziDB.csv/master/hanzi_db.csv",
+  "generatedAt": "2026-04-07T09:15:50Z",
+  "count": 1000,
+  "items": [
+    {
+      "rank": 1,
+      "character": "的",
+      "pinyin": "de",
+      "definition": "possessive, adjectival suffix"
+    },
+    {
+      "rank": 2,
+      "character": "一",
+      "pinyin": "yī",
+      "definition": "one; a, an; alone"
+    },
+    {
+      "rank": 3,
+      "character": "是",
+      "pinyin": "shì",
+      "definition": "indeed, yes, right; to be; demonstrative pronoun, this, that"
+    },
+    {
+      "rank": 4,
+      "character": "不",
+      "pinyin": "bù",
+      "definition": "no, not; un-; negative prefix"
+    },
+    {
+      "rank": 5,
+      "character": "了",
+      "pinyin": "le",
+      "definition": "to finish; particle of completed action"
+    },
+    {
+      "rank": 6,
+      "character": "在",
+      "pinyin": "zài",
+      "definition": "be at, in, on; consist in, rest"
+    },
+    {
+      "rank": 7,
+      "character": "人",
+      "pinyin": "rén",
+      "definition": "man; people; mankind; someone else"
+    },
+    {
+      "rank": 8,
+      "character": "有",
+      "pinyin": "yǒu",
+      "definition": "have, own, possess; exist"
+    },
+    {
+      "rank": 9,
+      "character": "我",
+      "pinyin": "wǒ",
+      "definition": "our, us, i, me, my, we"
+    },
+    {
+      "rank": 10,
+      "character": "他",
+      "pinyin": "tā",
+      "definition": "other, another; he, she, it"
+    },
+    {
+      "rank": 11,
+      "character": "这",
+      "pinyin": "zhè",
+      "definition": "this, the, here"
+    },
+    {
+      "rank": 12,
+      "character": "个",
+      "pinyin": "gè",
+      "definition": "numerary adjunct, piece; single"
+    },
+    {
+      "rank": 13,
+      "character": "们",
+      "pinyin": "men",
+      "definition": "adjunct pronoun indicate plural"
+    },
+    {
+      "rank": 14,
+      "character": "中",
+      "pinyin": "zhōng",
+      "definition": "central; center, middle; in the midst of; hit (target); attain"
+    },
+    {
+      "rank": 15,
+      "character": "来",
+      "pinyin": "lái",
+      "definition": "come, coming; return, returning"
+    },
+    {
+      "rank": 16,
+      "character": "上",
+      "pinyin": "shàng",
+      "definition": "top; superior, highest; go up, send up"
+    },
+    {
+      "rank": 17,
+      "character": "大",
+      "pinyin": "dà",
+      "definition": "big, great, vast, large, high"
+    },
+    {
+      "rank": 18,
+      "character": "为",
+      "pinyin": "wèi",
+      "definition": "do, handle, govern, act; be"
+    },
+    {
+      "rank": 19,
+      "character": "和",
+      "pinyin": "hé",
+      "definition": "harmony, peace; peaceful, calm"
+    },
+    {
+      "rank": 20,
+      "character": "国",
+      "pinyin": "guó",
+      "definition": "nation, country, nation-state"
+    },
+    {
+      "rank": 21,
+      "character": "地",
+      "pinyin": "de",
+      "definition": "earth; soil, ground; region"
+    },
+    {
+      "rank": 22,
+      "character": "到",
+      "pinyin": "dào",
+      "definition": "go to, arrive, been to"
+    },
+    {
+      "rank": 23,
+      "character": "以",
+      "pinyin": "yǐ",
+      "definition": "by means of; thereby, therefore; consider as; in order to"
+    },
+    {
+      "rank": 24,
+      "character": "说",
+      "pinyin": "shuō",
+      "definition": "speak, say, talk; scold, upbraid"
+    },
+    {
+      "rank": 25,
+      "character": "时",
+      "pinyin": "shí",
+      "definition": "time, season; era, age, period"
+    },
+    {
+      "rank": 26,
+      "character": "要",
+      "pinyin": "yào",
+      "definition": "necessary, essential; necessity"
+    },
+    {
+      "rank": 27,
+      "character": "就",
+      "pinyin": "jiù",
+      "definition": "just, simply; to come, go to; to approach, near"
+    },
+    {
+      "rank": 28,
+      "character": "出",
+      "pinyin": "chū",
+      "definition": "go out, send out; stand; produce"
+    },
+    {
+      "rank": 29,
+      "character": "会",
+      "pinyin": "huì",
+      "definition": "assemble, meet together; meeting"
+    },
+    {
+      "rank": 30,
+      "character": "可",
+      "pinyin": "kě",
+      "definition": "may, can, -able; possibly"
+    },
+    {
+      "rank": 31,
+      "character": "也",
+      "pinyin": "yě",
+      "definition": "also; classical final particle of strong affirmation or identity"
+    },
+    {
+      "rank": 32,
+      "character": "你",
+      "pinyin": "nǐ",
+      "definition": "you, second person pronoun"
+    },
+    {
+      "rank": 33,
+      "character": "对",
+      "pinyin": "duì",
+      "definition": "correct, right; facing, opposed"
+    },
+    {
+      "rank": 34,
+      "character": "生",
+      "pinyin": "shēng",
+      "definition": "life, living, lifetime; birth"
+    },
+    {
+      "rank": 35,
+      "character": "能",
+      "pinyin": "néng",
+      "definition": "to be able; can, permitted to; ability"
+    },
+    {
+      "rank": 36,
+      "character": "而",
+      "pinyin": "ér",
+      "definition": "and; and then; and yet; but"
+    },
+    {
+      "rank": 37,
+      "character": "子",
+      "pinyin": "zi",
+      "definition": "offspring, child; fruit, seed of; 1st terrestrial branch"
+    },
+    {
+      "rank": 38,
+      "character": "那",
+      "pinyin": "nà",
+      "definition": "that, that one, those"
+    },
+    {
+      "rank": 39,
+      "character": "得",
+      "pinyin": "dé",
+      "definition": "obtain, get, gain, acquire"
+    },
+    {
+      "rank": 40,
+      "character": "于",
+      "pinyin": "yú",
+      "definition": "in, on, at; go to; surname"
+    },
+    {
+      "rank": 41,
+      "character": "着",
+      "pinyin": "zhe",
+      "definition": "make move, take action"
+    },
+    {
+      "rank": 42,
+      "character": "下",
+      "pinyin": "xià",
+      "definition": "under, underneath, below; down; inferior; bring down"
+    },
+    {
+      "rank": 43,
+      "character": "自",
+      "pinyin": "zì",
+      "definition": "self, private, personal; from"
+    },
+    {
+      "rank": 44,
+      "character": "之",
+      "pinyin": "zhī",
+      "definition": "marks preceding phrase as modifier of following phrase; it, him her, them; go to"
+    },
+    {
+      "rank": 45,
+      "character": "年",
+      "pinyin": "nián",
+      "definition": ""
+    },
+    {
+      "rank": 46,
+      "character": "过",
+      "pinyin": "guò",
+      "definition": "pass, pass through, go across"
+    },
+    {
+      "rank": 47,
+      "character": "发",
+      "pinyin": "fā",
+      "definition": "issue, dispatch, send out; hair"
+    },
+    {
+      "rank": 48,
+      "character": "后",
+      "pinyin": "hòu",
+      "definition": "queen, empress, sovereign; (simp. for "
+    },
+    {
+      "rank": 49,
+      "character": "作",
+      "pinyin": "zuò",
+      "definition": "make; work; compose, write; act, perform"
+    },
+    {
+      "rank": 50,
+      "character": "里",
+      "pinyin": "lǐ",
+      "definition": "unit of distance; village; lane"
+    },
+    {
+      "rank": 51,
+      "character": "用",
+      "pinyin": "yòng",
+      "definition": "use, employ, apply, operate; use"
+    },
+    {
+      "rank": 52,
+      "character": "道",
+      "pinyin": "dào",
+      "definition": "path, road, street; method, way"
+    },
+    {
+      "rank": 53,
+      "character": "行",
+      "pinyin": "xíng",
+      "definition": "go; walk; move, travel; circulate"
+    },
+    {
+      "rank": 54,
+      "character": "所",
+      "pinyin": "suǒ",
+      "definition": "place, location; numerary adjunct"
+    },
+    {
+      "rank": 55,
+      "character": "然",
+      "pinyin": "rán",
+      "definition": "yes, certainly; pledge, promise"
+    },
+    {
+      "rank": 56,
+      "character": "家",
+      "pinyin": "jiā",
+      "definition": "house, home, residence; family"
+    },
+    {
+      "rank": 57,
+      "character": "种",
+      "pinyin": "zhǒng",
+      "definition": "seed; race, breed; to plant"
+    },
+    {
+      "rank": 58,
+      "character": "事",
+      "pinyin": "shì",
+      "definition": "affair, matter, business; to serve; accident, incident"
+    },
+    {
+      "rank": 59,
+      "character": "成",
+      "pinyin": "chéng",
+      "definition": "completed, finished, fixed"
+    },
+    {
+      "rank": 60,
+      "character": "方",
+      "pinyin": "fāng",
+      "definition": "a square, rectangle; a region; local"
+    },
+    {
+      "rank": 61,
+      "character": "多",
+      "pinyin": "duō",
+      "definition": "much, many; more than, over"
+    },
+    {
+      "rank": 62,
+      "character": "经",
+      "pinyin": "jīng",
+      "definition": "classic works; pass through"
+    },
+    {
+      "rank": 63,
+      "character": "么",
+      "pinyin": "me",
+      "definition": "interrogative particle; repetition of a tune small; tender"
+    },
+    {
+      "rank": 64,
+      "character": "去",
+      "pinyin": "qù",
+      "definition": "go away, leave, depart"
+    },
+    {
+      "rank": 65,
+      "character": "法",
+      "pinyin": "fǎ",
+      "definition": "law, rule, regulation, statute; France, French"
+    },
+    {
+      "rank": 66,
+      "character": "学",
+      "pinyin": "xué",
+      "definition": "learning, knowledge; school"
+    },
+    {
+      "rank": 67,
+      "character": "如",
+      "pinyin": "rú",
+      "definition": "if, supposing; as if; like, as"
+    },
+    {
+      "rank": 68,
+      "character": "都",
+      "pinyin": "dōu",
+      "definition": "metropolis, capital; all, the whole; elegant, refined"
+    },
+    {
+      "rank": 69,
+      "character": "同",
+      "pinyin": "tóng",
+      "definition": "same, similar; together with"
+    },
+    {
+      "rank": 70,
+      "character": "现",
+      "pinyin": "xiàn",
+      "definition": "appear, manifest, become visible"
+    },
+    {
+      "rank": 71,
+      "character": "当",
+      "pinyin": "dāng",
+      "definition": "bear, accept, undertake; just"
+    },
+    {
+      "rank": 72,
+      "character": "没",
+      "pinyin": "méi",
+      "definition": "not, have not, none; drown, sink"
+    },
+    {
+      "rank": 73,
+      "character": "动",
+      "pinyin": "dòng",
+      "definition": "move, happen; movement, action"
+    },
+    {
+      "rank": 74,
+      "character": "面",
+      "pinyin": "miàn",
+      "definition": "face; surface; plane; side, dimension"
+    },
+    {
+      "rank": 75,
+      "character": "起",
+      "pinyin": "qǐ",
+      "definition": "rise, stand up; go up; begin"
+    },
+    {
+      "rank": 76,
+      "character": "看",
+      "pinyin": "kàn",
+      "definition": "look, see; examine, scrutinize"
+    },
+    {
+      "rank": 77,
+      "character": "定",
+      "pinyin": "dìng",
+      "definition": "decide, settle, fix"
+    },
+    {
+      "rank": 78,
+      "character": "天",
+      "pinyin": "tiān",
+      "definition": "sky, heaven; god, celestial"
+    },
+    {
+      "rank": 79,
+      "character": "分",
+      "pinyin": "fēn",
+      "definition": "divide; small unit of time etc."
+    },
+    {
+      "rank": 80,
+      "character": "还",
+      "pinyin": "hái",
+      "definition": "still, yet, also, besides"
+    },
+    {
+      "rank": 81,
+      "character": "进",
+      "pinyin": "jìn",
+      "definition": "advance, make progress, enter"
+    },
+    {
+      "rank": 82,
+      "character": "好",
+      "pinyin": "hǎo",
+      "definition": "good, excellent, fine; well"
+    },
+    {
+      "rank": 83,
+      "character": "小",
+      "pinyin": "xiǎo",
+      "definition": "small, tiny, insignificant"
+    },
+    {
+      "rank": 84,
+      "character": "部",
+      "pinyin": "bù",
+      "definition": "part, division, section"
+    },
+    {
+      "rank": 85,
+      "character": "其",
+      "pinyin": "qí",
+      "definition": "his, her, its, their; that"
+    },
+    {
+      "rank": 86,
+      "character": "些",
+      "pinyin": "xiē",
+      "definition": "little, few; rather, somewhat"
+    },
+    {
+      "rank": 87,
+      "character": "主",
+      "pinyin": "zhǔ",
+      "definition": "master, chief owner; host; lord"
+    },
+    {
+      "rank": 88,
+      "character": "样",
+      "pinyin": "yàng",
+      "definition": "shape, form, pattern, style"
+    },
+    {
+      "rank": 89,
+      "character": "理",
+      "pinyin": "lǐ",
+      "definition": "reason, logic; manage"
+    },
+    {
+      "rank": 90,
+      "character": "心",
+      "pinyin": "xīn",
+      "definition": "heart; mind, intelligence; soul"
+    },
+    {
+      "rank": 91,
+      "character": "她",
+      "pinyin": "tā",
+      "definition": "she, her"
+    },
+    {
+      "rank": 92,
+      "character": "本",
+      "pinyin": "běn",
+      "definition": "root, origin, source; basis"
+    },
+    {
+      "rank": 93,
+      "character": "前",
+      "pinyin": "qián",
+      "definition": "in front, forward; preceding"
+    },
+    {
+      "rank": 94,
+      "character": "开",
+      "pinyin": "kāi",
+      "definition": "open; initiate, begin, start"
+    },
+    {
+      "rank": 95,
+      "character": "但",
+      "pinyin": "dàn",
+      "definition": "only; but, however, yet, still"
+    },
+    {
+      "rank": 96,
+      "character": "因",
+      "pinyin": "yīn",
+      "definition": "cause, reason; by; because (of)"
+    },
+    {
+      "rank": 97,
+      "character": "只",
+      "pinyin": "zhǐ",
+      "definition": "only, just, simply"
+    },
+    {
+      "rank": 98,
+      "character": "从",
+      "pinyin": "cóng",
+      "definition": "from, by, since, whence, through"
+    },
+    {
+      "rank": 99,
+      "character": "想",
+      "pinyin": "xiǎng",
+      "definition": "think, speculate, plan, consider"
+    },
+    {
+      "rank": 100,
+      "character": "实",
+      "pinyin": "shí",
+      "definition": "real, true; honest, sincere"
+    },
+    {
+      "rank": 101,
+      "character": "日",
+      "pinyin": "rì",
+      "definition": "sun; day; daytime"
+    },
+    {
+      "rank": 102,
+      "character": "军",
+      "pinyin": "jūn",
+      "definition": "army, military; soldiers, troops"
+    },
+    {
+      "rank": 103,
+      "character": "者",
+      "pinyin": "zhě",
+      "definition": "that which; he who; those who"
+    },
+    {
+      "rank": 104,
+      "character": "意",
+      "pinyin": "yì",
+      "definition": "thought, idea, opinion; think"
+    },
+    {
+      "rank": 105,
+      "character": "无",
+      "pinyin": "wú",
+      "definition": "negative, no, not; KangXi radical 71"
+    },
+    {
+      "rank": 106,
+      "character": "力",
+      "pinyin": "lì",
+      "definition": "power, capability, influence"
+    },
+    {
+      "rank": 107,
+      "character": "它",
+      "pinyin": "tā",
+      "definition": "it; other"
+    },
+    {
+      "rank": 108,
+      "character": "与",
+      "pinyin": "yǔ",
+      "definition": "and; with; to; for; give, grant"
+    },
+    {
+      "rank": 109,
+      "character": "长",
+      "pinyin": "zhǎng",
+      "definition": "long; length; excel in; leader"
+    },
+    {
+      "rank": 110,
+      "character": "把",
+      "pinyin": "bǎ",
+      "definition": "hold, take; guard; regard as"
+    },
+    {
+      "rank": 111,
+      "character": "机",
+      "pinyin": "jī",
+      "definition": "desk; machine; moment"
+    },
+    {
+      "rank": 112,
+      "character": "十",
+      "pinyin": "shí",
+      "definition": "ten, tenth; complete; perfect"
+    },
+    {
+      "rank": 113,
+      "character": "民",
+      "pinyin": "mín",
+      "definition": "people, subjects, citizens"
+    },
+    {
+      "rank": 114,
+      "character": "第",
+      "pinyin": "dì",
+      "definition": "sequence, number; grade, degree"
+    },
+    {
+      "rank": 115,
+      "character": "公",
+      "pinyin": "gōng",
+      "definition": "fair, equitable; public; duke"
+    },
+    {
+      "rank": 116,
+      "character": "此",
+      "pinyin": "cǐ",
+      "definition": "this, these; in this case, then"
+    },
+    {
+      "rank": 117,
+      "character": "已",
+      "pinyin": "yǐ",
+      "definition": "already; finished; stop"
+    },
+    {
+      "rank": 118,
+      "character": "工",
+      "pinyin": "gōng",
+      "definition": "labor, work; worker, laborer"
+    },
+    {
+      "rank": 119,
+      "character": "使",
+      "pinyin": "shǐ",
+      "definition": "cause, send on a mission, order; envoy, messenger, ambassador"
+    },
+    {
+      "rank": 120,
+      "character": "情",
+      "pinyin": "qíng",
+      "definition": "feeling, sentiment, emotion"
+    },
+    {
+      "rank": 121,
+      "character": "明",
+      "pinyin": "míng",
+      "definition": "bright, light, brilliant; clear"
+    },
+    {
+      "rank": 122,
+      "character": "性",
+      "pinyin": "xìng",
+      "definition": "nature, character, sex"
+    },
+    {
+      "rank": 123,
+      "character": "知",
+      "pinyin": "zhī",
+      "definition": "know, perceive, comprehend"
+    },
+    {
+      "rank": 124,
+      "character": "全",
+      "pinyin": "quán",
+      "definition": "maintain, keep whole or intact"
+    },
+    {
+      "rank": 125,
+      "character": "三",
+      "pinyin": "sān",
+      "definition": "three"
+    },
+    {
+      "rank": 126,
+      "character": "又",
+      "pinyin": "yòu",
+      "definition": "and, also, again, in addition"
+    },
+    {
+      "rank": 127,
+      "character": "关",
+      "pinyin": "guān",
+      "definition": "frontier pass; close; relation"
+    },
+    {
+      "rank": 128,
+      "character": "点",
+      "pinyin": "diǎn",
+      "definition": "dot, speck, spot; point, degree"
+    },
+    {
+      "rank": 129,
+      "character": "正",
+      "pinyin": "zhèng",
+      "definition": "right, proper, correct"
+    },
+    {
+      "rank": 130,
+      "character": "业",
+      "pinyin": "yè",
+      "definition": "profession, business; GB radical 111"
+    },
+    {
+      "rank": 131,
+      "character": "外",
+      "pinyin": "wài",
+      "definition": "out, outside, external; foreign"
+    },
+    {
+      "rank": 132,
+      "character": "将",
+      "pinyin": "jiāng",
+      "definition": "will, going to, future; general"
+    },
+    {
+      "rank": 133,
+      "character": "两",
+      "pinyin": "liǎng",
+      "definition": "two, both, pair, couple; ounce"
+    },
+    {
+      "rank": 134,
+      "character": "高",
+      "pinyin": "gāo",
+      "definition": "high, tall; lofty, elevated"
+    },
+    {
+      "rank": 135,
+      "character": "间",
+      "pinyin": "jiān",
+      "definition": "midpoint, space; place, locality"
+    },
+    {
+      "rank": 136,
+      "character": "由",
+      "pinyin": "yóu",
+      "definition": "cause, reason; from"
+    },
+    {
+      "rank": 137,
+      "character": "问",
+      "pinyin": "wèn",
+      "definition": "ask about, inquire after"
+    },
+    {
+      "rank": 138,
+      "character": "很",
+      "pinyin": "hěn",
+      "definition": "very, quite, much"
+    },
+    {
+      "rank": 139,
+      "character": "最",
+      "pinyin": "zuì",
+      "definition": "most, extremely, exceedingly"
+    },
+    {
+      "rank": 140,
+      "character": "重",
+      "pinyin": "zhòng",
+      "definition": "heavy, weighty; double"
+    },
+    {
+      "rank": 141,
+      "character": "并",
+      "pinyin": "bìng",
+      "definition": ""
+    },
+    {
+      "rank": 142,
+      "character": "物",
+      "pinyin": "wù",
+      "definition": "thing, substance, creature"
+    },
+    {
+      "rank": 143,
+      "character": "手",
+      "pinyin": "shǒu",
+      "definition": "hand"
+    },
+    {
+      "rank": 144,
+      "character": "应",
+      "pinyin": "yīng",
+      "definition": "should, ought to, must"
+    },
+    {
+      "rank": 145,
+      "character": "战",
+      "pinyin": "zhàn",
+      "definition": "war, fighting, battle"
+    },
+    {
+      "rank": 146,
+      "character": "向",
+      "pinyin": "xiàng",
+      "definition": "toward, direction, trend"
+    },
+    {
+      "rank": 147,
+      "character": "头",
+      "pinyin": "tóu",
+      "definition": "head; top; chief, first; boss"
+    },
+    {
+      "rank": 148,
+      "character": "文",
+      "pinyin": "wén",
+      "definition": "literature, culture, writing"
+    },
+    {
+      "rank": 149,
+      "character": "体",
+      "pinyin": "tǐ",
+      "definition": "body; group, class, body, unit; inferior"
+    },
+    {
+      "rank": 150,
+      "character": "政",
+      "pinyin": "zhèng",
+      "definition": "government, political affairs"
+    },
+    {
+      "rank": 151,
+      "character": "美",
+      "pinyin": "měi",
+      "definition": "beautiful, pretty; pleasing"
+    },
+    {
+      "rank": 152,
+      "character": "相",
+      "pinyin": "xiāng",
+      "definition": "mutual, reciprocal, each other"
+    },
+    {
+      "rank": 153,
+      "character": "见",
+      "pinyin": "jiàn",
+      "definition": "see, observe, behold; perceive"
+    },
+    {
+      "rank": 154,
+      "character": "被",
+      "pinyin": "bèi",
+      "definition": ""
+    },
+    {
+      "rank": 155,
+      "character": "利",
+      "pinyin": "lì",
+      "definition": "gains, advantage, profit, merit"
+    },
+    {
+      "rank": 156,
+      "character": "什",
+      "pinyin": "shén",
+      "definition": "file of ten soldiers; mixed, miscellaneous"
+    },
+    {
+      "rank": 157,
+      "character": "二",
+      "pinyin": "èr",
+      "definition": "two; twice"
+    },
+    {
+      "rank": 158,
+      "character": "等",
+      "pinyin": "děng",
+      "definition": ""
+    },
+    {
+      "rank": 159,
+      "character": "产",
+      "pinyin": "chǎn",
+      "definition": "give birth, bring forth, produce"
+    },
+    {
+      "rank": 160,
+      "character": "或",
+      "pinyin": "huò",
+      "definition": "or, either, else; perhaps, maybe"
+    },
+    {
+      "rank": 161,
+      "character": "新",
+      "pinyin": "xīn",
+      "definition": "new, recent, fresh, modern"
+    },
+    {
+      "rank": 162,
+      "character": "己",
+      "pinyin": "jǐ",
+      "definition": "self, oneself; personal, private; 6th heavenly stem"
+    },
+    {
+      "rank": 163,
+      "character": "制",
+      "pinyin": "zhì",
+      "definition": "system; establish; overpower"
+    },
+    {
+      "rank": 164,
+      "character": "身",
+      "pinyin": "shēn",
+      "definition": "body; trunk, hull; rad. no. 158"
+    },
+    {
+      "rank": 165,
+      "character": "果",
+      "pinyin": "guǒ",
+      "definition": "fruit; result"
+    },
+    {
+      "rank": 166,
+      "character": "加",
+      "pinyin": "jiā",
+      "definition": "add to, increase, augment"
+    },
+    {
+      "rank": 167,
+      "character": "西",
+      "pinyin": "xī",
+      "definition": "west(ern); westward, occident"
+    },
+    {
+      "rank": 168,
+      "character": "斯",
+      "pinyin": "sī",
+      "definition": "this, thus, such; to lop off; emphatic particle"
+    },
+    {
+      "rank": 169,
+      "character": "月",
+      "pinyin": "yuè",
+      "definition": "moon; month; KangXi radical 74"
+    },
+    {
+      "rank": 170,
+      "character": "话",
+      "pinyin": "huà",
+      "definition": "speech, talk, language; dialect"
+    },
+    {
+      "rank": 171,
+      "character": "合",
+      "pinyin": "hé",
+      "definition": "combine, unite, join; gather"
+    },
+    {
+      "rank": 172,
+      "character": "回",
+      "pinyin": "huí",
+      "definition": "return, turn around; a time"
+    },
+    {
+      "rank": 173,
+      "character": "特",
+      "pinyin": "tè",
+      "definition": "special, unique, distinguished"
+    },
+    {
+      "rank": 174,
+      "character": "代",
+      "pinyin": "dài",
+      "definition": "replace, replacement (of person or generation); era, generation"
+    },
+    {
+      "rank": 175,
+      "character": "内",
+      "pinyin": "nèi",
+      "definition": "inside"
+    },
+    {
+      "rank": 176,
+      "character": "信",
+      "pinyin": "xìn",
+      "definition": "trust, believe; letter"
+    },
+    {
+      "rank": 177,
+      "character": "表",
+      "pinyin": "biǎo",
+      "definition": "show, express, manifest, display"
+    },
+    {
+      "rank": 178,
+      "character": "化",
+      "pinyin": "huà",
+      "definition": "change, convert, reform; -ize"
+    },
+    {
+      "rank": 179,
+      "character": "老",
+      "pinyin": "lǎo",
+      "definition": "old, aged; experienced"
+    },
+    {
+      "rank": 180,
+      "character": "给",
+      "pinyin": "gěi",
+      "definition": "give; by, for"
+    },
+    {
+      "rank": 181,
+      "character": "世",
+      "pinyin": "shì",
+      "definition": "generation; world; era"
+    },
+    {
+      "rank": 182,
+      "character": "位",
+      "pinyin": "wèi",
+      "definition": "throne; position, post; rank, status; seat"
+    },
+    {
+      "rank": 183,
+      "character": "次",
+      "pinyin": "cì",
+      "definition": "order, sequence; next"
+    },
+    {
+      "rank": 184,
+      "character": "度",
+      "pinyin": "dù",
+      "definition": "degree, system; manner; to consider"
+    },
+    {
+      "rank": 185,
+      "character": "门",
+      "pinyin": "mén",
+      "definition": "gate, door, entrance, opening"
+    },
+    {
+      "rank": 186,
+      "character": "任",
+      "pinyin": "rèn",
+      "definition": "trust to, rely on, appoint; to bear, duty, office; allow"
+    },
+    {
+      "rank": 187,
+      "character": "常",
+      "pinyin": "cháng",
+      "definition": "common, normal, frequent, regular"
+    },
+    {
+      "rank": 188,
+      "character": "先",
+      "pinyin": "xiān",
+      "definition": "first, former, previous"
+    },
+    {
+      "rank": 189,
+      "character": "海",
+      "pinyin": "hǎi",
+      "definition": "sea, ocean; maritime"
+    },
+    {
+      "rank": 190,
+      "character": "通",
+      "pinyin": "tōng",
+      "definition": "pass through, common, communicate"
+    },
+    {
+      "rank": 191,
+      "character": "教",
+      "pinyin": "jiào",
+      "definition": "teach, class"
+    },
+    {
+      "rank": 192,
+      "character": "儿",
+      "pinyin": "ér",
+      "definition": "son, child; KangXi radical 10"
+    },
+    {
+      "rank": 193,
+      "character": "原",
+      "pinyin": "yuán",
+      "definition": "source, origin, beginning"
+    },
+    {
+      "rank": 194,
+      "character": "东",
+      "pinyin": "dōng",
+      "definition": "east, eastern, eastward"
+    },
+    {
+      "rank": 195,
+      "character": "声",
+      "pinyin": "shēng",
+      "definition": "sound, voice, noise; tone; music"
+    },
+    {
+      "rank": 196,
+      "character": "提",
+      "pinyin": "tí",
+      "definition": "hold in hand; lift in hand"
+    },
+    {
+      "rank": 197,
+      "character": "立",
+      "pinyin": "lì",
+      "definition": "stand; let stand; establish, set"
+    },
+    {
+      "rank": 198,
+      "character": "及",
+      "pinyin": "jí",
+      "definition": "extend; reach; come up to; and"
+    },
+    {
+      "rank": 199,
+      "character": "比",
+      "pinyin": "bǐ",
+      "definition": "to compare, liken; comparison; than"
+    },
+    {
+      "rank": 200,
+      "character": "员",
+      "pinyin": "yuán",
+      "definition": "member; personnel, staff member"
+    },
+    {
+      "rank": 201,
+      "character": "解",
+      "pinyin": "jiě",
+      "definition": "loosen, unfasten, untie; explain"
+    },
+    {
+      "rank": 202,
+      "character": "水",
+      "pinyin": "shuǐ",
+      "definition": "water, liquid, lotion, juice"
+    },
+    {
+      "rank": 203,
+      "character": "名",
+      "pinyin": "míng",
+      "definition": "name, rank, title, position"
+    },
+    {
+      "rank": 204,
+      "character": "真",
+      "pinyin": "zhēn",
+      "definition": "real, actual, true, genuine"
+    },
+    {
+      "rank": 205,
+      "character": "论",
+      "pinyin": "lùn",
+      "definition": "debate; discuss; discourse"
+    },
+    {
+      "rank": 206,
+      "character": "处",
+      "pinyin": "chù",
+      "definition": "place, locale; department"
+    },
+    {
+      "rank": 207,
+      "character": "走",
+      "pinyin": "zǒu",
+      "definition": "walk, go on foot; run; leave"
+    },
+    {
+      "rank": 208,
+      "character": "义",
+      "pinyin": "yì",
+      "definition": "right conduct, righteousness"
+    },
+    {
+      "rank": 209,
+      "character": "各",
+      "pinyin": "gè",
+      "definition": "each, individually, every, all"
+    },
+    {
+      "rank": 210,
+      "character": "入",
+      "pinyin": "rù",
+      "definition": "enter, come in(to), join"
+    },
+    {
+      "rank": 211,
+      "character": "几",
+      "pinyin": "jǐ",
+      "definition": "small table"
+    },
+    {
+      "rank": 212,
+      "character": "口",
+      "pinyin": "kǒu",
+      "definition": "mouth; open end; entrance, gate"
+    },
+    {
+      "rank": 213,
+      "character": "认",
+      "pinyin": "rèn",
+      "definition": "recognize, know, understand"
+    },
+    {
+      "rank": 214,
+      "character": "条",
+      "pinyin": "tiáo",
+      "definition": "clause, condition; string, stripe"
+    },
+    {
+      "rank": 215,
+      "character": "平",
+      "pinyin": "píng",
+      "definition": "flat, level, even; peaceful"
+    },
+    {
+      "rank": 216,
+      "character": "系",
+      "pinyin": "xì",
+      "definition": "system; line, link, connection"
+    },
+    {
+      "rank": 217,
+      "character": "气",
+      "pinyin": "qì",
+      "definition": "steam, vapor; KangXi radical 84"
+    },
+    {
+      "rank": 218,
+      "character": "题",
+      "pinyin": "tí",
+      "definition": "forehead; title, headline; theme"
+    },
+    {
+      "rank": 219,
+      "character": "活",
+      "pinyin": "huó",
+      "definition": "live, exist, survive; lively"
+    },
+    {
+      "rank": 220,
+      "character": "尔",
+      "pinyin": "ěr",
+      "definition": "you; that, those; final particle"
+    },
+    {
+      "rank": 221,
+      "character": "更",
+      "pinyin": "gèng",
+      "definition": "more, still further, much more"
+    },
+    {
+      "rank": 222,
+      "character": "别",
+      "pinyin": "bié",
+      "definition": "separate, other; do not"
+    },
+    {
+      "rank": 223,
+      "character": "打",
+      "pinyin": "dǎ",
+      "definition": "strike, hit, beat; fight; attack"
+    },
+    {
+      "rank": 224,
+      "character": "女",
+      "pinyin": "nǚ",
+      "definition": "woman, girl; feminine; rad. 38"
+    },
+    {
+      "rank": 225,
+      "character": "变",
+      "pinyin": "biàn",
+      "definition": "change, transform, alter; rebel"
+    },
+    {
+      "rank": 226,
+      "character": "四",
+      "pinyin": "sì",
+      "definition": "four"
+    },
+    {
+      "rank": 227,
+      "character": "神",
+      "pinyin": "shén",
+      "definition": "spirit, god, supernatural being"
+    },
+    {
+      "rank": 228,
+      "character": "总",
+      "pinyin": "zǒng",
+      "definition": "collect; overall, altogether"
+    },
+    {
+      "rank": 229,
+      "character": "何",
+      "pinyin": "hé",
+      "definition": "what, why, where, which, how"
+    },
+    {
+      "rank": 230,
+      "character": "电",
+      "pinyin": "diàn",
+      "definition": "electricity; electric; lightning"
+    },
+    {
+      "rank": 231,
+      "character": "数",
+      "pinyin": "shù",
+      "definition": "number; several, count; fate"
+    },
+    {
+      "rank": 232,
+      "character": "安",
+      "pinyin": "ān",
+      "definition": "peaceful, tranquil, quiet"
+    },
+    {
+      "rank": 233,
+      "character": "少",
+      "pinyin": "shǎo",
+      "definition": "few, less, inadequate"
+    },
+    {
+      "rank": 234,
+      "character": "报",
+      "pinyin": "bào",
+      "definition": "report, tell, announce"
+    },
+    {
+      "rank": 235,
+      "character": "才",
+      "pinyin": "cái",
+      "definition": "talent, ability; just, only"
+    },
+    {
+      "rank": 236,
+      "character": "结",
+      "pinyin": "jié",
+      "definition": "knot, tie; join, connect"
+    },
+    {
+      "rank": 237,
+      "character": "反",
+      "pinyin": "fǎn",
+      "definition": "reverse, opposite, contrary, anti"
+    },
+    {
+      "rank": 238,
+      "character": "受",
+      "pinyin": "shòu",
+      "definition": "receive, accept, get; bear, stand"
+    },
+    {
+      "rank": 239,
+      "character": "目",
+      "pinyin": "mù",
+      "definition": "eye; look, see; division, topic"
+    },
+    {
+      "rank": 240,
+      "character": "太",
+      "pinyin": "tài",
+      "definition": "very, too, much; big; extreme"
+    },
+    {
+      "rank": 241,
+      "character": "量",
+      "pinyin": "liàng",
+      "definition": "measure, quantity, capacity"
+    },
+    {
+      "rank": 242,
+      "character": "再",
+      "pinyin": "zài",
+      "definition": "again, twice, re-"
+    },
+    {
+      "rank": 243,
+      "character": "感",
+      "pinyin": "gǎn",
+      "definition": "feel, perceive, emotion"
+    },
+    {
+      "rank": 244,
+      "character": "建",
+      "pinyin": "jiàn",
+      "definition": "build, establish, erect, found"
+    },
+    {
+      "rank": 245,
+      "character": "务",
+      "pinyin": "wù",
+      "definition": "affairs, business; must, should"
+    },
+    {
+      "rank": 246,
+      "character": "做",
+      "pinyin": "zuò",
+      "definition": "work, make; act"
+    },
+    {
+      "rank": 247,
+      "character": "接",
+      "pinyin": "jiē",
+      "definition": "receive; continue; catch; connect"
+    },
+    {
+      "rank": 248,
+      "character": "必",
+      "pinyin": "bì",
+      "definition": "surely, most certainly; must"
+    },
+    {
+      "rank": 249,
+      "character": "场",
+      "pinyin": "chǎng",
+      "definition": "open space, field, market"
+    },
+    {
+      "rank": 250,
+      "character": "件",
+      "pinyin": "jiàn",
+      "definition": "numerary adjunct for article; matter"
+    },
+    {
+      "rank": 251,
+      "character": "计",
+      "pinyin": "jì",
+      "definition": "plan, plot; strategem; scheme"
+    },
+    {
+      "rank": 252,
+      "character": "管",
+      "pinyin": "guǎn",
+      "definition": "pipe, tube, duct; woodwind music"
+    },
+    {
+      "rank": 253,
+      "character": "期",
+      "pinyin": "qī",
+      "definition": "period of time; date; time limit"
+    },
+    {
+      "rank": 254,
+      "character": "市",
+      "pinyin": "shì",
+      "definition": "market, fair; city, town; trade"
+    },
+    {
+      "rank": 255,
+      "character": "直",
+      "pinyin": "zhí",
+      "definition": "straight, erect, vertical"
+    },
+    {
+      "rank": 256,
+      "character": "德",
+      "pinyin": "dé",
+      "definition": "ethics, morality, virtue"
+    },
+    {
+      "rank": 257,
+      "character": "资",
+      "pinyin": "zī",
+      "definition": "property; wealth; capital"
+    },
+    {
+      "rank": 258,
+      "character": "命",
+      "pinyin": "mìng",
+      "definition": "life; destiny, fate, luck; an order, instruction"
+    },
+    {
+      "rank": 259,
+      "character": "山",
+      "pinyin": "shān",
+      "definition": "mountain, hill, peak"
+    },
+    {
+      "rank": 260,
+      "character": "金",
+      "pinyin": "jīn",
+      "definition": "gold; metals in general; money"
+    },
+    {
+      "rank": 261,
+      "character": "指",
+      "pinyin": "zhǐ",
+      "definition": "finger, toe; point, indicate"
+    },
+    {
+      "rank": 262,
+      "character": "克",
+      "pinyin": "kè",
+      "definition": "gram; overcome; transliteration"
+    },
+    {
+      "rank": 263,
+      "character": "许",
+      "pinyin": "xǔ",
+      "definition": "allow, permit; promise; betroth"
+    },
+    {
+      "rank": 264,
+      "character": "统",
+      "pinyin": "tǒng",
+      "definition": "govern, command, control; unite"
+    },
+    {
+      "rank": 265,
+      "character": "区",
+      "pinyin": "qū",
+      "definition": "area, district, region, ward"
+    },
+    {
+      "rank": 266,
+      "character": "保",
+      "pinyin": "bǎo",
+      "definition": "protect, safeguard, defend, care"
+    },
+    {
+      "rank": 267,
+      "character": "至",
+      "pinyin": "zhì",
+      "definition": "reach, arrive; extremely, very"
+    },
+    {
+      "rank": 268,
+      "character": "队",
+      "pinyin": "duì",
+      "definition": "team, group; army unit"
+    },
+    {
+      "rank": 269,
+      "character": "形",
+      "pinyin": "xíng",
+      "definition": "form, shape, appearance"
+    },
+    {
+      "rank": 270,
+      "character": "社",
+      "pinyin": "shè",
+      "definition": "god of the soil and altars to him; group of families; company, society"
+    },
+    {
+      "rank": 271,
+      "character": "便",
+      "pinyin": "biàn",
+      "definition": "convenience, ease; expedient"
+    },
+    {
+      "rank": 272,
+      "character": "空",
+      "pinyin": "kōng",
+      "definition": "empty, hollow, bare, deserted"
+    },
+    {
+      "rank": 273,
+      "character": "决",
+      "pinyin": "jué",
+      "definition": "decide, determine, judge"
+    },
+    {
+      "rank": 274,
+      "character": "治",
+      "pinyin": "zhì",
+      "definition": "govern, regulate, administer"
+    },
+    {
+      "rank": 275,
+      "character": "展",
+      "pinyin": "zhǎn",
+      "definition": "open, unfold; stretch, extend"
+    },
+    {
+      "rank": 276,
+      "character": "马",
+      "pinyin": "mǎ",
+      "definition": "horse; surname; KangXi radical 187"
+    },
+    {
+      "rank": 277,
+      "character": "科",
+      "pinyin": "kē",
+      "definition": "section, department, science"
+    },
+    {
+      "rank": 278,
+      "character": "司",
+      "pinyin": "sī",
+      "definition": "take charge of, control, manage; officer"
+    },
+    {
+      "rank": 279,
+      "character": "五",
+      "pinyin": "wǔ",
+      "definition": "five; surname"
+    },
+    {
+      "rank": 280,
+      "character": "基",
+      "pinyin": "jī",
+      "definition": "foundation, base"
+    },
+    {
+      "rank": 281,
+      "character": "眼",
+      "pinyin": "yǎn",
+      "definition": "eye; eyelet, hole, opening"
+    },
+    {
+      "rank": 282,
+      "character": "书",
+      "pinyin": "shū",
+      "definition": "book, letter, document; writings"
+    },
+    {
+      "rank": 283,
+      "character": "非",
+      "pinyin": "fēi",
+      "definition": "not, negative, non-; oppose"
+    },
+    {
+      "rank": 284,
+      "character": "则",
+      "pinyin": "zé",
+      "definition": "rule, law, regulation; grades"
+    },
+    {
+      "rank": 285,
+      "character": "听",
+      "pinyin": "tīng",
+      "definition": "hear; understand; obey, comply"
+    },
+    {
+      "rank": 286,
+      "character": "白",
+      "pinyin": "bái",
+      "definition": "white; pure, unblemished; bright"
+    },
+    {
+      "rank": 287,
+      "character": "却",
+      "pinyin": "què",
+      "definition": "still, but; decline; retreat"
+    },
+    {
+      "rank": 288,
+      "character": "界",
+      "pinyin": "jiè",
+      "definition": "boundary, limit; domain; society; the world"
+    },
+    {
+      "rank": 289,
+      "character": "达",
+      "pinyin": "dá",
+      "definition": "arrive at, reach; intelligent; smooth, slippery"
+    },
+    {
+      "rank": 290,
+      "character": "光",
+      "pinyin": "guāng",
+      "definition": "light, brilliant, shine; only"
+    },
+    {
+      "rank": 291,
+      "character": "放",
+      "pinyin": "fàng",
+      "definition": "put, release, free, liberate"
+    },
+    {
+      "rank": 292,
+      "character": "强",
+      "pinyin": "qiáng",
+      "definition": "strong, powerful, energetic"
+    },
+    {
+      "rank": 293,
+      "character": "即",
+      "pinyin": "jí",
+      "definition": "promptly, quickly, immediately"
+    },
+    {
+      "rank": 294,
+      "character": "像",
+      "pinyin": "xiàng",
+      "definition": "a picture, image, figure; to resemble"
+    },
+    {
+      "rank": 295,
+      "character": "难",
+      "pinyin": "nán",
+      "definition": "difficult, arduous, hard; unable"
+    },
+    {
+      "rank": 296,
+      "character": "且",
+      "pinyin": "qiě",
+      "definition": "moreover, also (post-subject); about to, will soon (pre-verb)"
+    },
+    {
+      "rank": 297,
+      "character": "权",
+      "pinyin": "quán",
+      "definition": "power, right, authority"
+    },
+    {
+      "rank": 298,
+      "character": "思",
+      "pinyin": "sī",
+      "definition": "think, consider, ponder; final particle"
+    },
+    {
+      "rank": 299,
+      "character": "王",
+      "pinyin": "wáng",
+      "definition": "king, ruler; royal; surname"
+    },
+    {
+      "rank": 300,
+      "character": "象",
+      "pinyin": "xiàng",
+      "definition": "elephant; ivory; figure, image"
+    },
+    {
+      "rank": 301,
+      "character": "完",
+      "pinyin": "wán",
+      "definition": "complete, finish, settle; whole"
+    },
+    {
+      "rank": 302,
+      "character": "设",
+      "pinyin": "shè",
+      "definition": "build; establish; display"
+    },
+    {
+      "rank": 303,
+      "character": "式",
+      "pinyin": "shì",
+      "definition": "style, system, formula, rule"
+    },
+    {
+      "rank": 304,
+      "character": "色",
+      "pinyin": "sè",
+      "definition": "color, tint, hue, shade; form, body; beauty, desire for beauty"
+    },
+    {
+      "rank": 305,
+      "character": "路",
+      "pinyin": "lù",
+      "definition": "road, path, street; journey"
+    },
+    {
+      "rank": 306,
+      "character": "记",
+      "pinyin": "jì",
+      "definition": "record; keep in mind, remember"
+    },
+    {
+      "rank": 307,
+      "character": "南",
+      "pinyin": "nán",
+      "definition": "south; southern part; southward"
+    },
+    {
+      "rank": 308,
+      "character": "品",
+      "pinyin": "pǐn",
+      "definition": "article, product, commodity"
+    },
+    {
+      "rank": 309,
+      "character": "住",
+      "pinyin": "zhù",
+      "definition": "reside, live at, dwell, lodge; stop"
+    },
+    {
+      "rank": 310,
+      "character": "告",
+      "pinyin": "gào",
+      "definition": "tell, announce, inform; accuse"
+    },
+    {
+      "rank": 311,
+      "character": "类",
+      "pinyin": "lèi",
+      "definition": "class, group, kind, category"
+    },
+    {
+      "rank": 312,
+      "character": "求",
+      "pinyin": "qiú",
+      "definition": "seek; demand, request; beseech"
+    },
+    {
+      "rank": 313,
+      "character": "据",
+      "pinyin": "jù",
+      "definition": "to occupy, take possession of; a base, position"
+    },
+    {
+      "rank": 314,
+      "character": "程",
+      "pinyin": "chéng",
+      "definition": "journey, trip; schedule, agenda"
+    },
+    {
+      "rank": 315,
+      "character": "北",
+      "pinyin": "běi",
+      "definition": "north; northern; northward"
+    },
+    {
+      "rank": 316,
+      "character": "边",
+      "pinyin": "biān",
+      "definition": "edge, margin, side, border"
+    },
+    {
+      "rank": 317,
+      "character": "死",
+      "pinyin": "sǐ",
+      "definition": "die; dead; death"
+    },
+    {
+      "rank": 318,
+      "character": "张",
+      "pinyin": "zhāng",
+      "definition": "stretch, extend, expand; sheet"
+    },
+    {
+      "rank": 319,
+      "character": "该",
+      "pinyin": "gāi",
+      "definition": "should, ought to, need to"
+    },
+    {
+      "rank": 320,
+      "character": "交",
+      "pinyin": "jiāo",
+      "definition": "mix; intersect; exchange, communicate; deliver"
+    },
+    {
+      "rank": 321,
+      "character": "规",
+      "pinyin": "guī",
+      "definition": "rules, regulations, customs, law"
+    },
+    {
+      "rank": 322,
+      "character": "万",
+      "pinyin": "wàn",
+      "definition": "ten thousand; innumerable"
+    },
+    {
+      "rank": 323,
+      "character": "取",
+      "pinyin": "qǔ",
+      "definition": "take, receive, obtain; select"
+    },
+    {
+      "rank": 324,
+      "character": "拉",
+      "pinyin": "lā",
+      "definition": "pull, drag; seize, hold; lengthen"
+    },
+    {
+      "rank": 325,
+      "character": "格",
+      "pinyin": "gé",
+      "definition": "pattern, standard, form; style"
+    },
+    {
+      "rank": 326,
+      "character": "望",
+      "pinyin": "wàng",
+      "definition": "to look at, look forward; to hope, expect"
+    },
+    {
+      "rank": 327,
+      "character": "觉",
+      "pinyin": "jué",
+      "definition": "to wake up from sleep; conscious"
+    },
+    {
+      "rank": 328,
+      "character": "术",
+      "pinyin": "shù",
+      "definition": "art, skill, special feat; method, technique"
+    },
+    {
+      "rank": 329,
+      "character": "领",
+      "pinyin": "lǐng",
+      "definition": "neck; collar; lead, guide"
+    },
+    {
+      "rank": 330,
+      "character": "共",
+      "pinyin": "gòng",
+      "definition": "together with, all, total; to share"
+    },
+    {
+      "rank": 331,
+      "character": "确",
+      "pinyin": "què",
+      "definition": "sure, certain; real, true"
+    },
+    {
+      "rank": 332,
+      "character": "传",
+      "pinyin": "chuán",
+      "definition": "summon; propagate, transmit"
+    },
+    {
+      "rank": 333,
+      "character": "师",
+      "pinyin": "shī",
+      "definition": "teacher, master, specialist"
+    },
+    {
+      "rank": 334,
+      "character": "观",
+      "pinyin": "guān",
+      "definition": "see, observe, view; appearance"
+    },
+    {
+      "rank": 335,
+      "character": "清",
+      "pinyin": "qīng",
+      "definition": "clear, pure, clean; peaceful"
+    },
+    {
+      "rank": 336,
+      "character": "今",
+      "pinyin": "jīn",
+      "definition": "now, today, modern era"
+    },
+    {
+      "rank": 337,
+      "character": "切",
+      "pinyin": "qiè",
+      "definition": "cut, mince, slice, carve"
+    },
+    {
+      "rank": 338,
+      "character": "院",
+      "pinyin": "yuàn",
+      "definition": "courtyard, yard, court; school"
+    },
+    {
+      "rank": 339,
+      "character": "让",
+      "pinyin": "ràng",
+      "definition": "allow, permit, yield, concede"
+    },
+    {
+      "rank": 340,
+      "character": "识",
+      "pinyin": "shí",
+      "definition": "recognize, understand, know"
+    },
+    {
+      "rank": 341,
+      "character": "候",
+      "pinyin": "hòu",
+      "definition": "wait; expect; visit; greet"
+    },
+    {
+      "rank": 342,
+      "character": "带",
+      "pinyin": "dài",
+      "definition": "belt, girdle, band, strap, zone"
+    },
+    {
+      "rank": 343,
+      "character": "导",
+      "pinyin": "dǎo",
+      "definition": "direct, guide, lead, conduct"
+    },
+    {
+      "rank": 344,
+      "character": "争",
+      "pinyin": "zhēng",
+      "definition": "dispute, fight, contend, strive"
+    },
+    {
+      "rank": 345,
+      "character": "运",
+      "pinyin": "yùn",
+      "definition": "run; simplified form of "
+    },
+    {
+      "rank": 346,
+      "character": "笑",
+      "pinyin": "xiào",
+      "definition": "smile, laugh, giggle; snicker"
+    },
+    {
+      "rank": 347,
+      "character": "飞",
+      "pinyin": "fēi",
+      "definition": "fly; go quickly; dart; high"
+    },
+    {
+      "rank": 348,
+      "character": "风",
+      "pinyin": "fēng",
+      "definition": "wind; air; manners, atmosphere"
+    },
+    {
+      "rank": 349,
+      "character": "步",
+      "pinyin": "bù",
+      "definition": "step, pace; walk, stroll"
+    },
+    {
+      "rank": 350,
+      "character": "改",
+      "pinyin": "gǎi",
+      "definition": "change, alter; improve, remodel"
+    },
+    {
+      "rank": 351,
+      "character": "收",
+      "pinyin": "shōu",
+      "definition": "gather together, collect; harvest"
+    },
+    {
+      "rank": 352,
+      "character": "根",
+      "pinyin": "gēn",
+      "definition": "root, base(d on); foundation"
+    },
+    {
+      "rank": 353,
+      "character": "干",
+      "pinyin": "gàn",
+      "definition": "oppose, offend; invade; dried"
+    },
+    {
+      "rank": 354,
+      "character": "造",
+      "pinyin": "zào",
+      "definition": "construct, build, make, begin; prepare"
+    },
+    {
+      "rank": 355,
+      "character": "言",
+      "pinyin": "yán",
+      "definition": "words, speech; speak, say"
+    },
+    {
+      "rank": 356,
+      "character": "联",
+      "pinyin": "lián",
+      "definition": "connect, join; associate, ally"
+    },
+    {
+      "rank": 357,
+      "character": "持",
+      "pinyin": "chí",
+      "definition": "sustain, support; hold, grasp"
+    },
+    {
+      "rank": 358,
+      "character": "组",
+      "pinyin": "zǔ",
+      "definition": "class; section, department"
+    },
+    {
+      "rank": 359,
+      "character": "每",
+      "pinyin": "měi",
+      "definition": "every, each"
+    },
+    {
+      "rank": 360,
+      "character": "济",
+      "pinyin": "jì",
+      "definition": "help, aid, relieve; ferry, cross"
+    },
+    {
+      "rank": 361,
+      "character": "车",
+      "pinyin": "chē",
+      "definition": "cart, vehicle; carry in cart"
+    },
+    {
+      "rank": 362,
+      "character": "亲",
+      "pinyin": "qīn",
+      "definition": "relatives, parents; intimate the hazel nut or filbert tree a thorny tree"
+    },
+    {
+      "rank": 363,
+      "character": "极",
+      "pinyin": "jí",
+      "definition": "extreme, utmost, furthest, final"
+    },
+    {
+      "rank": 364,
+      "character": "林",
+      "pinyin": "lín",
+      "definition": "forest, grove; surname"
+    },
+    {
+      "rank": 365,
+      "character": "服",
+      "pinyin": "fú",
+      "definition": "clothes; wear, dress"
+    },
+    {
+      "rank": 366,
+      "character": "快",
+      "pinyin": "kuài",
+      "definition": "rapid, quick, speedy, fast; soon"
+    },
+    {
+      "rank": 367,
+      "character": "办",
+      "pinyin": "bàn",
+      "definition": "manage, do, handle; deal with"
+    },
+    {
+      "rank": 368,
+      "character": "议",
+      "pinyin": "yì",
+      "definition": "consult, talk over, discuss"
+    },
+    {
+      "rank": 369,
+      "character": "往",
+      "pinyin": "wǎng",
+      "definition": "go, depart; past, formerly"
+    },
+    {
+      "rank": 370,
+      "character": "元",
+      "pinyin": "yuán",
+      "definition": "first; dollar; origin; head"
+    },
+    {
+      "rank": 371,
+      "character": "英",
+      "pinyin": "yīng",
+      "definition": "petal, flower, leaf; brave, a hero; England, English"
+    },
+    {
+      "rank": 372,
+      "character": "士",
+      "pinyin": "shì",
+      "definition": "scholar, gentleman; soldier"
+    },
+    {
+      "rank": 373,
+      "character": "证",
+      "pinyin": "zhèng",
+      "definition": "prove, confirm, verify; proof"
+    },
+    {
+      "rank": 374,
+      "character": "近",
+      "pinyin": "jìn",
+      "definition": "near, close; approach; intimate"
+    },
+    {
+      "rank": 375,
+      "character": "失",
+      "pinyin": "shī",
+      "definition": "lose; make mistake, neglect"
+    },
+    {
+      "rank": 376,
+      "character": "转",
+      "pinyin": "zhuǎn",
+      "definition": "shift, move, turn"
+    },
+    {
+      "rank": 377,
+      "character": "夫",
+      "pinyin": "fū",
+      "definition": "man, male adult, husband; those"
+    },
+    {
+      "rank": 378,
+      "character": "令",
+      "pinyin": "lìng",
+      "definition": ""
+    },
+    {
+      "rank": 379,
+      "character": "准",
+      "pinyin": "zhǔn",
+      "definition": "approve, allow, permit; in accord"
+    },
+    {
+      "rank": 380,
+      "character": "布",
+      "pinyin": "bù",
+      "definition": "cotton cloth, textiles, linen"
+    },
+    {
+      "rank": 381,
+      "character": "始",
+      "pinyin": "shǐ",
+      "definition": "begin, start; then, only then"
+    },
+    {
+      "rank": 382,
+      "character": "怎",
+      "pinyin": "zěn",
+      "definition": "what? why? how?"
+    },
+    {
+      "rank": 383,
+      "character": "呢",
+      "pinyin": "ne",
+      "definition": "interrogative or emphatic final; (Cant.) this"
+    },
+    {
+      "rank": 384,
+      "character": "存",
+      "pinyin": "cún",
+      "definition": "exist, live, be; survive; remain"
+    },
+    {
+      "rank": 385,
+      "character": "未",
+      "pinyin": "wèi",
+      "definition": "not yet; 8th terrestrial branch"
+    },
+    {
+      "rank": 386,
+      "character": "远",
+      "pinyin": "yuǎn",
+      "definition": "distant, remote, far; profound"
+    },
+    {
+      "rank": 387,
+      "character": "叫",
+      "pinyin": "jiào",
+      "definition": "cry, shout; hail, greet, call"
+    },
+    {
+      "rank": 388,
+      "character": "台",
+      "pinyin": "tái",
+      "definition": "platform; unit; term of address"
+    },
+    {
+      "rank": 389,
+      "character": "单",
+      "pinyin": "dān",
+      "definition": "single, individual, only; lone"
+    },
+    {
+      "rank": 390,
+      "character": "影",
+      "pinyin": "yǐng",
+      "definition": "shadow; image, reflection; photograph"
+    },
+    {
+      "rank": 391,
+      "character": "具",
+      "pinyin": "jù",
+      "definition": "tool, implement; draw up, write"
+    },
+    {
+      "rank": 392,
+      "character": "罗",
+      "pinyin": "luō",
+      "definition": "net for catching birds; gauze"
+    },
+    {
+      "rank": 393,
+      "character": "字",
+      "pinyin": "zì",
+      "definition": "letter, character, word"
+    },
+    {
+      "rank": 394,
+      "character": "爱",
+      "pinyin": "ài",
+      "definition": "love, be fond of, like"
+    },
+    {
+      "rank": 395,
+      "character": "击",
+      "pinyin": "jī",
+      "definition": "strike, hit, beat; attack, fight"
+    },
+    {
+      "rank": 396,
+      "character": "流",
+      "pinyin": "liú",
+      "definition": "flow, circulate, drift; class"
+    },
+    {
+      "rank": 397,
+      "character": "备",
+      "pinyin": "bèi",
+      "definition": "prepare, ready, perfect"
+    },
+    {
+      "rank": 398,
+      "character": "兵",
+      "pinyin": "bīng",
+      "definition": "soldier, troops"
+    },
+    {
+      "rank": 399,
+      "character": "连",
+      "pinyin": "lián",
+      "definition": "join, connect; continuous; even"
+    },
+    {
+      "rank": 400,
+      "character": "调",
+      "pinyin": "diào",
+      "definition": "transfer, move, change; tune"
+    },
+    {
+      "rank": 401,
+      "character": "深",
+      "pinyin": "shēn",
+      "definition": "deep; depth; far; very, extreme"
+    },
+    {
+      "rank": 402,
+      "character": "商",
+      "pinyin": "shāng",
+      "definition": "commerce, business, trade"
+    },
+    {
+      "rank": 403,
+      "character": "算",
+      "pinyin": "suàn",
+      "definition": "count, calculate, figure; plan"
+    },
+    {
+      "rank": 404,
+      "character": "质",
+      "pinyin": "zhì",
+      "definition": "matter, material, substance"
+    },
+    {
+      "rank": 405,
+      "character": "团",
+      "pinyin": "tuán",
+      "definition": "sphere, ball, circle; mass, lump"
+    },
+    {
+      "rank": 406,
+      "character": "集",
+      "pinyin": "jí",
+      "definition": "assemble, collect together"
+    },
+    {
+      "rank": 407,
+      "character": "百",
+      "pinyin": "bǎi",
+      "definition": "one hundred; numerous, many"
+    },
+    {
+      "rank": 408,
+      "character": "需",
+      "pinyin": "xū",
+      "definition": "need, require, must"
+    },
+    {
+      "rank": 409,
+      "character": "价",
+      "pinyin": "jià",
+      "definition": "price, value"
+    },
+    {
+      "rank": 410,
+      "character": "花",
+      "pinyin": "huā",
+      "definition": "flower; blossoms"
+    },
+    {
+      "rank": 411,
+      "character": "党",
+      "pinyin": "dǎng",
+      "definition": "political party, gang, faction"
+    },
+    {
+      "rank": 412,
+      "character": "华",
+      "pinyin": "huá",
+      "definition": "flowery; illustrious; Chinese"
+    },
+    {
+      "rank": 413,
+      "character": "城",
+      "pinyin": "chéng",
+      "definition": "castle; city, town; municipality"
+    },
+    {
+      "rank": 414,
+      "character": "石",
+      "pinyin": "shí",
+      "definition": "stone, rock, mineral; rad. 112"
+    },
+    {
+      "rank": 415,
+      "character": "级",
+      "pinyin": "jí",
+      "definition": "level, rank, class; grade"
+    },
+    {
+      "rank": 416,
+      "character": "整",
+      "pinyin": "zhěng",
+      "definition": "orderly, neat, tidy; whole"
+    },
+    {
+      "rank": 417,
+      "character": "府",
+      "pinyin": "fǔ",
+      "definition": "prefecture; prefect; government"
+    },
+    {
+      "rank": 418,
+      "character": "离",
+      "pinyin": "lí",
+      "definition": "rare beast; strange; elegant"
+    },
+    {
+      "rank": 419,
+      "character": "况",
+      "pinyin": "kuàng",
+      "definition": "condition, situation; furthermore"
+    },
+    {
+      "rank": 420,
+      "character": "亚",
+      "pinyin": "yà",
+      "definition": "Asia; second"
+    },
+    {
+      "rank": 421,
+      "character": "请",
+      "pinyin": "qǐng",
+      "definition": "ask, request; invite; please"
+    },
+    {
+      "rank": 422,
+      "character": "技",
+      "pinyin": "jì",
+      "definition": "skill, ability, talent, ingenuity"
+    },
+    {
+      "rank": 423,
+      "character": "际",
+      "pinyin": "jì",
+      "definition": "border, boundary, juncture"
+    },
+    {
+      "rank": 424,
+      "character": "约",
+      "pinyin": "yuē",
+      "definition": "treaty, agreement, covenant"
+    },
+    {
+      "rank": 425,
+      "character": "示",
+      "pinyin": "shì",
+      "definition": "show, manifest; demonstrate"
+    },
+    {
+      "rank": 426,
+      "character": "复",
+      "pinyin": "fù",
+      "definition": "return; repeat; repeatedly"
+    },
+    {
+      "rank": 427,
+      "character": "病",
+      "pinyin": "bìng",
+      "definition": "illness, sickness, disease"
+    },
+    {
+      "rank": 428,
+      "character": "息",
+      "pinyin": "xī",
+      "definition": "rest, put stop to, end, cease"
+    },
+    {
+      "rank": 429,
+      "character": "究",
+      "pinyin": "jiū",
+      "definition": "examine, investigate"
+    },
+    {
+      "rank": 430,
+      "character": "线",
+      "pinyin": "xiàn",
+      "definition": "line, thread, wire; clue"
+    },
+    {
+      "rank": 431,
+      "character": "似",
+      "pinyin": "shì",
+      "definition": "resemble, similar to; as if, seem"
+    },
+    {
+      "rank": 432,
+      "character": "官",
+      "pinyin": "guān",
+      "definition": "official, public servant"
+    },
+    {
+      "rank": 433,
+      "character": "火",
+      "pinyin": "huǒ",
+      "definition": "fire, flame; burn; anger, rage"
+    },
+    {
+      "rank": 434,
+      "character": "断",
+      "pinyin": "duàn",
+      "definition": "sever, cut off; interrupt"
+    },
+    {
+      "rank": 435,
+      "character": "精",
+      "pinyin": "jīng",
+      "definition": "essence; semen; spirit"
+    },
+    {
+      "rank": 436,
+      "character": "满",
+      "pinyin": "mǎn",
+      "definition": "fill; full, satisfied"
+    },
+    {
+      "rank": 437,
+      "character": "支",
+      "pinyin": "zhī",
+      "definition": "disperse, pay; support; branch"
+    },
+    {
+      "rank": 438,
+      "character": "视",
+      "pinyin": "shì",
+      "definition": "look at, inspect, observe, see"
+    },
+    {
+      "rank": 439,
+      "character": "消",
+      "pinyin": "xiāo",
+      "definition": "vanish, die out; melt away"
+    },
+    {
+      "rank": 440,
+      "character": "越",
+      "pinyin": "yuè",
+      "definition": "exceed, go beyond; the more ..."
+    },
+    {
+      "rank": 441,
+      "character": "器",
+      "pinyin": "qì",
+      "definition": "receptacle, vessel; instrument"
+    },
+    {
+      "rank": 442,
+      "character": "容",
+      "pinyin": "róng",
+      "definition": "looks, appearance; figure, form"
+    },
+    {
+      "rank": 443,
+      "character": "照",
+      "pinyin": "zhào",
+      "definition": "shine, illumine, reflect"
+    },
+    {
+      "rank": 444,
+      "character": "须",
+      "pinyin": "xū",
+      "definition": "must, have to, necessary"
+    },
+    {
+      "rank": 445,
+      "character": "九",
+      "pinyin": "jiǔ",
+      "definition": "nine"
+    },
+    {
+      "rank": 446,
+      "character": "增",
+      "pinyin": "zēng",
+      "definition": "increase, add to, augment"
+    },
+    {
+      "rank": 447,
+      "character": "研",
+      "pinyin": "yán",
+      "definition": "grind, rub; study, research"
+    },
+    {
+      "rank": 448,
+      "character": "写",
+      "pinyin": "xiě",
+      "definition": "write; draw, sketch; compose"
+    },
+    {
+      "rank": 449,
+      "character": "称",
+      "pinyin": "chēng",
+      "definition": "call; name, brand; address; say"
+    },
+    {
+      "rank": 450,
+      "character": "企",
+      "pinyin": "qǐ",
+      "definition": "plan a project; stand on tiptoe"
+    },
+    {
+      "rank": 451,
+      "character": "八",
+      "pinyin": "bā",
+      "definition": "eight; all around, all sides"
+    },
+    {
+      "rank": 452,
+      "character": "功",
+      "pinyin": "gōng",
+      "definition": "achievement, merit, good result"
+    },
+    {
+      "rank": 453,
+      "character": "吗",
+      "pinyin": "ma",
+      "definition": "final interrogative particle"
+    },
+    {
+      "rank": 454,
+      "character": "包",
+      "pinyin": "bāo",
+      "definition": "wrap, pack, bundle; package"
+    },
+    {
+      "rank": 455,
+      "character": "片",
+      "pinyin": "piàn",
+      "definition": "slice, splinter, strip; rad. 91"
+    },
+    {
+      "rank": 456,
+      "character": "史",
+      "pinyin": "shǐ",
+      "definition": "history, chronicle, annals"
+    },
+    {
+      "rank": 457,
+      "character": "委",
+      "pinyin": "wěi",
+      "definition": "appoint, send, commission"
+    },
+    {
+      "rank": 458,
+      "character": "乎",
+      "pinyin": "hū",
+      "definition": "interrogative or exclamatory final particle"
+    },
+    {
+      "rank": 459,
+      "character": "查",
+      "pinyin": "chá",
+      "definition": "investigate, examine, seek into"
+    },
+    {
+      "rank": 460,
+      "character": "轻",
+      "pinyin": "qīng",
+      "definition": "light; easy, simple; gentle"
+    },
+    {
+      "rank": 461,
+      "character": "易",
+      "pinyin": "yì",
+      "definition": "change; easy"
+    },
+    {
+      "rank": 462,
+      "character": "早",
+      "pinyin": "zǎo",
+      "definition": "early; soon; morning"
+    },
+    {
+      "rank": 463,
+      "character": "曾",
+      "pinyin": "céng",
+      "definition": "already; sign of past"
+    },
+    {
+      "rank": 464,
+      "character": "除",
+      "pinyin": "chú",
+      "definition": "eliminate, remove, except"
+    },
+    {
+      "rank": 465,
+      "character": "农",
+      "pinyin": "nóng",
+      "definition": "agriculture, farming; farmer"
+    },
+    {
+      "rank": 466,
+      "character": "找",
+      "pinyin": "zhǎo",
+      "definition": "search, seek, look for; find"
+    },
+    {
+      "rank": 467,
+      "character": "装",
+      "pinyin": "zhuāng",
+      "definition": "dress, clothes, attire; fill"
+    },
+    {
+      "rank": 468,
+      "character": "广",
+      "pinyin": "guǎng",
+      "definition": "wide, extensive, broad; rad. 53"
+    },
+    {
+      "rank": 469,
+      "character": "显",
+      "pinyin": "xiǎn",
+      "definition": "manifest, display; evident, clear"
+    },
+    {
+      "rank": 470,
+      "character": "吧",
+      "pinyin": "ba",
+      "definition": "emphatic final particle"
+    },
+    {
+      "rank": 471,
+      "character": "阿",
+      "pinyin": "ā",
+      "definition": ""
+    },
+    {
+      "rank": 472,
+      "character": "李",
+      "pinyin": "lǐ",
+      "definition": "plum; judge; surname"
+    },
+    {
+      "rank": 473,
+      "character": "标",
+      "pinyin": "biāo",
+      "definition": "mark, symbol, label, sign; stand the bole of a tree"
+    },
+    {
+      "rank": 474,
+      "character": "谈",
+      "pinyin": "tán",
+      "definition": "talk; conversation; surname"
+    },
+    {
+      "rank": 475,
+      "character": "吃",
+      "pinyin": "chī",
+      "definition": "eat; drink; suffer, endure, bear"
+    },
+    {
+      "rank": 476,
+      "character": "图",
+      "pinyin": "tú",
+      "definition": "diagram; chart, map, picture"
+    },
+    {
+      "rank": 477,
+      "character": "念",
+      "pinyin": "niàn",
+      "definition": "think of, recall, study"
+    },
+    {
+      "rank": 478,
+      "character": "六",
+      "pinyin": "liù",
+      "definition": "number six"
+    },
+    {
+      "rank": 479,
+      "character": "引",
+      "pinyin": "yǐn",
+      "definition": "to pull, draw out, attract; to stretch"
+    },
+    {
+      "rank": 480,
+      "character": "历",
+      "pinyin": "lì",
+      "definition": "history; calendar"
+    },
+    {
+      "rank": 481,
+      "character": "首",
+      "pinyin": "shǒu",
+      "definition": "head; first; leader, chief; a poem"
+    },
+    {
+      "rank": 482,
+      "character": "医",
+      "pinyin": "yī",
+      "definition": "cure, heal; doctor, medical"
+    },
+    {
+      "rank": 483,
+      "character": "局",
+      "pinyin": "jú",
+      "definition": "bureau, office; circumstance"
+    },
+    {
+      "rank": 484,
+      "character": "突",
+      "pinyin": "tū",
+      "definition": "suddenly, abruptly, unexpectedly"
+    },
+    {
+      "rank": 485,
+      "character": "专",
+      "pinyin": "zhuān",
+      "definition": "monopolize, take sole possession"
+    },
+    {
+      "rank": 486,
+      "character": "费",
+      "pinyin": "fèi",
+      "definition": "expenses, expenditures, fee"
+    },
+    {
+      "rank": 487,
+      "character": "号",
+      "pinyin": "hào",
+      "definition": "mark, sign; symbol; number"
+    },
+    {
+      "rank": 488,
+      "character": "尽",
+      "pinyin": "jǐn",
+      "definition": "exhaust, use up; deplete"
+    },
+    {
+      "rank": 489,
+      "character": "另",
+      "pinyin": "lìng",
+      "definition": "another, separate, other"
+    },
+    {
+      "rank": 490,
+      "character": "周",
+      "pinyin": "zhōu",
+      "definition": "Zhou dynasty; circumference"
+    },
+    {
+      "rank": 491,
+      "character": "较",
+      "pinyin": "jiào",
+      "definition": "compare; comparatively, more"
+    },
+    {
+      "rank": 492,
+      "character": "注",
+      "pinyin": "zhù",
+      "definition": "concentrate, focus, direct"
+    },
+    {
+      "rank": 493,
+      "character": "语",
+      "pinyin": "yǔ",
+      "definition": "language, words; saying, expression"
+    },
+    {
+      "rank": 494,
+      "character": "仅",
+      "pinyin": "jǐn",
+      "definition": "only, merely, solely, just"
+    },
+    {
+      "rank": 495,
+      "character": "考",
+      "pinyin": "kǎo",
+      "definition": "examine, test; investigate"
+    },
+    {
+      "rank": 496,
+      "character": "落",
+      "pinyin": "luò",
+      "definition": "fall, drop; net income, surplus"
+    },
+    {
+      "rank": 497,
+      "character": "青",
+      "pinyin": "qīng",
+      "definition": "blue, green, black; young"
+    },
+    {
+      "rank": 498,
+      "character": "随",
+      "pinyin": "suí",
+      "definition": "follow, listen to, submit to"
+    },
+    {
+      "rank": 499,
+      "character": "选",
+      "pinyin": "xuǎn",
+      "definition": "choose, select; elect; election"
+    },
+    {
+      "rank": 500,
+      "character": "列",
+      "pinyin": "liè",
+      "definition": "a line; to arrange in order, classify"
+    },
+    {
+      "rank": 501,
+      "character": "武",
+      "pinyin": "wǔ",
+      "definition": "military; martial, warlike"
+    },
+    {
+      "rank": 502,
+      "character": "红",
+      "pinyin": "hóng",
+      "definition": "red, vermillion; blush, flush"
+    },
+    {
+      "rank": 503,
+      "character": "响",
+      "pinyin": "xiǎng",
+      "definition": "make sound, make noise; sound"
+    },
+    {
+      "rank": 504,
+      "character": "虽",
+      "pinyin": "suī",
+      "definition": "although, even if"
+    },
+    {
+      "rank": 505,
+      "character": "推",
+      "pinyin": "tuī",
+      "definition": "push, expel; push forward"
+    },
+    {
+      "rank": 506,
+      "character": "势",
+      "pinyin": "shì",
+      "definition": "power, force; tendency"
+    },
+    {
+      "rank": 507,
+      "character": "参",
+      "pinyin": "cān",
+      "definition": "take part in, intervene; ginseng"
+    },
+    {
+      "rank": 508,
+      "character": "希",
+      "pinyin": "xī",
+      "definition": "rare; hope, expect, strive for"
+    },
+    {
+      "rank": 509,
+      "character": "古",
+      "pinyin": "gǔ",
+      "definition": "old, classic, ancient"
+    },
+    {
+      "rank": 510,
+      "character": "众",
+      "pinyin": "zhòng",
+      "definition": "multitude, crowd; masses, public"
+    },
+    {
+      "rank": 511,
+      "character": "构",
+      "pinyin": "gòu",
+      "definition": "frame, building, structure"
+    },
+    {
+      "rank": 512,
+      "character": "房",
+      "pinyin": "fáng",
+      "definition": "house, building; room"
+    },
+    {
+      "rank": 513,
+      "character": "半",
+      "pinyin": "bàn",
+      "definition": "half"
+    },
+    {
+      "rank": 514,
+      "character": "节",
+      "pinyin": "jié",
+      "definition": "knot, node, joint; section"
+    },
+    {
+      "rank": 515,
+      "character": "土",
+      "pinyin": "tǔ",
+      "definition": "soil, earth; items made of earth"
+    },
+    {
+      "rank": 516,
+      "character": "投",
+      "pinyin": "tóu",
+      "definition": "throw, cast, fling, pitch; jump"
+    },
+    {
+      "rank": 517,
+      "character": "某",
+      "pinyin": "mǒu",
+      "definition": "certain thing or person"
+    },
+    {
+      "rank": 518,
+      "character": "案",
+      "pinyin": "àn",
+      "definition": "table, bench; legal case"
+    },
+    {
+      "rank": 519,
+      "character": "黑",
+      "pinyin": "hēi",
+      "definition": "black; dark; evil, sinister"
+    },
+    {
+      "rank": 520,
+      "character": "维",
+      "pinyin": "wéi",
+      "definition": "maintain, preserve, safeguard"
+    },
+    {
+      "rank": 521,
+      "character": "革",
+      "pinyin": "gé",
+      "definition": "leather, animal hides; rad. 177"
+    },
+    {
+      "rank": 522,
+      "character": "划",
+      "pinyin": "huà",
+      "definition": "to row or paddle boat; to scratch"
+    },
+    {
+      "rank": 523,
+      "character": "敌",
+      "pinyin": "dí",
+      "definition": "enemy, foe, rival; resist"
+    },
+    {
+      "rank": 524,
+      "character": "致",
+      "pinyin": "zhì",
+      "definition": "send, deliver, present; cause"
+    },
+    {
+      "rank": 525,
+      "character": "陈",
+      "pinyin": "chén",
+      "definition": "exhibit, display; plead; a surname"
+    },
+    {
+      "rank": 526,
+      "character": "律",
+      "pinyin": "lǜ",
+      "definition": "statute, principle, regulation"
+    },
+    {
+      "rank": 527,
+      "character": "足",
+      "pinyin": "zú",
+      "definition": "foot; attain, satisfy, enough"
+    },
+    {
+      "rank": 528,
+      "character": "态",
+      "pinyin": "tài",
+      "definition": "manner, bearing, attitude"
+    },
+    {
+      "rank": 529,
+      "character": "护",
+      "pinyin": "hù",
+      "definition": "protect, guard, defend, shelter"
+    },
+    {
+      "rank": 530,
+      "character": "七",
+      "pinyin": "qī",
+      "definition": "seven"
+    },
+    {
+      "rank": 531,
+      "character": "兴",
+      "pinyin": "xìng",
+      "definition": "thrive, prosper, flourish"
+    },
+    {
+      "rank": 532,
+      "character": "派",
+      "pinyin": "pài",
+      "definition": "school of thought, sect, branch"
+    },
+    {
+      "rank": 533,
+      "character": "孩",
+      "pinyin": "hái",
+      "definition": "baby, child; children"
+    },
+    {
+      "rank": 534,
+      "character": "验",
+      "pinyin": "yàn",
+      "definition": "test, examine, inspect; verify"
+    },
+    {
+      "rank": 535,
+      "character": "责",
+      "pinyin": "zé",
+      "definition": ""
+    },
+    {
+      "rank": 536,
+      "character": "营",
+      "pinyin": "yíng",
+      "definition": "encampment, barracks; manage"
+    },
+    {
+      "rank": 537,
+      "character": "星",
+      "pinyin": "xīng",
+      "definition": "a star, planet; any point of light"
+    },
+    {
+      "rank": 538,
+      "character": "够",
+      "pinyin": "gòu",
+      "definition": "enough, adequate"
+    },
+    {
+      "rank": 539,
+      "character": "章",
+      "pinyin": "zhāng",
+      "definition": "composition; chapter, section"
+    },
+    {
+      "rank": 540,
+      "character": "音",
+      "pinyin": "yīn",
+      "definition": "sound, tone, pitch, pronunciation"
+    },
+    {
+      "rank": 541,
+      "character": "跟",
+      "pinyin": "gēn",
+      "definition": "heel; to follow, accompany; with"
+    },
+    {
+      "rank": 542,
+      "character": "志",
+      "pinyin": "zhì",
+      "definition": "purpose, will, determination; annals"
+    },
+    {
+      "rank": 543,
+      "character": "底",
+      "pinyin": "dǐ",
+      "definition": "bottom, underneath, underside"
+    },
+    {
+      "rank": 544,
+      "character": "站",
+      "pinyin": "zhàn",
+      "definition": "stand up; a stand, station"
+    },
+    {
+      "rank": 545,
+      "character": "严",
+      "pinyin": "yán",
+      "definition": "strict, rigorous, rigid; stern"
+    },
+    {
+      "rank": 546,
+      "character": "巴",
+      "pinyin": "bā",
+      "definition": "greatly desire, anxiously hope"
+    },
+    {
+      "rank": 547,
+      "character": "例",
+      "pinyin": "lì",
+      "definition": "precedent, example; regulation"
+    },
+    {
+      "rank": 548,
+      "character": "防",
+      "pinyin": "fáng",
+      "definition": "defend; prevent; embankment"
+    },
+    {
+      "rank": 549,
+      "character": "族",
+      "pinyin": "zú",
+      "definition": "a family clan, ethnic group, tribe"
+    },
+    {
+      "rank": 550,
+      "character": "供",
+      "pinyin": "gōng",
+      "definition": "supply, provide for; offer in worship"
+    },
+    {
+      "rank": 551,
+      "character": "效",
+      "pinyin": "xiào",
+      "definition": "result, effect; effectiveness"
+    },
+    {
+      "rank": 552,
+      "character": "续",
+      "pinyin": "xù",
+      "definition": "continue, carry on; succeed"
+    },
+    {
+      "rank": 553,
+      "character": "施",
+      "pinyin": "shī",
+      "definition": "grant, bestow; give; act; name"
+    },
+    {
+      "rank": 554,
+      "character": "留",
+      "pinyin": "liú",
+      "definition": "stop, halt; stay, detain, keep"
+    },
+    {
+      "rank": 555,
+      "character": "讲",
+      "pinyin": "jiǎng",
+      "definition": "explain; discuss; talk"
+    },
+    {
+      "rank": 556,
+      "character": "型",
+      "pinyin": "xíng",
+      "definition": "pattern, model, type; law; mold"
+    },
+    {
+      "rank": 557,
+      "character": "料",
+      "pinyin": "liào",
+      "definition": "consider, conjecture; materials, ingredients"
+    },
+    {
+      "rank": 558,
+      "character": "终",
+      "pinyin": "zhōng",
+      "definition": "end; finally, in the end"
+    },
+    {
+      "rank": 559,
+      "character": "答",
+      "pinyin": "dá",
+      "definition": "answer, reply; return; assent to"
+    },
+    {
+      "rank": 560,
+      "character": "紧",
+      "pinyin": "jǐn",
+      "definition": "tense, tight, taut; firm, secure"
+    },
+    {
+      "rank": 561,
+      "character": "黄",
+      "pinyin": "huáng",
+      "definition": "yellow; surname"
+    },
+    {
+      "rank": 562,
+      "character": "绝",
+      "pinyin": "jué",
+      "definition": "to cut, sever, break off, terminate"
+    },
+    {
+      "rank": 563,
+      "character": "奇",
+      "pinyin": "qí",
+      "definition": "strange, unusual, uncanny, occult"
+    },
+    {
+      "rank": 564,
+      "character": "察",
+      "pinyin": "chá",
+      "definition": "examine, investigate; notice"
+    },
+    {
+      "rank": 565,
+      "character": "母",
+      "pinyin": "mǔ",
+      "definition": "mother; female elders; female"
+    },
+    {
+      "rank": 566,
+      "character": "京",
+      "pinyin": "jīng",
+      "definition": "capital city"
+    },
+    {
+      "rank": 567,
+      "character": "段",
+      "pinyin": "duàn",
+      "definition": "section, piece, division"
+    },
+    {
+      "rank": 568,
+      "character": "依",
+      "pinyin": "yī",
+      "definition": "rely on, be set in; consent, obey a wish"
+    },
+    {
+      "rank": 569,
+      "character": "批",
+      "pinyin": "pī",
+      "definition": "comment, criticize; wholesale"
+    },
+    {
+      "rank": 570,
+      "character": "群",
+      "pinyin": "qún",
+      "definition": "(same as "
+    },
+    {
+      "rank": 571,
+      "character": "项",
+      "pinyin": "xiàng",
+      "definition": "neck, nape of neck; sum; funds"
+    },
+    {
+      "rank": 572,
+      "character": "故",
+      "pinyin": "gù",
+      "definition": "ancient, old; reason, because"
+    },
+    {
+      "rank": 573,
+      "character": "按",
+      "pinyin": "àn",
+      "definition": "put hand on, press down with hand"
+    },
+    {
+      "rank": 574,
+      "character": "河",
+      "pinyin": "hé",
+      "definition": "river; stream; yellow river"
+    },
+    {
+      "rank": 575,
+      "character": "米",
+      "pinyin": "mǐ",
+      "definition": "hulled or husked uncooked rice"
+    },
+    {
+      "rank": 576,
+      "character": "围",
+      "pinyin": "wéi",
+      "definition": "surround, encircle, corral"
+    },
+    {
+      "rank": 577,
+      "character": "江",
+      "pinyin": "jiāng",
+      "definition": "large river; yangzi; surname"
+    },
+    {
+      "rank": 578,
+      "character": "织",
+      "pinyin": "zhī",
+      "definition": "weave, knit; organize, unite"
+    },
+    {
+      "rank": 579,
+      "character": "害",
+      "pinyin": "hài",
+      "definition": "injure, harm; destroy, kill"
+    },
+    {
+      "rank": 580,
+      "character": "斗",
+      "pinyin": "dòu",
+      "definition": "Chinese peck; liquid measure"
+    },
+    {
+      "rank": 581,
+      "character": "双",
+      "pinyin": "shuāng",
+      "definition": "set of two, pair, couple; both"
+    },
+    {
+      "rank": 582,
+      "character": "境",
+      "pinyin": "jìng",
+      "definition": "boundary, frontier; area, region"
+    },
+    {
+      "rank": 583,
+      "character": "客",
+      "pinyin": "kè",
+      "definition": "guest, traveller; customer"
+    },
+    {
+      "rank": 584,
+      "character": "纪",
+      "pinyin": "jì",
+      "definition": "record, annal, historical account"
+    },
+    {
+      "rank": 585,
+      "character": "采",
+      "pinyin": "cǎi",
+      "definition": "collect, gather; pick, pluck"
+    },
+    {
+      "rank": 586,
+      "character": "举",
+      "pinyin": "jǔ",
+      "definition": "raise, lift up; recommend"
+    },
+    {
+      "rank": 587,
+      "character": "杀",
+      "pinyin": "shā",
+      "definition": "kill, slaughter, murder; hurt"
+    },
+    {
+      "rank": 588,
+      "character": "攻",
+      "pinyin": "gōng",
+      "definition": "attack, assault; criticize"
+    },
+    {
+      "rank": 589,
+      "character": "父",
+      "pinyin": "fù",
+      "definition": "father; KangXi radical 88"
+    },
+    {
+      "rank": 590,
+      "character": "苏",
+      "pinyin": "sū",
+      "definition": ""
+    },
+    {
+      "rank": 591,
+      "character": "密",
+      "pinyin": "mì",
+      "definition": "dense, thick, close; intimate"
+    },
+    {
+      "rank": 592,
+      "character": "低",
+      "pinyin": "dī",
+      "definition": "low; to lower, hang, bend, bow"
+    },
+    {
+      "rank": 593,
+      "character": "朝",
+      "pinyin": "cháo",
+      "definition": "dynasty; morning"
+    },
+    {
+      "rank": 594,
+      "character": "友",
+      "pinyin": "yǒu",
+      "definition": "friend, companion; fraternity"
+    },
+    {
+      "rank": 595,
+      "character": "诉",
+      "pinyin": "sù",
+      "definition": "accuse; sue; inform; narrate"
+    },
+    {
+      "rank": 596,
+      "character": "止",
+      "pinyin": "zhǐ",
+      "definition": "stop, halt, desist; detain"
+    },
+    {
+      "rank": 597,
+      "character": "细",
+      "pinyin": "xì",
+      "definition": "fine, tiny; slender, thin"
+    },
+    {
+      "rank": 598,
+      "character": "愿",
+      "pinyin": "yuàn",
+      "definition": "sincere, honest, virtuous"
+    },
+    {
+      "rank": 599,
+      "character": "千",
+      "pinyin": "qiān",
+      "definition": "thousand; many, numerous; very; (Cant.) a cheater, swindler"
+    },
+    {
+      "rank": 600,
+      "character": "值",
+      "pinyin": "zhí",
+      "definition": "price"
+    },
+    {
+      "rank": 601,
+      "character": "仍",
+      "pinyin": "réng",
+      "definition": "yet, still, as ever; again; keep -ing, continuing"
+    },
+    {
+      "rank": 602,
+      "character": "男",
+      "pinyin": "nán",
+      "definition": "male, man; son; baron; surname"
+    },
+    {
+      "rank": 603,
+      "character": "钱",
+      "pinyin": "qián",
+      "definition": "money, currency, coins"
+    },
+    {
+      "rank": 604,
+      "character": "破",
+      "pinyin": "pò",
+      "definition": "break, ruin, destroy; rout"
+    },
+    {
+      "rank": 605,
+      "character": "网",
+      "pinyin": "wǎng",
+      "definition": "net; network; KangXi radical 122"
+    },
+    {
+      "rank": 606,
+      "character": "热",
+      "pinyin": "rè",
+      "definition": "hot; heat; fever; restless; zeal"
+    },
+    {
+      "rank": 607,
+      "character": "助",
+      "pinyin": "zhù",
+      "definition": "help, aid, assist"
+    },
+    {
+      "rank": 608,
+      "character": "倒",
+      "pinyin": "dào",
+      "definition": "fall over; lie down; take turns"
+    },
+    {
+      "rank": 609,
+      "character": "育",
+      "pinyin": "yù",
+      "definition": "produce, give birth to; educate"
+    },
+    {
+      "rank": 610,
+      "character": "属",
+      "pinyin": "shǔ",
+      "definition": "class, category, type; belong to"
+    },
+    {
+      "rank": 611,
+      "character": "坐",
+      "pinyin": "zuò",
+      "definition": "sit; seat; ride, travel by"
+    },
+    {
+      "rank": 612,
+      "character": "帝",
+      "pinyin": "dì",
+      "definition": "supreme ruler, emperor; god"
+    },
+    {
+      "rank": 613,
+      "character": "限",
+      "pinyin": "xiàn",
+      "definition": "boundary, limit, line"
+    },
+    {
+      "rank": 614,
+      "character": "船",
+      "pinyin": "chuán",
+      "definition": "ship, boat, vessel"
+    },
+    {
+      "rank": 615,
+      "character": "脸",
+      "pinyin": "liǎn",
+      "definition": "face; cheek; reputation"
+    },
+    {
+      "rank": 616,
+      "character": "职",
+      "pinyin": "zhí",
+      "definition": "duty, profession; office, post"
+    },
+    {
+      "rank": 617,
+      "character": "速",
+      "pinyin": "sù",
+      "definition": "quick, prompt, speedy"
+    },
+    {
+      "rank": 618,
+      "character": "刻",
+      "pinyin": "kè",
+      "definition": "carve, engrave; quarter hour"
+    },
+    {
+      "rank": 619,
+      "character": "乐",
+      "pinyin": "lè",
+      "definition": "happy, glad; enjoyable; music"
+    },
+    {
+      "rank": 620,
+      "character": "否",
+      "pinyin": "fǒu",
+      "definition": "not, no, negative; final particle"
+    },
+    {
+      "rank": 621,
+      "character": "刚",
+      "pinyin": "gāng",
+      "definition": "hard, tough, rigid, strong"
+    },
+    {
+      "rank": 622,
+      "character": "威",
+      "pinyin": "wēi",
+      "definition": "pomp, power; powerful; dominate"
+    },
+    {
+      "rank": 623,
+      "character": "毛",
+      "pinyin": "máo",
+      "definition": "hair, fur, feathers; coarse"
+    },
+    {
+      "rank": 624,
+      "character": "状",
+      "pinyin": "zhuàng",
+      "definition": "form; appearance; shape; official"
+    },
+    {
+      "rank": 625,
+      "character": "率",
+      "pinyin": "lǜ",
+      "definition": "to lead; ratio; rate; limit"
+    },
+    {
+      "rank": 626,
+      "character": "甚",
+      "pinyin": "shén",
+      "definition": "great extent; considerably"
+    },
+    {
+      "rank": 627,
+      "character": "独",
+      "pinyin": "dú",
+      "definition": "alone, single, solitary, only"
+    },
+    {
+      "rank": 628,
+      "character": "球",
+      "pinyin": "qiú",
+      "definition": "ball, sphere, globe; round"
+    },
+    {
+      "rank": 629,
+      "character": "般",
+      "pinyin": "bān",
+      "definition": "sort, manner, kind, category"
+    },
+    {
+      "rank": 630,
+      "character": "普",
+      "pinyin": "pǔ",
+      "definition": "universal, general, widespread"
+    },
+    {
+      "rank": 631,
+      "character": "怕",
+      "pinyin": "pà",
+      "definition": "to fear, be afraid of; apprehensive"
+    },
+    {
+      "rank": 632,
+      "character": "弹",
+      "pinyin": "dàn",
+      "definition": "pellet, bullet, shot, shell"
+    },
+    {
+      "rank": 633,
+      "character": "校",
+      "pinyin": "xiào",
+      "definition": "school; military field officer"
+    },
+    {
+      "rank": 634,
+      "character": "苦",
+      "pinyin": "kǔ",
+      "definition": "bitter; hardship, suffering"
+    },
+    {
+      "rank": 635,
+      "character": "创",
+      "pinyin": "chuàng",
+      "definition": "establish, create; knife cut"
+    },
+    {
+      "rank": 636,
+      "character": "假",
+      "pinyin": "jiǎ",
+      "definition": "falsehood, deception; vacation"
+    },
+    {
+      "rank": 637,
+      "character": "久",
+      "pinyin": "jiǔ",
+      "definition": "long time (ago); time passage, grow late"
+    },
+    {
+      "rank": 638,
+      "character": "错",
+      "pinyin": "cuò",
+      "definition": "error, blunder, mistake; wrong"
+    },
+    {
+      "rank": 639,
+      "character": "承",
+      "pinyin": "chéng",
+      "definition": "inherit, receive; succeed"
+    },
+    {
+      "rank": 640,
+      "character": "印",
+      "pinyin": "yìn",
+      "definition": "print, seal, stamp, chop, mark"
+    },
+    {
+      "rank": 641,
+      "character": "晚",
+      "pinyin": "wǎn",
+      "definition": "night, evening; late"
+    },
+    {
+      "rank": 642,
+      "character": "兰",
+      "pinyin": "lán",
+      "definition": "orchid; elegant, graceful"
+    },
+    {
+      "rank": 643,
+      "character": "试",
+      "pinyin": "shì",
+      "definition": "test, try, experiment"
+    },
+    {
+      "rank": 644,
+      "character": "股",
+      "pinyin": "gǔ",
+      "definition": "thighs, haunches, rump; share"
+    },
+    {
+      "rank": 645,
+      "character": "拿",
+      "pinyin": "ná",
+      "definition": "take, hold, grasp; bring; with"
+    },
+    {
+      "rank": 646,
+      "character": "脑",
+      "pinyin": "nǎo",
+      "definition": "brain"
+    },
+    {
+      "rank": 647,
+      "character": "预",
+      "pinyin": "yù",
+      "definition": "prepare, arrange; in advance"
+    },
+    {
+      "rank": 648,
+      "character": "谁",
+      "pinyin": "shuí",
+      "definition": "who? whom? whose? anyone?"
+    },
+    {
+      "rank": 649,
+      "character": "益",
+      "pinyin": "yì",
+      "definition": "profit, benefit; advantage"
+    },
+    {
+      "rank": 650,
+      "character": "阳",
+      "pinyin": "yáng",
+      "definition": ""
+    },
+    {
+      "rank": 651,
+      "character": "若",
+      "pinyin": "ruò",
+      "definition": "if, supposing, assuming; similar"
+    },
+    {
+      "rank": 652,
+      "character": "哪",
+      "pinyin": "nǎ",
+      "definition": "which? where? how?"
+    },
+    {
+      "rank": 653,
+      "character": "微",
+      "pinyin": "wēi",
+      "definition": "small, prefix micro-, trifling"
+    },
+    {
+      "rank": 654,
+      "character": "尼",
+      "pinyin": "ní",
+      "definition": "Buddhist nun; transliteration"
+    },
+    {
+      "rank": 655,
+      "character": "继",
+      "pinyin": "jì",
+      "definition": "continue, maintain, carry on"
+    },
+    {
+      "rank": 656,
+      "character": "送",
+      "pinyin": "sòng",
+      "definition": "see off, send off; dispatch, give"
+    },
+    {
+      "rank": 657,
+      "character": "急",
+      "pinyin": "jí",
+      "definition": "quick, quickly; urgent, pressing"
+    },
+    {
+      "rank": 658,
+      "character": "血",
+      "pinyin": "xuè",
+      "definition": "blood; radical number 143"
+    },
+    {
+      "rank": 659,
+      "character": "惊",
+      "pinyin": "jīng",
+      "definition": "frighten, surprise, startle"
+    },
+    {
+      "rank": 660,
+      "character": "伤",
+      "pinyin": "shāng",
+      "definition": "wound, injury; fall ill from"
+    },
+    {
+      "rank": 661,
+      "character": "素",
+      "pinyin": "sù",
+      "definition": "white (silk); plain; vegetarian; formerly; normally"
+    },
+    {
+      "rank": 662,
+      "character": "药",
+      "pinyin": "yào",
+      "definition": "leaf of Dahurian angelica plant; medicine"
+    },
+    {
+      "rank": 663,
+      "character": "适",
+      "pinyin": "shì",
+      "definition": "go, reach; appropriate, suitable"
+    },
+    {
+      "rank": 664,
+      "character": "波",
+      "pinyin": "bō",
+      "definition": "waves, breakers; undulations"
+    },
+    {
+      "rank": 665,
+      "character": "夜",
+      "pinyin": "yè",
+      "definition": "night, dark; in night; by night"
+    },
+    {
+      "rank": 666,
+      "character": "省",
+      "pinyin": "shěng",
+      "definition": "province; save, economize"
+    },
+    {
+      "rank": 667,
+      "character": "初",
+      "pinyin": "chū",
+      "definition": "beginning, initial, primary"
+    },
+    {
+      "rank": 668,
+      "character": "喜",
+      "pinyin": "xǐ",
+      "definition": "like, love, enjoy; joyful thing"
+    },
+    {
+      "rank": 669,
+      "character": "卫",
+      "pinyin": "wèi",
+      "definition": "guard, protect, defend"
+    },
+    {
+      "rank": 670,
+      "character": "源",
+      "pinyin": "yuán",
+      "definition": "spring; source, head; surname"
+    },
+    {
+      "rank": 671,
+      "character": "食",
+      "pinyin": "shí",
+      "definition": "eat; meal; food; KangXi radical number 184"
+    },
+    {
+      "rank": 672,
+      "character": "险",
+      "pinyin": "xiǎn",
+      "definition": "narrow pass, strategic point"
+    },
+    {
+      "rank": 673,
+      "character": "待",
+      "pinyin": "dài",
+      "definition": "treat, entertain, receive; wait"
+    },
+    {
+      "rank": 674,
+      "character": "述",
+      "pinyin": "shù",
+      "definition": "narrate, state, express"
+    },
+    {
+      "rank": 675,
+      "character": "陆",
+      "pinyin": "lù",
+      "definition": "land, continental; army"
+    },
+    {
+      "rank": 676,
+      "character": "习",
+      "pinyin": "xí",
+      "definition": "practice; flapping wings"
+    },
+    {
+      "rank": 677,
+      "character": "置",
+      "pinyin": "zhì",
+      "definition": "place, lay out; set aside"
+    },
+    {
+      "rank": 678,
+      "character": "居",
+      "pinyin": "jū",
+      "definition": "live, dwell, reside, sit"
+    },
+    {
+      "rank": 679,
+      "character": "劳",
+      "pinyin": "láo",
+      "definition": "labor, toil, do manual work"
+    },
+    {
+      "rank": 680,
+      "character": "财",
+      "pinyin": "cái",
+      "definition": "wealth, valuables, riches"
+    },
+    {
+      "rank": 681,
+      "character": "环",
+      "pinyin": "huán",
+      "definition": "jade ring or bracelet; ring"
+    },
+    {
+      "rank": 682,
+      "character": "排",
+      "pinyin": "pái",
+      "definition": "row, rank, line"
+    },
+    {
+      "rank": 683,
+      "character": "福",
+      "pinyin": "fú",
+      "definition": "happiness, good fortune, blessing"
+    },
+    {
+      "rank": 684,
+      "character": "纳",
+      "pinyin": "nà",
+      "definition": "admit, take, receive, accept"
+    },
+    {
+      "rank": 685,
+      "character": "欢",
+      "pinyin": "huān",
+      "definition": "happy, pleased, glad; joy; enjoy"
+    },
+    {
+      "rank": 686,
+      "character": "雷",
+      "pinyin": "léi",
+      "definition": "thunder"
+    },
+    {
+      "rank": 687,
+      "character": "警",
+      "pinyin": "jǐng",
+      "definition": "guard, watch; alert, alarm"
+    },
+    {
+      "rank": 688,
+      "character": "获",
+      "pinyin": "huò",
+      "definition": "obtain, get, receive; seize"
+    },
+    {
+      "rank": 689,
+      "character": "模",
+      "pinyin": "mó",
+      "definition": "model, standard, pattern; copy"
+    },
+    {
+      "rank": 690,
+      "character": "充",
+      "pinyin": "chōng",
+      "definition": "fill, be full, supply"
+    },
+    {
+      "rank": 691,
+      "character": "负",
+      "pinyin": "fù",
+      "definition": "load, burden; carry, bear"
+    },
+    {
+      "rank": 692,
+      "character": "云",
+      "pinyin": "yún",
+      "definition": "say, speak; clouds"
+    },
+    {
+      "rank": 693,
+      "character": "停",
+      "pinyin": "tíng",
+      "definition": "stop, suspend, delay; suitable"
+    },
+    {
+      "rank": 694,
+      "character": "木",
+      "pinyin": "mù",
+      "definition": "tree; wood, lumber; wooden"
+    },
+    {
+      "rank": 695,
+      "character": "游",
+      "pinyin": "yóu",
+      "definition": "to swim; float, drift; wander, roam"
+    },
+    {
+      "rank": 696,
+      "character": "龙",
+      "pinyin": "lóng",
+      "definition": "dragon; symbolic of emperor"
+    },
+    {
+      "rank": 697,
+      "character": "树",
+      "pinyin": "shù",
+      "definition": "tree; plant; set up, establish"
+    },
+    {
+      "rank": 698,
+      "character": "疑",
+      "pinyin": "yí",
+      "definition": "doubt, question, suspect"
+    },
+    {
+      "rank": 699,
+      "character": "层",
+      "pinyin": "céng",
+      "definition": "storey, layer, floor, stratum"
+    },
+    {
+      "rank": 700,
+      "character": "冷",
+      "pinyin": "lěng",
+      "definition": "cold, cool; lonely"
+    },
+    {
+      "rank": 701,
+      "character": "洲",
+      "pinyin": "zhōu",
+      "definition": "continent; island; islet"
+    },
+    {
+      "rank": 702,
+      "character": "冲",
+      "pinyin": "chōng",
+      "definition": "soar; pour boiling water over"
+    },
+    {
+      "rank": 703,
+      "character": "射",
+      "pinyin": "shè",
+      "definition": "shoot, eject, issue forth, emit"
+    },
+    {
+      "rank": 704,
+      "character": "略",
+      "pinyin": "lüè",
+      "definition": "approximately, roughly; outline"
+    },
+    {
+      "rank": 705,
+      "character": "范",
+      "pinyin": "fàn",
+      "definition": "surname; bee-like insect"
+    },
+    {
+      "rank": 706,
+      "character": "竟",
+      "pinyin": "jìng",
+      "definition": "finally, after all, at last"
+    },
+    {
+      "rank": 707,
+      "character": "句",
+      "pinyin": "jù",
+      "definition": "sentence"
+    },
+    {
+      "rank": 708,
+      "character": "室",
+      "pinyin": "shì",
+      "definition": "room, home, house, chamber"
+    },
+    {
+      "rank": 709,
+      "character": "异",
+      "pinyin": "yì",
+      "definition": "different, unusual, strange"
+    },
+    {
+      "rank": 710,
+      "character": "激",
+      "pinyin": "jī",
+      "definition": "arouse, excite, incite; quickly"
+    },
+    {
+      "rank": 711,
+      "character": "汉",
+      "pinyin": "hàn",
+      "definition": "Chinese people; Chinese language"
+    },
+    {
+      "rank": 712,
+      "character": "村",
+      "pinyin": "cūn",
+      "definition": "village, hamlet; uncouth, vulgar"
+    },
+    {
+      "rank": 713,
+      "character": "哈",
+      "pinyin": "hā",
+      "definition": "sound of laughter"
+    },
+    {
+      "rank": 714,
+      "character": "策",
+      "pinyin": "cè",
+      "definition": "scheme, plan; to whip; urge"
+    },
+    {
+      "rank": 715,
+      "character": "演",
+      "pinyin": "yǎn",
+      "definition": "perform, put on; exercise"
+    },
+    {
+      "rank": 716,
+      "character": "简",
+      "pinyin": "jiǎn",
+      "definition": "simple, terse, succinct, a letter"
+    },
+    {
+      "rank": 717,
+      "character": "卡",
+      "pinyin": "kǎ",
+      "definition": "card, punch card; calorie"
+    },
+    {
+      "rank": 718,
+      "character": "罪",
+      "pinyin": "zuì",
+      "definition": "crime, sin, vice; evil; hardship"
+    },
+    {
+      "rank": 719,
+      "character": "判",
+      "pinyin": "pàn",
+      "definition": "judge; discriminate; conclude"
+    },
+    {
+      "rank": 720,
+      "character": "担",
+      "pinyin": "dān",
+      "definition": "carry, bear, undertake"
+    },
+    {
+      "rank": 721,
+      "character": "州",
+      "pinyin": "zhōu",
+      "definition": "administrative division, state"
+    },
+    {
+      "rank": 722,
+      "character": "静",
+      "pinyin": "jìng",
+      "definition": "quiet, still, motionless; gentle"
+    },
+    {
+      "rank": 723,
+      "character": "退",
+      "pinyin": "tuì",
+      "definition": "step back, retreat, withdraw"
+    },
+    {
+      "rank": 724,
+      "character": "既",
+      "pinyin": "jì",
+      "definition": "already; de facto; since; then"
+    },
+    {
+      "rank": 725,
+      "character": "衣",
+      "pinyin": "yī",
+      "definition": "clothes, clothing; cover, skin"
+    },
+    {
+      "rank": 726,
+      "character": "您",
+      "pinyin": "nín",
+      "definition": ""
+    },
+    {
+      "rank": 727,
+      "character": "宗",
+      "pinyin": "zōng",
+      "definition": "lineage, ancestry; ancestor, clan"
+    },
+    {
+      "rank": 728,
+      "character": "积",
+      "pinyin": "jī",
+      "definition": "accumulate, store up, amass"
+    },
+    {
+      "rank": 729,
+      "character": "余",
+      "pinyin": "yú",
+      "definition": "I, my, me; surname; surplus"
+    },
+    {
+      "rank": 730,
+      "character": "痛",
+      "pinyin": "tòng",
+      "definition": "pain, ache; sorry, sad; bitter"
+    },
+    {
+      "rank": 731,
+      "character": "检",
+      "pinyin": "jiǎn",
+      "definition": "check; examine"
+    },
+    {
+      "rank": 732,
+      "character": "差",
+      "pinyin": "chà",
+      "definition": "to differ; different, wrong; nearly, almost; an officer"
+    },
+    {
+      "rank": 733,
+      "character": "富",
+      "pinyin": "fù",
+      "definition": "abundant, ample; rich, wealthy"
+    },
+    {
+      "rank": 734,
+      "character": "灵",
+      "pinyin": "líng",
+      "definition": "spirit, soul; spiritual world"
+    },
+    {
+      "rank": 735,
+      "character": "协",
+      "pinyin": "xié",
+      "definition": "be united; cooperate"
+    },
+    {
+      "rank": 736,
+      "character": "角",
+      "pinyin": "jiǎo",
+      "definition": "horn; angle, corner; point"
+    },
+    {
+      "rank": 737,
+      "character": "占",
+      "pinyin": "zhàn",
+      "definition": "divine; observe; versify"
+    },
+    {
+      "rank": 738,
+      "character": "配",
+      "pinyin": "pèi",
+      "definition": "match, pair; equal; blend"
+    },
+    {
+      "rank": 739,
+      "character": "征",
+      "pinyin": "zhēng",
+      "definition": "invade, attack, conquer"
+    },
+    {
+      "rank": 740,
+      "character": "修",
+      "pinyin": "xiū",
+      "definition": "study; repair; cultivate"
+    },
+    {
+      "rank": 741,
+      "character": "皮",
+      "pinyin": "pí",
+      "definition": "skin, hide, fur, feather; outer"
+    },
+    {
+      "rank": 742,
+      "character": "挥",
+      "pinyin": "huī",
+      "definition": "direct; wipe away; squander"
+    },
+    {
+      "rank": 743,
+      "character": "胜",
+      "pinyin": "shèng",
+      "definition": "victory; excel, be better than"
+    },
+    {
+      "rank": 744,
+      "character": "降",
+      "pinyin": "jiàng",
+      "definition": "descend, fall, drop; lower, down"
+    },
+    {
+      "rank": 745,
+      "character": "阶",
+      "pinyin": "jiē",
+      "definition": "stairs, steps; rank, degree"
+    },
+    {
+      "rank": 746,
+      "character": "审",
+      "pinyin": "shěn",
+      "definition": "examine, investigate; judge"
+    },
+    {
+      "rank": 747,
+      "character": "沉",
+      "pinyin": "chén",
+      "definition": "sink, submerge; addicted to"
+    },
+    {
+      "rank": 748,
+      "character": "坚",
+      "pinyin": "jiān",
+      "definition": "hard, strong, firm; resolute"
+    },
+    {
+      "rank": 749,
+      "character": "善",
+      "pinyin": "shàn",
+      "definition": "good, virtuous, charitable, kind"
+    },
+    {
+      "rank": 750,
+      "character": "妈",
+      "pinyin": "mā",
+      "definition": "mother, mama"
+    },
+    {
+      "rank": 751,
+      "character": "刘",
+      "pinyin": "liú",
+      "definition": "surname; kill, destroy"
+    },
+    {
+      "rank": 752,
+      "character": "读",
+      "pinyin": "dú",
+      "definition": "read, study; pronounce"
+    },
+    {
+      "rank": 753,
+      "character": "啊",
+      "pinyin": "a",
+      "definition": "exclamatory particle"
+    },
+    {
+      "rank": 754,
+      "character": "超",
+      "pinyin": "chāo",
+      "definition": "jump over, leap over; surpass"
+    },
+    {
+      "rank": 755,
+      "character": "免",
+      "pinyin": "miǎn",
+      "definition": "spare; excuse from; evade"
+    },
+    {
+      "rank": 756,
+      "character": "压",
+      "pinyin": "yā",
+      "definition": "press; oppress; crush; pressure"
+    },
+    {
+      "rank": 757,
+      "character": "银",
+      "pinyin": "yín",
+      "definition": "silver; cash, money, wealth"
+    },
+    {
+      "rank": 758,
+      "character": "买",
+      "pinyin": "mǎi",
+      "definition": "buy, purchase; bribe, persuade"
+    },
+    {
+      "rank": 759,
+      "character": "皇",
+      "pinyin": "huáng",
+      "definition": "royal, imperial; ruler, superior"
+    },
+    {
+      "rank": 760,
+      "character": "养",
+      "pinyin": "yǎng",
+      "definition": "raise, rear, bring up; support"
+    },
+    {
+      "rank": 761,
+      "character": "伊",
+      "pinyin": "yī",
+      "definition": "third person pronoun; he, she, this, that"
+    },
+    {
+      "rank": 762,
+      "character": "怀",
+      "pinyin": "huái",
+      "definition": "bosom, breast; carry in bosom"
+    },
+    {
+      "rank": 763,
+      "character": "执",
+      "pinyin": "zhí",
+      "definition": "hold in hand; keep; carry out"
+    },
+    {
+      "rank": 764,
+      "character": "副",
+      "pinyin": "fù",
+      "definition": "assist; supplement; assistant"
+    },
+    {
+      "rank": 765,
+      "character": "乱",
+      "pinyin": "luàn",
+      "definition": "confusion, state of chaos, revolt"
+    },
+    {
+      "rank": 766,
+      "character": "抗",
+      "pinyin": "kàng",
+      "definition": "resist, oppose, defy, reject"
+    },
+    {
+      "rank": 767,
+      "character": "犯",
+      "pinyin": "fàn",
+      "definition": "commit crime, violate; criminal"
+    },
+    {
+      "rank": 768,
+      "character": "追",
+      "pinyin": "zhuī",
+      "definition": "pursue, chase after; expel"
+    },
+    {
+      "rank": 769,
+      "character": "帮",
+      "pinyin": "bāng",
+      "definition": "help, assist; defend; shoe upper"
+    },
+    {
+      "rank": 770,
+      "character": "宣",
+      "pinyin": "xuān",
+      "definition": "declare, announce, proclaim"
+    },
+    {
+      "rank": 771,
+      "character": "佛",
+      "pinyin": "fú",
+      "definition": "Buddha; of Buddhism; merciful person; Buddhist image; the dead (Jap.)"
+    },
+    {
+      "rank": 772,
+      "character": "岁",
+      "pinyin": "suì",
+      "definition": "year; age; harvest"
+    },
+    {
+      "rank": 773,
+      "character": "航",
+      "pinyin": "háng",
+      "definition": "sail; navigate; ship, boat"
+    },
+    {
+      "rank": 774,
+      "character": "优",
+      "pinyin": "yōu",
+      "definition": "superior, excellent; actor"
+    },
+    {
+      "rank": 775,
+      "character": "怪",
+      "pinyin": "guài",
+      "definition": "strange, unusual, peculiar"
+    },
+    {
+      "rank": 776,
+      "character": "香",
+      "pinyin": "xiāng",
+      "definition": "fragrant, sweet smelling, incense"
+    },
+    {
+      "rank": 777,
+      "character": "著",
+      "pinyin": "zhe",
+      "definition": "manifest; (Cant.) to wear"
+    },
+    {
+      "rank": 778,
+      "character": "田",
+      "pinyin": "tián",
+      "definition": "field, arable land, cultivated"
+    },
+    {
+      "rank": 779,
+      "character": "铁",
+      "pinyin": "tiě",
+      "definition": "iron; strong, solid, firm"
+    },
+    {
+      "rank": 780,
+      "character": "控",
+      "pinyin": "kòng",
+      "definition": "accuse, charge; control"
+    },
+    {
+      "rank": 781,
+      "character": "税",
+      "pinyin": "shuì",
+      "definition": "taxes"
+    },
+    {
+      "rank": 782,
+      "character": "左",
+      "pinyin": "zuǒ",
+      "definition": "left; east; unorthodox, improper"
+    },
+    {
+      "rank": 783,
+      "character": "右",
+      "pinyin": "yòu",
+      "definition": "right; west; right-wing"
+    },
+    {
+      "rank": 784,
+      "character": "份",
+      "pinyin": "fèn",
+      "definition": "portion, part; duty"
+    },
+    {
+      "rank": 785,
+      "character": "穿",
+      "pinyin": "chuān",
+      "definition": "penetrate, pierce, drill; wear"
+    },
+    {
+      "rank": 786,
+      "character": "艺",
+      "pinyin": "yì",
+      "definition": "art; talent, ability; craft"
+    },
+    {
+      "rank": 787,
+      "character": "背",
+      "pinyin": "bèi",
+      "definition": "back; back side; behind; betray"
+    },
+    {
+      "rank": 788,
+      "character": "阵",
+      "pinyin": "zhèn",
+      "definition": "column, row or file of troops"
+    },
+    {
+      "rank": 789,
+      "character": "草",
+      "pinyin": "cǎo",
+      "definition": "grass, straw, thatch, herbs"
+    },
+    {
+      "rank": 790,
+      "character": "脚",
+      "pinyin": "jiǎo",
+      "definition": "leg, foot; base, leg, foundation"
+    },
+    {
+      "rank": 791,
+      "character": "概",
+      "pinyin": "gài",
+      "definition": "generally, approximately"
+    },
+    {
+      "rank": 792,
+      "character": "恶",
+      "pinyin": "è",
+      "definition": "evil, wicked, bad, foul"
+    },
+    {
+      "rank": 793,
+      "character": "块",
+      "pinyin": "kuài",
+      "definition": "piece, lump; dollar"
+    },
+    {
+      "rank": 794,
+      "character": "顿",
+      "pinyin": "dùn",
+      "definition": "pause, stop; bow, kowtow; arrange"
+    },
+    {
+      "rank": 795,
+      "character": "敢",
+      "pinyin": "gǎn",
+      "definition": "to dare, venture; bold, brave"
+    },
+    {
+      "rank": 796,
+      "character": "守",
+      "pinyin": "shǒu",
+      "definition": "defend, protect, guard, conserve"
+    },
+    {
+      "rank": 797,
+      "character": "酒",
+      "pinyin": "jiǔ",
+      "definition": "wine, spirits, liquor, alcoholic beverage"
+    },
+    {
+      "rank": 798,
+      "character": "岛",
+      "pinyin": "dǎo",
+      "definition": "island"
+    },
+    {
+      "rank": 799,
+      "character": "托",
+      "pinyin": "tuō",
+      "definition": "to hold up with palm; to support, rely on"
+    },
+    {
+      "rank": 800,
+      "character": "央",
+      "pinyin": "yāng",
+      "definition": "center, conclude, run out; beg"
+    },
+    {
+      "rank": 801,
+      "character": "户",
+      "pinyin": "hù",
+      "definition": "door; family"
+    },
+    {
+      "rank": 802,
+      "character": "烈",
+      "pinyin": "liè",
+      "definition": "fiery, violent, vehement, ardent"
+    },
+    {
+      "rank": 803,
+      "character": "洋",
+      "pinyin": "yáng",
+      "definition": "ocean, sea; foreign; western"
+    },
+    {
+      "rank": 804,
+      "character": "哥",
+      "pinyin": "gē",
+      "definition": "elder brother"
+    },
+    {
+      "rank": 805,
+      "character": "索",
+      "pinyin": "suǒ",
+      "definition": "large rope, cable; rules, laws; to demand, to exact; to search, inquire; isolated"
+    },
+    {
+      "rank": 806,
+      "character": "胡",
+      "pinyin": "hú",
+      "definition": "recklessly, foolishly; wildly"
+    },
+    {
+      "rank": 807,
+      "character": "款",
+      "pinyin": "kuǎn",
+      "definition": "item, article; clause; fund"
+    },
+    {
+      "rank": 808,
+      "character": "靠",
+      "pinyin": "kào",
+      "definition": "lean on, trust, depend on; near"
+    },
+    {
+      "rank": 809,
+      "character": "评",
+      "pinyin": "píng",
+      "definition": "appraise, criticize, evaluate"
+    },
+    {
+      "rank": 810,
+      "character": "版",
+      "pinyin": "bǎn",
+      "definition": "printing blocks; edition"
+    },
+    {
+      "rank": 811,
+      "character": "宝",
+      "pinyin": "bǎo",
+      "definition": "treasure, jewel; precious, rare"
+    },
+    {
+      "rank": 812,
+      "character": "座",
+      "pinyin": "zuò",
+      "definition": "seat; stand, base"
+    },
+    {
+      "rank": 813,
+      "character": "释",
+      "pinyin": "shì",
+      "definition": "interprete, elucidate; release"
+    },
+    {
+      "rank": 814,
+      "character": "景",
+      "pinyin": "jǐng",
+      "definition": "scenery, view; conditions"
+    },
+    {
+      "rank": 815,
+      "character": "顾",
+      "pinyin": "gù",
+      "definition": "look back; look at; look after"
+    },
+    {
+      "rank": 816,
+      "character": "弟",
+      "pinyin": "dì",
+      "definition": "young brother; junior; i, me"
+    },
+    {
+      "rank": 817,
+      "character": "登",
+      "pinyin": "dēng",
+      "definition": "rise, mount, board, climb"
+    },
+    {
+      "rank": 818,
+      "character": "货",
+      "pinyin": "huò",
+      "definition": "goods, commodities, products"
+    },
+    {
+      "rank": 819,
+      "character": "互",
+      "pinyin": "hù",
+      "definition": "mutually, reciprocally"
+    },
+    {
+      "rank": 820,
+      "character": "付",
+      "pinyin": "fù",
+      "definition": "give, deliver, pay, hand over; entrust"
+    },
+    {
+      "rank": 821,
+      "character": "伯",
+      "pinyin": "bó",
+      "definition": ""
+    },
+    {
+      "rank": 822,
+      "character": "慢",
+      "pinyin": "màn",
+      "definition": "slow(ly), leisurely, sluggish"
+    },
+    {
+      "rank": 823,
+      "character": "欧",
+      "pinyin": "ōu",
+      "definition": "translit.: Europe; ohm; surname"
+    },
+    {
+      "rank": 824,
+      "character": "换",
+      "pinyin": "huàn",
+      "definition": "change"
+    },
+    {
+      "rank": 825,
+      "character": "闻",
+      "pinyin": "wén",
+      "definition": "hear; smell; make known; news"
+    },
+    {
+      "rank": 826,
+      "character": "危",
+      "pinyin": "wēi",
+      "definition": "dangerous, precarious; high"
+    },
+    {
+      "rank": 827,
+      "character": "忙",
+      "pinyin": "máng",
+      "definition": "busy, pressed for time; hustling"
+    },
+    {
+      "rank": 828,
+      "character": "核",
+      "pinyin": "hé",
+      "definition": "seed, kernel, core, nut; atom"
+    },
+    {
+      "rank": 829,
+      "character": "暗",
+      "pinyin": "àn",
+      "definition": "dark; obscure; in secret, covert"
+    },
+    {
+      "rank": 830,
+      "character": "姐",
+      "pinyin": "jiě",
+      "definition": "elder sister, young lady"
+    },
+    {
+      "rank": 831,
+      "character": "介",
+      "pinyin": "jiè",
+      "definition": "forerunner, herald, harbinger; to lie between; sea shell; to wear armor"
+    },
+    {
+      "rank": 832,
+      "character": "坏",
+      "pinyin": "huài",
+      "definition": "rotten, spoilt, bad, broken down"
+    },
+    {
+      "rank": 833,
+      "character": "讨",
+      "pinyin": "tǎo",
+      "definition": "to discuss; ask for, beg; demand; dun; marry"
+    },
+    {
+      "rank": 834,
+      "character": "丽",
+      "pinyin": "lì",
+      "definition": "beautiful, magnificent, elegant"
+    },
+    {
+      "rank": 835,
+      "character": "良",
+      "pinyin": "liáng",
+      "definition": "good, virtuous, respectable"
+    },
+    {
+      "rank": 836,
+      "character": "序",
+      "pinyin": "xù",
+      "definition": "series, serial order, sequence"
+    },
+    {
+      "rank": 837,
+      "character": "升",
+      "pinyin": "shēng",
+      "definition": "arise, go up; hoist; advance"
+    },
+    {
+      "rank": 838,
+      "character": "监",
+      "pinyin": "jiān",
+      "definition": "supervise, control, direct"
+    },
+    {
+      "rank": 839,
+      "character": "临",
+      "pinyin": "lín",
+      "definition": "draw near, approach; descend"
+    },
+    {
+      "rank": 840,
+      "character": "亮",
+      "pinyin": "liàng",
+      "definition": "bright, brilliant, radiant, light"
+    },
+    {
+      "rank": 841,
+      "character": "露",
+      "pinyin": "lù",
+      "definition": "dew; bare, open, exposed"
+    },
+    {
+      "rank": 842,
+      "character": "永",
+      "pinyin": "yǒng",
+      "definition": "long, perpetual, eternal, forever"
+    },
+    {
+      "rank": 843,
+      "character": "呼",
+      "pinyin": "hū",
+      "definition": "breathe sigh, exhale; call, shout"
+    },
+    {
+      "rank": 844,
+      "character": "味",
+      "pinyin": "wèi",
+      "definition": "taste, smell, odor; delicacy"
+    },
+    {
+      "rank": 845,
+      "character": "野",
+      "pinyin": "yě",
+      "definition": "open country, field; wilderness"
+    },
+    {
+      "rank": 846,
+      "character": "架",
+      "pinyin": "jià",
+      "definition": "rack, stand, prop; prop up"
+    },
+    {
+      "rank": 847,
+      "character": "域",
+      "pinyin": "yù",
+      "definition": "district, region, boundary; land"
+    },
+    {
+      "rank": 848,
+      "character": "沙",
+      "pinyin": "shā",
+      "definition": "sand, gravel, pebbles; granulated"
+    },
+    {
+      "rank": 849,
+      "character": "掉",
+      "pinyin": "diào",
+      "definition": "turn, move; shake, wag; drop down"
+    },
+    {
+      "rank": 850,
+      "character": "括",
+      "pinyin": "kuò",
+      "definition": "include, embrace, enclose"
+    },
+    {
+      "rank": 851,
+      "character": "舰",
+      "pinyin": "jiàn",
+      "definition": "warship"
+    },
+    {
+      "rank": 852,
+      "character": "鱼",
+      "pinyin": "yú",
+      "definition": "fish; surname; KangXi radical 195"
+    },
+    {
+      "rank": 853,
+      "character": "杂",
+      "pinyin": "zá",
+      "definition": "mixed, blended; mix, mingle"
+    },
+    {
+      "rank": 854,
+      "character": "误",
+      "pinyin": "wù",
+      "definition": "err, make mistake; interfere"
+    },
+    {
+      "rank": 855,
+      "character": "湾",
+      "pinyin": "wān",
+      "definition": "bay, cove, inlet, bend of stream"
+    },
+    {
+      "rank": 856,
+      "character": "吉",
+      "pinyin": "jí",
+      "definition": "lucky, propitious, good"
+    },
+    {
+      "rank": 857,
+      "character": "减",
+      "pinyin": "jiǎn",
+      "definition": "decrease, subtract, diminish"
+    },
+    {
+      "rank": 858,
+      "character": "编",
+      "pinyin": "biān",
+      "definition": "knit, weave; arrange; compile"
+    },
+    {
+      "rank": 859,
+      "character": "楚",
+      "pinyin": "chǔ",
+      "definition": "name of feudal state; clear"
+    },
+    {
+      "rank": 860,
+      "character": "肯",
+      "pinyin": "kěn",
+      "definition": "willing; consent to, permit"
+    },
+    {
+      "rank": 861,
+      "character": "测",
+      "pinyin": "cè",
+      "definition": "measure, estimate, conjecture"
+    },
+    {
+      "rank": 862,
+      "character": "败",
+      "pinyin": "bài",
+      "definition": "be defeated, decline, fail"
+    },
+    {
+      "rank": 863,
+      "character": "屋",
+      "pinyin": "wū",
+      "definition": "house; room; building, shelter"
+    },
+    {
+      "rank": 864,
+      "character": "跑",
+      "pinyin": "pǎo",
+      "definition": "run, flee, leave in hurry"
+    },
+    {
+      "rank": 865,
+      "character": "梦",
+      "pinyin": "mèng",
+      "definition": "dream; visionary; wishful"
+    },
+    {
+      "rank": 866,
+      "character": "散",
+      "pinyin": "sàn",
+      "definition": "scatter, disperse, break up"
+    },
+    {
+      "rank": 867,
+      "character": "温",
+      "pinyin": "wēn",
+      "definition": "lukewarm"
+    },
+    {
+      "rank": 868,
+      "character": "困",
+      "pinyin": "kùn",
+      "definition": "to surround, beseige; to be surrounded; difficult"
+    },
+    {
+      "rank": 869,
+      "character": "剑",
+      "pinyin": "jiàn",
+      "definition": "sword, dagger, saber"
+    },
+    {
+      "rank": 870,
+      "character": "渐",
+      "pinyin": "jiàn",
+      "definition": "gradually"
+    },
+    {
+      "rank": 871,
+      "character": "封",
+      "pinyin": "fēng",
+      "definition": "letter, envelope; feudal"
+    },
+    {
+      "rank": 872,
+      "character": "救",
+      "pinyin": "jiù",
+      "definition": "save, rescue, relieve; help, aid"
+    },
+    {
+      "rank": 873,
+      "character": "贵",
+      "pinyin": "guì",
+      "definition": "expensive, costly, valuable"
+    },
+    {
+      "rank": 874,
+      "character": "枪",
+      "pinyin": "qiāng",
+      "definition": "spear, lance; gun, rifle"
+    },
+    {
+      "rank": 875,
+      "character": "缺",
+      "pinyin": "quē",
+      "definition": "be short of, lack; gap, deficit"
+    },
+    {
+      "rank": 876,
+      "character": "楼",
+      "pinyin": "lóu",
+      "definition": "building of two or more stories"
+    },
+    {
+      "rank": 877,
+      "character": "县",
+      "pinyin": "xiàn",
+      "definition": "county, district, subdivision"
+    },
+    {
+      "rank": 878,
+      "character": "尚",
+      "pinyin": "shàng",
+      "definition": "still, yet; even; fairly, rather"
+    },
+    {
+      "rank": 879,
+      "character": "毫",
+      "pinyin": "háo",
+      "definition": "fine hair; measure of length"
+    },
+    {
+      "rank": 880,
+      "character": "移",
+      "pinyin": "yí",
+      "definition": "change place, shift; move about"
+    },
+    {
+      "rank": 881,
+      "character": "娘",
+      "pinyin": "niáng",
+      "definition": "mother; young girl; woman; wife"
+    },
+    {
+      "rank": 882,
+      "character": "朋",
+      "pinyin": "péng",
+      "definition": "friend, pal, acquaintance"
+    },
+    {
+      "rank": 883,
+      "character": "画",
+      "pinyin": "huà",
+      "definition": "a painting, picture, drawing; to draw"
+    },
+    {
+      "rank": 884,
+      "character": "班",
+      "pinyin": "bān",
+      "definition": "class, group, grade; squad; job"
+    },
+    {
+      "rank": 885,
+      "character": "智",
+      "pinyin": "zhì",
+      "definition": "wisdom, knowledge, intelligence"
+    },
+    {
+      "rank": 886,
+      "character": "亦",
+      "pinyin": "yì",
+      "definition": "also, too; likewise"
+    },
+    {
+      "rank": 887,
+      "character": "耳",
+      "pinyin": "ěr",
+      "definition": "ear; merely, only; handle"
+    },
+    {
+      "rank": 888,
+      "character": "恩",
+      "pinyin": "ēn",
+      "definition": "kindness, mercy, charity"
+    },
+    {
+      "rank": 889,
+      "character": "短",
+      "pinyin": "duǎn",
+      "definition": "short; brief; deficient, lacking"
+    },
+    {
+      "rank": 890,
+      "character": "掌",
+      "pinyin": "zhǎng",
+      "definition": "palm of hand, sole of foot, paw"
+    },
+    {
+      "rank": 891,
+      "character": "恐",
+      "pinyin": "kǒng",
+      "definition": "fear; fearful, apprehensive"
+    },
+    {
+      "rank": 892,
+      "character": "遗",
+      "pinyin": "yí",
+      "definition": "lose; articles lost; omit"
+    },
+    {
+      "rank": 893,
+      "character": "固",
+      "pinyin": "gù",
+      "definition": "to become solid, solidify; strength"
+    },
+    {
+      "rank": 894,
+      "character": "席",
+      "pinyin": "xí",
+      "definition": "seat; mat; take seat; banquet"
+    },
+    {
+      "rank": 895,
+      "character": "松",
+      "pinyin": "sōng",
+      "definition": "pine tree; fir tree"
+    },
+    {
+      "rank": 896,
+      "character": "秘",
+      "pinyin": "mì",
+      "definition": "secret, mysterious, abstruse"
+    },
+    {
+      "rank": 897,
+      "character": "谢",
+      "pinyin": "xiè",
+      "definition": "thank; decline"
+    },
+    {
+      "rank": 898,
+      "character": "鲁",
+      "pinyin": "lǔ",
+      "definition": "foolish, stupid, rash; vulgar"
+    },
+    {
+      "rank": 899,
+      "character": "遇",
+      "pinyin": "yù",
+      "definition": "meet, come across, encounter"
+    },
+    {
+      "rank": 900,
+      "character": "康",
+      "pinyin": "kāng",
+      "definition": "peaceful, quiet; happy, healthy"
+    },
+    {
+      "rank": 901,
+      "character": "虑",
+      "pinyin": "lǜ",
+      "definition": "be concerned, worry about"
+    },
+    {
+      "rank": 902,
+      "character": "幸",
+      "pinyin": "xìng",
+      "definition": "luck(ily), favor, fortunately"
+    },
+    {
+      "rank": 903,
+      "character": "均",
+      "pinyin": "jūn",
+      "definition": "equal, even, fair; all, also"
+    },
+    {
+      "rank": 904,
+      "character": "销",
+      "pinyin": "xiāo",
+      "definition": "melt, fuse; market, sell"
+    },
+    {
+      "rank": 905,
+      "character": "钟",
+      "pinyin": "zhōng",
+      "definition": "clock; bell"
+    },
+    {
+      "rank": 906,
+      "character": "诗",
+      "pinyin": "shī",
+      "definition": "poetry; poem, verse, ode"
+    },
+    {
+      "rank": 907,
+      "character": "藏",
+      "pinyin": "cáng",
+      "definition": "hide, conceal; hoard, store up"
+    },
+    {
+      "rank": 908,
+      "character": "赶",
+      "pinyin": "gǎn",
+      "definition": "pursue, follow; expel, drive away"
+    },
+    {
+      "rank": 909,
+      "character": "剧",
+      "pinyin": "jù",
+      "definition": "theatrical plays, opera, drama"
+    },
+    {
+      "rank": 910,
+      "character": "票",
+      "pinyin": "piào",
+      "definition": "slip of paper or bamboo; ticket"
+    },
+    {
+      "rank": 911,
+      "character": "损",
+      "pinyin": "sǔn",
+      "definition": "diminish; impair; injure"
+    },
+    {
+      "rank": 912,
+      "character": "忽",
+      "pinyin": "hū",
+      "definition": "suddenly, abruptly; neglect"
+    },
+    {
+      "rank": 913,
+      "character": "巨",
+      "pinyin": "jù",
+      "definition": "large, great, enormous; chief"
+    },
+    {
+      "rank": 914,
+      "character": "炮",
+      "pinyin": "pào",
+      "definition": "large gun, cannon; artillery"
+    },
+    {
+      "rank": 915,
+      "character": "旧",
+      "pinyin": "jiù",
+      "definition": "old, ancient; former, past"
+    },
+    {
+      "rank": 916,
+      "character": "端",
+      "pinyin": "duān",
+      "definition": "end, extreme; head; beginning"
+    },
+    {
+      "rank": 917,
+      "character": "探",
+      "pinyin": "tàn",
+      "definition": "find, locate; search, grope for"
+    },
+    {
+      "rank": 918,
+      "character": "湖",
+      "pinyin": "hú",
+      "definition": "a lake; Hubei, Hunan; bluish-green"
+    },
+    {
+      "rank": 919,
+      "character": "录",
+      "pinyin": "lù",
+      "definition": "copy, write down, record"
+    },
+    {
+      "rank": 920,
+      "character": "叶",
+      "pinyin": "yè",
+      "definition": "to harmonize, to rhyme; to unite; (borrowed for) leaf"
+    },
+    {
+      "rank": 921,
+      "character": "春",
+      "pinyin": "chūn",
+      "definition": "spring; wanton"
+    },
+    {
+      "rank": 922,
+      "character": "乡",
+      "pinyin": "xiāng",
+      "definition": "country; rural; village"
+    },
+    {
+      "rank": 923,
+      "character": "附",
+      "pinyin": "fù",
+      "definition": "adhere to, append; rely on near to"
+    },
+    {
+      "rank": 924,
+      "character": "吸",
+      "pinyin": "xī",
+      "definition": "inhale, suck in; absorb; attract"
+    },
+    {
+      "rank": 925,
+      "character": "予",
+      "pinyin": "yǔ",
+      "definition": "I, me; to give"
+    },
+    {
+      "rank": 926,
+      "character": "礼",
+      "pinyin": "lǐ",
+      "definition": "social custom; manners; courtesy"
+    },
+    {
+      "rank": 927,
+      "character": "港",
+      "pinyin": "gǎng",
+      "definition": "port, harbor; small stream; bay"
+    },
+    {
+      "rank": 928,
+      "character": "雨",
+      "pinyin": "yǔ",
+      "definition": "rain; rainy; KangXi radical 173"
+    },
+    {
+      "rank": 929,
+      "character": "呀",
+      "pinyin": "ya",
+      "definition": "particle used to express surprise or mild emphasis; (Cant.) slurred form of the number ten"
+    },
+    {
+      "rank": 930,
+      "character": "板",
+      "pinyin": "bǎn",
+      "definition": "plank, board; iron or tin plate"
+    },
+    {
+      "rank": 931,
+      "character": "庭",
+      "pinyin": "tíng",
+      "definition": "courtyard; spacious hall or yard"
+    },
+    {
+      "rank": 932,
+      "character": "妇",
+      "pinyin": "fù",
+      "definition": "married women; woman; wife"
+    },
+    {
+      "rank": 933,
+      "character": "归",
+      "pinyin": "guī",
+      "definition": "return; return to, revert to"
+    },
+    {
+      "rank": 934,
+      "character": "睛",
+      "pinyin": "jīng",
+      "definition": "eyeball; pupil of eye"
+    },
+    {
+      "rank": 935,
+      "character": "饭",
+      "pinyin": "fàn",
+      "definition": "cooked rice; food, meal"
+    },
+    {
+      "rank": 936,
+      "character": "额",
+      "pinyin": "é",
+      "definition": "forehead; tablet, plaque; fixed"
+    },
+    {
+      "rank": 937,
+      "character": "含",
+      "pinyin": "hán",
+      "definition": "hold in mouth; cherish; contain"
+    },
+    {
+      "rank": 938,
+      "character": "顺",
+      "pinyin": "shùn",
+      "definition": "obey, submit to, go along with"
+    },
+    {
+      "rank": 939,
+      "character": "输",
+      "pinyin": "shū",
+      "definition": "transport, carry, haul"
+    },
+    {
+      "rank": 940,
+      "character": "摇",
+      "pinyin": "yáo",
+      "definition": "wag, swing, wave; shake; scull"
+    },
+    {
+      "rank": 941,
+      "character": "招",
+      "pinyin": "zhāo",
+      "definition": "beckon, summon; recruit, levy"
+    },
+    {
+      "rank": 942,
+      "character": "婚",
+      "pinyin": "hūn",
+      "definition": "get married; marriage, wedding"
+    },
+    {
+      "rank": 943,
+      "character": "脱",
+      "pinyin": "tuō",
+      "definition": "take off"
+    },
+    {
+      "rank": 944,
+      "character": "补",
+      "pinyin": "bǔ",
+      "definition": "mend, patch, fix, repair, restore"
+    },
+    {
+      "rank": 945,
+      "character": "谓",
+      "pinyin": "wèi",
+      "definition": "say, tell; call, name; be called"
+    },
+    {
+      "rank": 946,
+      "character": "督",
+      "pinyin": "dū",
+      "definition": "supervise, oversee, direct"
+    },
+    {
+      "rank": 947,
+      "character": "毒",
+      "pinyin": "dú",
+      "definition": "poison, venom; poisonous"
+    },
+    {
+      "rank": 948,
+      "character": "油",
+      "pinyin": "yóu",
+      "definition": "oil, fat, grease, lard; paints"
+    },
+    {
+      "rank": 949,
+      "character": "疗",
+      "pinyin": "liáo",
+      "definition": "be healed, cured, recover"
+    },
+    {
+      "rank": 950,
+      "character": "旅",
+      "pinyin": "lǚ",
+      "definition": "trip, journey; travel; traveler"
+    },
+    {
+      "rank": 951,
+      "character": "泽",
+      "pinyin": "zé",
+      "definition": "marsh, swamp; grace, brilliance"
+    },
+    {
+      "rank": 952,
+      "character": "材",
+      "pinyin": "cái",
+      "definition": "material, stuff; timber; talent"
+    },
+    {
+      "rank": 953,
+      "character": "灭",
+      "pinyin": "miè",
+      "definition": "extinguish; wipe out, exterminate"
+    },
+    {
+      "rank": 954,
+      "character": "逐",
+      "pinyin": "zhú",
+      "definition": "chase, expel; one by one"
+    },
+    {
+      "rank": 955,
+      "character": "莫",
+      "pinyin": "mò",
+      "definition": "do not, is not, can not; negative"
+    },
+    {
+      "rank": 956,
+      "character": "笔",
+      "pinyin": "bǐ",
+      "definition": "writing brush; write; stroke"
+    },
+    {
+      "rank": 957,
+      "character": "亡",
+      "pinyin": "wáng",
+      "definition": "death, destroyed; lose, perish"
+    },
+    {
+      "rank": 958,
+      "character": "鲜",
+      "pinyin": "xiān",
+      "definition": "fresh; delicious; attractive"
+    },
+    {
+      "rank": 959,
+      "character": "词",
+      "pinyin": "cí",
+      "definition": "words; phrase, expression"
+    },
+    {
+      "rank": 960,
+      "character": "圣",
+      "pinyin": "shèng",
+      "definition": "holy, sacred"
+    },
+    {
+      "rank": 961,
+      "character": "择",
+      "pinyin": "zé",
+      "definition": "select, choose, pick out"
+    },
+    {
+      "rank": 962,
+      "character": "寻",
+      "pinyin": "xún",
+      "definition": "seek, search, look for; ancient"
+    },
+    {
+      "rank": 963,
+      "character": "厂",
+      "pinyin": "chǎng",
+      "definition": "factory, workshop; radical 27"
+    },
+    {
+      "rank": 964,
+      "character": "睡",
+      "pinyin": "shuì",
+      "definition": "sleep, doze"
+    },
+    {
+      "rank": 965,
+      "character": "博",
+      "pinyin": "bó",
+      "definition": "gamble, play games; wide, broad"
+    },
+    {
+      "rank": 966,
+      "character": "勒",
+      "pinyin": "lēi",
+      "definition": "strangle, tighten"
+    },
+    {
+      "rank": 967,
+      "character": "烟",
+      "pinyin": "yān",
+      "definition": "smoke, soot; opium; tobacco, cigarettes"
+    },
+    {
+      "rank": 968,
+      "character": "授",
+      "pinyin": "shòu",
+      "definition": "give to, transmit; confer"
+    },
+    {
+      "rank": 969,
+      "character": "诺",
+      "pinyin": "nuò",
+      "definition": "promise; assent, approve"
+    },
+    {
+      "rank": 970,
+      "character": "伦",
+      "pinyin": "lún",
+      "definition": "normal human relationships"
+    },
+    {
+      "rank": 971,
+      "character": "岸",
+      "pinyin": "àn",
+      "definition": "bank, shore; beach, coast"
+    },
+    {
+      "rank": 972,
+      "character": "奥",
+      "pinyin": "ào",
+      "definition": "mysterious, obscure, profound"
+    },
+    {
+      "rank": 973,
+      "character": "唐",
+      "pinyin": "táng",
+      "definition": "Tang dynasty; Chinese"
+    },
+    {
+      "rank": 974,
+      "character": "卖",
+      "pinyin": "mài",
+      "definition": "sell; betray; show off"
+    },
+    {
+      "rank": 975,
+      "character": "俄",
+      "pinyin": "é",
+      "definition": "sudden(ly), soon; Russian"
+    },
+    {
+      "rank": 976,
+      "character": "炸",
+      "pinyin": "zhà",
+      "definition": "to fry in oil; to scald; to explode"
+    },
+    {
+      "rank": 977,
+      "character": "载",
+      "pinyin": "zài",
+      "definition": "load; carry; transport, convey"
+    },
+    {
+      "rank": 978,
+      "character": "洛",
+      "pinyin": "luò",
+      "definition": "river in Shanxi province; city"
+    },
+    {
+      "rank": 979,
+      "character": "健",
+      "pinyin": "jiàn",
+      "definition": "strong, robust, healthy; strength"
+    },
+    {
+      "rank": 980,
+      "character": "堂",
+      "pinyin": "táng",
+      "definition": "hall; government office"
+    },
+    {
+      "rank": 981,
+      "character": "旁",
+      "pinyin": "páng",
+      "definition": "side; by side, close by, near"
+    },
+    {
+      "rank": 982,
+      "character": "宫",
+      "pinyin": "gōng",
+      "definition": "palace"
+    },
+    {
+      "rank": 983,
+      "character": "喝",
+      "pinyin": "hē",
+      "definition": "drink; shout, call out"
+    },
+    {
+      "rank": 984,
+      "character": "借",
+      "pinyin": "jiè",
+      "definition": "borrow; lend; make pretext of"
+    },
+    {
+      "rank": 985,
+      "character": "君",
+      "pinyin": "jūn",
+      "definition": "sovereign, monarch, ruler, chief, prince"
+    },
+    {
+      "rank": 986,
+      "character": "禁",
+      "pinyin": "jìn",
+      "definition": "restrict, prohibit, forbid"
+    },
+    {
+      "rank": 987,
+      "character": "阴",
+      "pinyin": "yīn",
+      "definition": ""
+    },
+    {
+      "rank": 988,
+      "character": "园",
+      "pinyin": "yuán",
+      "definition": "garden; park, orchard"
+    },
+    {
+      "rank": 989,
+      "character": "谋",
+      "pinyin": "móu",
+      "definition": "plan, scheme; strategem"
+    },
+    {
+      "rank": 990,
+      "character": "宋",
+      "pinyin": "sòng",
+      "definition": "Song dynasty; surname"
+    },
+    {
+      "rank": 991,
+      "character": "避",
+      "pinyin": "bì",
+      "definition": "avoid; turn aside; escape; hide"
+    },
+    {
+      "rank": 992,
+      "character": "抓",
+      "pinyin": "zhuā",
+      "definition": "scratch; clutch, seize, grab"
+    },
+    {
+      "rank": 993,
+      "character": "荣",
+      "pinyin": "róng",
+      "definition": "glory, honor; flourish, prosper"
+    },
+    {
+      "rank": 994,
+      "character": "姑",
+      "pinyin": "gū",
+      "definition": ""
+    },
+    {
+      "rank": 995,
+      "character": "孙",
+      "pinyin": "sūn",
+      "definition": "grandchild, descendent; surname"
+    },
+    {
+      "rank": 996,
+      "character": "逃",
+      "pinyin": "táo",
+      "definition": "escape, flee; abscond, dodge"
+    },
+    {
+      "rank": 997,
+      "character": "牙",
+      "pinyin": "yá",
+      "definition": "tooth, molars, teeth; serrated"
+    },
+    {
+      "rank": 998,
+      "character": "束",
+      "pinyin": "shù",
+      "definition": "bind, control, restrain; bale"
+    },
+    {
+      "rank": 999,
+      "character": "跳",
+      "pinyin": "tiào",
+      "definition": "jump, leap, vault, bounce; dance"
+    },
+    {
+      "rank": 1000,
+      "character": "顶",
+      "pinyin": "dǐng",
+      "definition": "top, summit, peak; to carry on the head"
+    }
+  ],
+  "characters": [
+    "的",
+    "一",
+    "是",
+    "不",
+    "了",
+    "在",
+    "人",
+    "有",
+    "我",
+    "他",
+    "这",
+    "个",
+    "们",
+    "中",
+    "来",
+    "上",
+    "大",
+    "为",
+    "和",
+    "国",
+    "地",
+    "到",
+    "以",
+    "说",
+    "时",
+    "要",
+    "就",
+    "出",
+    "会",
+    "可",
+    "也",
+    "你",
+    "对",
+    "生",
+    "能",
+    "而",
+    "子",
+    "那",
+    "得",
+    "于",
+    "着",
+    "下",
+    "自",
+    "之",
+    "年",
+    "过",
+    "发",
+    "后",
+    "作",
+    "里",
+    "用",
+    "道",
+    "行",
+    "所",
+    "然",
+    "家",
+    "种",
+    "事",
+    "成",
+    "方",
+    "多",
+    "经",
+    "么",
+    "去",
+    "法",
+    "学",
+    "如",
+    "都",
+    "同",
+    "现",
+    "当",
+    "没",
+    "动",
+    "面",
+    "起",
+    "看",
+    "定",
+    "天",
+    "分",
+    "还",
+    "进",
+    "好",
+    "小",
+    "部",
+    "其",
+    "些",
+    "主",
+    "样",
+    "理",
+    "心",
+    "她",
+    "本",
+    "前",
+    "开",
+    "但",
+    "因",
+    "只",
+    "从",
+    "想",
+    "实",
+    "日",
+    "军",
+    "者",
+    "意",
+    "无",
+    "力",
+    "它",
+    "与",
+    "长",
+    "把",
+    "机",
+    "十",
+    "民",
+    "第",
+    "公",
+    "此",
+    "已",
+    "工",
+    "使",
+    "情",
+    "明",
+    "性",
+    "知",
+    "全",
+    "三",
+    "又",
+    "关",
+    "点",
+    "正",
+    "业",
+    "外",
+    "将",
+    "两",
+    "高",
+    "间",
+    "由",
+    "问",
+    "很",
+    "最",
+    "重",
+    "并",
+    "物",
+    "手",
+    "应",
+    "战",
+    "向",
+    "头",
+    "文",
+    "体",
+    "政",
+    "美",
+    "相",
+    "见",
+    "被",
+    "利",
+    "什",
+    "二",
+    "等",
+    "产",
+    "或",
+    "新",
+    "己",
+    "制",
+    "身",
+    "果",
+    "加",
+    "西",
+    "斯",
+    "月",
+    "话",
+    "合",
+    "回",
+    "特",
+    "代",
+    "内",
+    "信",
+    "表",
+    "化",
+    "老",
+    "给",
+    "世",
+    "位",
+    "次",
+    "度",
+    "门",
+    "任",
+    "常",
+    "先",
+    "海",
+    "通",
+    "教",
+    "儿",
+    "原",
+    "东",
+    "声",
+    "提",
+    "立",
+    "及",
+    "比",
+    "员",
+    "解",
+    "水",
+    "名",
+    "真",
+    "论",
+    "处",
+    "走",
+    "义",
+    "各",
+    "入",
+    "几",
+    "口",
+    "认",
+    "条",
+    "平",
+    "系",
+    "气",
+    "题",
+    "活",
+    "尔",
+    "更",
+    "别",
+    "打",
+    "女",
+    "变",
+    "四",
+    "神",
+    "总",
+    "何",
+    "电",
+    "数",
+    "安",
+    "少",
+    "报",
+    "才",
+    "结",
+    "反",
+    "受",
+    "目",
+    "太",
+    "量",
+    "再",
+    "感",
+    "建",
+    "务",
+    "做",
+    "接",
+    "必",
+    "场",
+    "件",
+    "计",
+    "管",
+    "期",
+    "市",
+    "直",
+    "德",
+    "资",
+    "命",
+    "山",
+    "金",
+    "指",
+    "克",
+    "许",
+    "统",
+    "区",
+    "保",
+    "至",
+    "队",
+    "形",
+    "社",
+    "便",
+    "空",
+    "决",
+    "治",
+    "展",
+    "马",
+    "科",
+    "司",
+    "五",
+    "基",
+    "眼",
+    "书",
+    "非",
+    "则",
+    "听",
+    "白",
+    "却",
+    "界",
+    "达",
+    "光",
+    "放",
+    "强",
+    "即",
+    "像",
+    "难",
+    "且",
+    "权",
+    "思",
+    "王",
+    "象",
+    "完",
+    "设",
+    "式",
+    "色",
+    "路",
+    "记",
+    "南",
+    "品",
+    "住",
+    "告",
+    "类",
+    "求",
+    "据",
+    "程",
+    "北",
+    "边",
+    "死",
+    "张",
+    "该",
+    "交",
+    "规",
+    "万",
+    "取",
+    "拉",
+    "格",
+    "望",
+    "觉",
+    "术",
+    "领",
+    "共",
+    "确",
+    "传",
+    "师",
+    "观",
+    "清",
+    "今",
+    "切",
+    "院",
+    "让",
+    "识",
+    "候",
+    "带",
+    "导",
+    "争",
+    "运",
+    "笑",
+    "飞",
+    "风",
+    "步",
+    "改",
+    "收",
+    "根",
+    "干",
+    "造",
+    "言",
+    "联",
+    "持",
+    "组",
+    "每",
+    "济",
+    "车",
+    "亲",
+    "极",
+    "林",
+    "服",
+    "快",
+    "办",
+    "议",
+    "往",
+    "元",
+    "英",
+    "士",
+    "证",
+    "近",
+    "失",
+    "转",
+    "夫",
+    "令",
+    "准",
+    "布",
+    "始",
+    "怎",
+    "呢",
+    "存",
+    "未",
+    "远",
+    "叫",
+    "台",
+    "单",
+    "影",
+    "具",
+    "罗",
+    "字",
+    "爱",
+    "击",
+    "流",
+    "备",
+    "兵",
+    "连",
+    "调",
+    "深",
+    "商",
+    "算",
+    "质",
+    "团",
+    "集",
+    "百",
+    "需",
+    "价",
+    "花",
+    "党",
+    "华",
+    "城",
+    "石",
+    "级",
+    "整",
+    "府",
+    "离",
+    "况",
+    "亚",
+    "请",
+    "技",
+    "际",
+    "约",
+    "示",
+    "复",
+    "病",
+    "息",
+    "究",
+    "线",
+    "似",
+    "官",
+    "火",
+    "断",
+    "精",
+    "满",
+    "支",
+    "视",
+    "消",
+    "越",
+    "器",
+    "容",
+    "照",
+    "须",
+    "九",
+    "增",
+    "研",
+    "写",
+    "称",
+    "企",
+    "八",
+    "功",
+    "吗",
+    "包",
+    "片",
+    "史",
+    "委",
+    "乎",
+    "查",
+    "轻",
+    "易",
+    "早",
+    "曾",
+    "除",
+    "农",
+    "找",
+    "装",
+    "广",
+    "显",
+    "吧",
+    "阿",
+    "李",
+    "标",
+    "谈",
+    "吃",
+    "图",
+    "念",
+    "六",
+    "引",
+    "历",
+    "首",
+    "医",
+    "局",
+    "突",
+    "专",
+    "费",
+    "号",
+    "尽",
+    "另",
+    "周",
+    "较",
+    "注",
+    "语",
+    "仅",
+    "考",
+    "落",
+    "青",
+    "随",
+    "选",
+    "列",
+    "武",
+    "红",
+    "响",
+    "虽",
+    "推",
+    "势",
+    "参",
+    "希",
+    "古",
+    "众",
+    "构",
+    "房",
+    "半",
+    "节",
+    "土",
+    "投",
+    "某",
+    "案",
+    "黑",
+    "维",
+    "革",
+    "划",
+    "敌",
+    "致",
+    "陈",
+    "律",
+    "足",
+    "态",
+    "护",
+    "七",
+    "兴",
+    "派",
+    "孩",
+    "验",
+    "责",
+    "营",
+    "星",
+    "够",
+    "章",
+    "音",
+    "跟",
+    "志",
+    "底",
+    "站",
+    "严",
+    "巴",
+    "例",
+    "防",
+    "族",
+    "供",
+    "效",
+    "续",
+    "施",
+    "留",
+    "讲",
+    "型",
+    "料",
+    "终",
+    "答",
+    "紧",
+    "黄",
+    "绝",
+    "奇",
+    "察",
+    "母",
+    "京",
+    "段",
+    "依",
+    "批",
+    "群",
+    "项",
+    "故",
+    "按",
+    "河",
+    "米",
+    "围",
+    "江",
+    "织",
+    "害",
+    "斗",
+    "双",
+    "境",
+    "客",
+    "纪",
+    "采",
+    "举",
+    "杀",
+    "攻",
+    "父",
+    "苏",
+    "密",
+    "低",
+    "朝",
+    "友",
+    "诉",
+    "止",
+    "细",
+    "愿",
+    "千",
+    "值",
+    "仍",
+    "男",
+    "钱",
+    "破",
+    "网",
+    "热",
+    "助",
+    "倒",
+    "育",
+    "属",
+    "坐",
+    "帝",
+    "限",
+    "船",
+    "脸",
+    "职",
+    "速",
+    "刻",
+    "乐",
+    "否",
+    "刚",
+    "威",
+    "毛",
+    "状",
+    "率",
+    "甚",
+    "独",
+    "球",
+    "般",
+    "普",
+    "怕",
+    "弹",
+    "校",
+    "苦",
+    "创",
+    "假",
+    "久",
+    "错",
+    "承",
+    "印",
+    "晚",
+    "兰",
+    "试",
+    "股",
+    "拿",
+    "脑",
+    "预",
+    "谁",
+    "益",
+    "阳",
+    "若",
+    "哪",
+    "微",
+    "尼",
+    "继",
+    "送",
+    "急",
+    "血",
+    "惊",
+    "伤",
+    "素",
+    "药",
+    "适",
+    "波",
+    "夜",
+    "省",
+    "初",
+    "喜",
+    "卫",
+    "源",
+    "食",
+    "险",
+    "待",
+    "述",
+    "陆",
+    "习",
+    "置",
+    "居",
+    "劳",
+    "财",
+    "环",
+    "排",
+    "福",
+    "纳",
+    "欢",
+    "雷",
+    "警",
+    "获",
+    "模",
+    "充",
+    "负",
+    "云",
+    "停",
+    "木",
+    "游",
+    "龙",
+    "树",
+    "疑",
+    "层",
+    "冷",
+    "洲",
+    "冲",
+    "射",
+    "略",
+    "范",
+    "竟",
+    "句",
+    "室",
+    "异",
+    "激",
+    "汉",
+    "村",
+    "哈",
+    "策",
+    "演",
+    "简",
+    "卡",
+    "罪",
+    "判",
+    "担",
+    "州",
+    "静",
+    "退",
+    "既",
+    "衣",
+    "您",
+    "宗",
+    "积",
+    "余",
+    "痛",
+    "检",
+    "差",
+    "富",
+    "灵",
+    "协",
+    "角",
+    "占",
+    "配",
+    "征",
+    "修",
+    "皮",
+    "挥",
+    "胜",
+    "降",
+    "阶",
+    "审",
+    "沉",
+    "坚",
+    "善",
+    "妈",
+    "刘",
+    "读",
+    "啊",
+    "超",
+    "免",
+    "压",
+    "银",
+    "买",
+    "皇",
+    "养",
+    "伊",
+    "怀",
+    "执",
+    "副",
+    "乱",
+    "抗",
+    "犯",
+    "追",
+    "帮",
+    "宣",
+    "佛",
+    "岁",
+    "航",
+    "优",
+    "怪",
+    "香",
+    "著",
+    "田",
+    "铁",
+    "控",
+    "税",
+    "左",
+    "右",
+    "份",
+    "穿",
+    "艺",
+    "背",
+    "阵",
+    "草",
+    "脚",
+    "概",
+    "恶",
+    "块",
+    "顿",
+    "敢",
+    "守",
+    "酒",
+    "岛",
+    "托",
+    "央",
+    "户",
+    "烈",
+    "洋",
+    "哥",
+    "索",
+    "胡",
+    "款",
+    "靠",
+    "评",
+    "版",
+    "宝",
+    "座",
+    "释",
+    "景",
+    "顾",
+    "弟",
+    "登",
+    "货",
+    "互",
+    "付",
+    "伯",
+    "慢",
+    "欧",
+    "换",
+    "闻",
+    "危",
+    "忙",
+    "核",
+    "暗",
+    "姐",
+    "介",
+    "坏",
+    "讨",
+    "丽",
+    "良",
+    "序",
+    "升",
+    "监",
+    "临",
+    "亮",
+    "露",
+    "永",
+    "呼",
+    "味",
+    "野",
+    "架",
+    "域",
+    "沙",
+    "掉",
+    "括",
+    "舰",
+    "鱼",
+    "杂",
+    "误",
+    "湾",
+    "吉",
+    "减",
+    "编",
+    "楚",
+    "肯",
+    "测",
+    "败",
+    "屋",
+    "跑",
+    "梦",
+    "散",
+    "温",
+    "困",
+    "剑",
+    "渐",
+    "封",
+    "救",
+    "贵",
+    "枪",
+    "缺",
+    "楼",
+    "县",
+    "尚",
+    "毫",
+    "移",
+    "娘",
+    "朋",
+    "画",
+    "班",
+    "智",
+    "亦",
+    "耳",
+    "恩",
+    "短",
+    "掌",
+    "恐",
+    "遗",
+    "固",
+    "席",
+    "松",
+    "秘",
+    "谢",
+    "鲁",
+    "遇",
+    "康",
+    "虑",
+    "幸",
+    "均",
+    "销",
+    "钟",
+    "诗",
+    "藏",
+    "赶",
+    "剧",
+    "票",
+    "损",
+    "忽",
+    "巨",
+    "炮",
+    "旧",
+    "端",
+    "探",
+    "湖",
+    "录",
+    "叶",
+    "春",
+    "乡",
+    "附",
+    "吸",
+    "予",
+    "礼",
+    "港",
+    "雨",
+    "呀",
+    "板",
+    "庭",
+    "妇",
+    "归",
+    "睛",
+    "饭",
+    "额",
+    "含",
+    "顺",
+    "输",
+    "摇",
+    "招",
+    "婚",
+    "脱",
+    "补",
+    "谓",
+    "督",
+    "毒",
+    "油",
+    "疗",
+    "旅",
+    "泽",
+    "材",
+    "灭",
+    "逐",
+    "莫",
+    "笔",
+    "亡",
+    "鲜",
+    "词",
+    "圣",
+    "择",
+    "寻",
+    "厂",
+    "睡",
+    "博",
+    "勒",
+    "烟",
+    "授",
+    "诺",
+    "伦",
+    "岸",
+    "奥",
+    "唐",
+    "卖",
+    "俄",
+    "炸",
+    "载",
+    "洛",
+    "健",
+    "堂",
+    "旁",
+    "宫",
+    "喝",
+    "借",
+    "君",
+    "禁",
+    "阴",
+    "园",
+    "谋",
+    "宋",
+    "避",
+    "抓",
+    "荣",
+    "姑",
+    "孙",
+    "逃",
+    "牙",
+    "束",
+    "跳",
+    "顶"
+  ]
+}
