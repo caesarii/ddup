@@ -5,10 +5,12 @@ import LessonPath from './components/LessonPath.vue'
 import PracticeQuestionCard from './components/PracticeQuestionCard.vue'
 import LoginPage from './components/LoginPage.vue'
 import {
+  getCourseLessions,
   getCurrentUser,
   patchUserCourseProgress,
   getUserCourseProgress,
   login,
+  register,
   logout,
   saveUserCourseProgress,
 } from './components/api'
@@ -305,6 +307,7 @@ const loginLoading = ref(false)
 const loginError = ref('')
 const progressReady = ref(false)
 const currentTopPage = ref('home')
+const homeLessions = ref([])
 
 const topTabs = [
   { id: 'home', label: '首页', icon: '🏠' },
@@ -315,7 +318,7 @@ const topTabs = [
 const homeTrailNodes = computed(() => {
   return lessons.map((lesson, idx) => ({
     id: lesson.id,
-    title: lesson.title,
+    title: homeLessions.value[idx]?.name || lesson.title,
     icon: completedLessonIds.value.includes(lesson.id) ? '★' : idx % 2 === 0 ? '✦' : '◉',
     completed: completedLessonIds.value.includes(lesson.id),
     locked: isLocked(lesson.id),
@@ -536,6 +539,19 @@ async function loadProgressForUser(user) {
   progressReady.value = true
 }
 
+async function loadHomeLessions(courseId) {
+  if (!currentUser.value?.username) {
+    homeLessions.value = []
+    return
+  }
+  try {
+    const data = await getCourseLessions(courseId, currentUser.value.username)
+    homeLessions.value = Array.isArray(data.lessions) ? data.lessions : []
+  } catch {
+    homeLessions.value = []
+  }
+}
+
 async function persistProgressPatch(patch) {
   if (!currentUser.value?.username || !progressReady.value) return
   try {
@@ -553,6 +569,19 @@ async function handleLogin(payload) {
     await loadProgressForUser(currentUser.value)
   } catch (error) {
     loginError.value = error instanceof Error ? error.message : '登录失败'
+  } finally {
+    loginLoading.value = false
+  }
+}
+
+async function handleRegister(payload) {
+  loginError.value = ''
+  loginLoading.value = true
+  try {
+    currentUser.value = await register(payload)
+    await loadProgressForUser(currentUser.value)
+  } catch (error) {
+    loginError.value = error instanceof Error ? error.message : '注册失败'
   } finally {
     loginLoading.value = false
   }
@@ -587,7 +616,13 @@ onMounted(() => {
   currentUser.value = getCurrentUser()
   if (currentUser.value) {
     loadProgressForUser(currentUser.value)
+    void loadHomeLessions(selectedCourse.value)
   }
+})
+
+watch([selectedCourse, currentUser], ([nextCourseId, user]) => {
+  if (!user?.username) return
+  void loadHomeLessions(nextCourseId)
 })
 
 watch(
@@ -610,7 +645,12 @@ watch(
 
 <template>
   <main v-if="!currentUser" class="shell auth-shell">
-    <LoginPage :loading="loginLoading" :error="loginError" @login="handleLogin" />
+    <LoginPage
+      :loading="loginLoading"
+      :error="loginError"
+      @login="handleLogin"
+      @register="handleRegister"
+    />
   </main>
 
   <main v-else class="shell">
@@ -633,7 +673,7 @@ watch(
 
       <div class="home-path">
         <div
-          v-for="(node, idx) in homeTrailNodes"
+          v-for="node in homeTrailNodes"
           :key="node.id"
           class="path-row"
           :class="{ offset: node.offset }"

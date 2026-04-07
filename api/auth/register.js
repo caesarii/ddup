@@ -1,4 +1,4 @@
-import { loginByPassword } from '../auth.js'
+import { registerByPassword } from '../auth.js'
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -8,10 +8,10 @@ export default async function handler(req, res) {
   }
 
   try {
-    const user = await loginByPassword(req.body || {})
+    const user = await registerByPassword(req.body || {})
     res.status(200).json(user)
   } catch (error) {
-    const message = error instanceof Error ? error.message : '登录失败'
+    const message = error instanceof Error ? error.message : '注册失败'
     res.status(400).json({ message })
   }
 }

@@ -17,7 +17,7 @@ npm run dev
 
 ### 2) 前后端联调（Vercel 本地运行）
 
-适合需要调试 `api/` 路由、Vercel Functions 与 KV 的场景。
+适合需要调试 `api/` 路由与 Vercel Functions 的场景。
 
 1. 首次登录并关联项目：
 
@@ -26,13 +26,7 @@ npx vercel login
 npx vercel link
 ```
 
-2. 拉取线上环境变量（包含 KV）到本地：
-
-```bash
-npx vercel env pull .env.local
-```
-
-3. 启动本地联调：
+2. 启动本地联调：
 
 ```bash
 npx vercel dev
@@ -89,33 +83,10 @@ npm run serve
 
 数据持久化：
 
-- 生产环境优先使用 `Vercel KV`
-- 当未配置 KV 环境变量时，接口会降级为内存存储（仅适合本地调试，重启后会丢失）
-
-Vercel 需要配置的环境变量：
-
-- `KV_REST_API_URL`
-- `KV_REST_API_TOKEN`
-
-## 使用本地数据初始化 Vercel KV
-
-仓库已提供初始化脚本，会读取 `api/data` 下三份数据并写入 KV：
-
-- `users.json` -> `users`
-- `courseCatalog.json` -> `course:catalog`
-- `userCourseProgress.json` -> `progress:{username}`
-
-执行步骤：
-
-```bash
-npx vercel env pull .env.local
-npm run seed:kv
-```
-
-初始化后可通过现有接口验证：
-
-- `GET /api/progress/:username`
-- `POST /api/auth/login`
+- 用户账号数据保存在 `api/data/users.json`
+- 用户课程进度保存在 `api/data/userCourseProgress.json`
+- 课程目录保存在 `api/data/courseCatalog.json`
+- 接口会直接读写上述 JSON 文件（本地开发与部署逻辑一致）
 
 说明：
 
@@ -144,3 +115,6 @@ registry=https://registry.npmjs.org/
 
 - 桌面浏览器（推荐 Chrome / Edge 最新版）
 - 小米平板（现代 Chromium 内核浏览器）
+
+
+https://console.neon.tech/app/projects/plain-feather-90665178

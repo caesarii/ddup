@@ -10,7 +10,11 @@ export default defineConfig(({ command }) => ({
       ? [
           VitePWA({
             registerType: 'autoUpdate',
+            minify: false,
             includeAssets: ['favicon.svg'],
+            workbox: {
+              mode: 'development',
+            },
             manifest: {
               name: '儿童学习工具',
               short_name: '学习工具',

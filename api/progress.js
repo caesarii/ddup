@@ -1,11 +1,14 @@
-import { kv } from '@vercel/kv'
 import seedProgressDb from './data/userCourseProgress.json' with { type: 'json' }
+import { readFile, writeFile } from 'node:fs/promises'
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 
 function nowIso() {
   return new Date().toISOString()
 }
 
 const memoryProgress = new Map()
+const progressFilePath = resolve(dirname(fileURLToPath(import.meta.url)), 'data/userCourseProgress.json')
 
 async function getSeedProgress(username) {
   const seed = readSeedProgress()
@@ -27,20 +30,36 @@ function readSeedProgress() {
   return Array.isArray(seedProgressDb.progress) ? seedProgressDb.progress : []
 }
 
-async function readFromKv(username) {
-  if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) return null
-  return kv.get(`progress:${username}`)
+async function loadProgressRows() {
+  const fromFile = await readProgressRowsFromFile()
+  if (Array.isArray(fromFile)) return fromFile
+  return readSeedProgress()
 }
 
-async function saveToKv(username, payload) {
-  if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) return false
-  await kv.set(`progress:${username}`, payload)
-  return true
+async function readProgressRowsFromFile() {
+  try {
+    const raw = await readFile(progressFilePath, 'utf8')
+    const json = JSON.parse(raw)
+    if (Array.isArray(json?.progress)) return json.progress
+  } catch {
+    // Ignore read/parse failures and fallback to seed data.
+  }
+  return null
+}
+
+async function saveProgressRowsToFile(rows) {
+  const content = `${JSON.stringify({ progress: rows }, null, 2)}\n`
+  try {
+    await writeFile(progressFilePath, content, 'utf8')
+  } catch {
+    // Ignore file write failures (e.g. readonly runtime). Memory fallback still works.
+  }
 }
 
 export async function getUserCourseProgress(username) {
-  const fromKv = await readFromKv(username)
-  if (fromKv) return fromKv
+  const rows = await loadProgressRows()
+  const fromJson = rows.find((item) => item.username === username)
+  if (fromJson) return fromJson
   const fromMemory = memoryProgress.get(username)
   if (fromMemory) return fromMemory
   return getSeedProgress(username)
@@ -48,10 +67,12 @@ export async function getUserCourseProgress(username) {
 
 export async function saveUserCourseProgress(payload) {
   const next = { ...payload, updatedAt: nowIso() }
-  const persisted = await saveToKv(payload.username, next)
-  if (!persisted) {
-    memoryProgress.set(payload.username, next)
-  }
+  const rows = await loadProgressRows()
+  const index = rows.findIndex((item) => item.username === payload.username)
+  if (index >= 0) rows[index] = next
+  else rows.push(next)
+  await saveProgressRowsToFile(rows)
+  memoryProgress.set(payload.username, next)
   return next
 }
 

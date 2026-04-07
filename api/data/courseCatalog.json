@@ -1,57 +1,93 @@
 {
   "version": "1.0.0",
-  "description": "课程流程表（与用户进度无关）",
+  "description": "课程分层结构：course -> unit -> lession -> question",
   "courses": [
     {
       "id": "hanzi",
       "name": "识字",
       "enabled": true,
-      "material": {
-        "type": "hanzi_frequency",
-        "source": "commonHanzi1000",
-        "unitSize": 10
-      },
-      "fixedFlow": [
-        { "step": 1, "questionType": "builder", "title": "结构拆解" },
-        { "step": 2, "questionType": "meaningTap", "title": "含义点选" },
-        { "step": 3, "questionType": "flashcard", "title": "闪卡配对" },
-        { "step": 4, "questionType": "audioToHanzi", "title": "听音辨字" },
-        { "step": 5, "questionType": "toneBalloon", "title": "声调气球" },
-        { "step": 6, "questionType": "cloze", "title": "词组填空" },
-        { "step": 7, "questionType": "sentenceBuilder", "title": "汉字拼图" },
-        { "step": 8, "questionType": "errorFinder", "title": "汉字挑错" },
-        { "step": 9, "questionType": "guidedTracing", "title": "轨迹描红" },
-        { "step": 10, "questionType": "ghostWriting", "title": "盲写挑战" }
+      "units": [
+        {
+          "id": "hanzi-unit-1",
+          "name": "基础识字单元",
+          "material": {
+            "type": "hanzi_frequency",
+            "source": "commonHanzi1000",
+            "unitSize": 10
+          },
+          "lessions": [
+            {
+              "id": "hanzi-lession-1",
+              "name": "基础题型训练",
+              "questions": [
+                { "id": "hanzi-q-1", "step": 1, "questionType": "builder", "title": "结构拆解" },
+                { "id": "hanzi-q-2", "step": 2, "questionType": "meaningTap", "title": "含义点选" },
+                { "id": "hanzi-q-3", "step": 3, "questionType": "flashcard", "title": "闪卡配对" },
+                { "id": "hanzi-q-4", "step": 4, "questionType": "audioToHanzi", "title": "听音辨字" },
+                { "id": "hanzi-q-5", "step": 5, "questionType": "toneBalloon", "title": "声调气球" },
+                { "id": "hanzi-q-6", "step": 6, "questionType": "cloze", "title": "词组填空" },
+                { "id": "hanzi-q-7", "step": 7, "questionType": "sentenceBuilder", "title": "汉字拼图" },
+                { "id": "hanzi-q-8", "step": 8, "questionType": "errorFinder", "title": "汉字挑错" },
+                { "id": "hanzi-q-9", "step": 9, "questionType": "guidedTracing", "title": "轨迹描红" },
+                { "id": "hanzi-q-10", "step": 10, "questionType": "ghostWriting", "title": "盲写挑战" }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
       "id": "pinyin",
       "name": "拼音",
       "enabled": false,
-      "material": {
-        "type": "syllable",
-        "source": "pinyinBase",
-        "unitSize": 10
-      },
-      "fixedFlow": [
-        { "step": 1, "questionType": "syllableRecognition", "title": "音节识别" },
-        { "step": 2, "questionType": "toneRecognition", "title": "声调识别" },
-        { "step": 3, "questionType": "audioToSyllable", "title": "听音选拼音" }
+      "units": [
+        {
+          "id": "pinyin-unit-1",
+          "name": "拼音入门单元",
+          "material": {
+            "type": "syllable",
+            "source": "pinyinBase",
+            "unitSize": 10
+          },
+          "lessions": [
+            {
+              "id": "pinyin-lession-1",
+              "name": "基础音节与声调",
+              "questions": [
+                { "id": "pinyin-q-1", "step": 1, "questionType": "syllableRecognition", "title": "音节识别" },
+                { "id": "pinyin-q-2", "step": 2, "questionType": "toneRecognition", "title": "声调识别" },
+                { "id": "pinyin-q-3", "step": 3, "questionType": "audioToSyllable", "title": "听音选拼音" }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
       "id": "math",
       "name": "数学",
       "enabled": false,
-      "material": {
-        "type": "number_base",
-        "source": "mathBase",
-        "unitSize": 10
-      },
-      "fixedFlow": [
-        { "step": 1, "questionType": "counting", "title": "数数" },
-        { "step": 2, "questionType": "addSub", "title": "加减计算" },
-        { "step": 3, "questionType": "wordProblem", "title": "应用题" }
+      "units": [
+        {
+          "id": "math-unit-1",
+          "name": "数学启蒙单元",
+          "material": {
+            "type": "number_base",
+            "source": "mathBase",
+            "unitSize": 10
+          },
+          "lessions": [
+            {
+              "id": "math-lession-1",
+              "name": "基础计算",
+              "questions": [
+                { "id": "math-q-1", "step": 1, "questionType": "counting", "title": "数数" },
+                { "id": "math-q-2", "step": 2, "questionType": "addSub", "title": "加减计算" },
+                { "id": "math-q-3", "step": 3, "questionType": "wordProblem", "title": "应用题" }
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

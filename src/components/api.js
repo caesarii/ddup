@@ -26,6 +26,15 @@ export async function login(payload) {
   return user
 }
 
+export async function register(payload) {
+  const user = await request('/auth/register', {
+    method: 'POST',
+    body: JSON.stringify(payload),
+  })
+  localStorage.setItem(SESSION_KEY, JSON.stringify(user))
+  return user
+}
+
 export function getCurrentUser() {
   const raw = localStorage.getItem(SESSION_KEY)
   if (!raw) return null
@@ -56,4 +65,9 @@ export async function patchUserCourseProgress(username, patch) {
     method: 'PATCH',
     body: JSON.stringify(patch),
   })
+}
+
+export async function getCourseLessions(courseId, userId) {
+  const query = userId ? `?userId=${encodeURIComponent(userId)}` : ''
+  return request(`/courses/${encodeURIComponent(courseId)}/lessions${query}`)
 }

@@ -1,18 +1,5 @@
 {
   "users":[
-    {
-      "id": 1,
-      "username": "Harry",
-      "passwordHash": "252ab7f821e400fccfed3c53086abcf0f63816ecbc7c62f7298d8563d3c69126",
-      "name": "Harry",
-      "role": "student"
-    },
-    {
-      "id": 0,
-      "username": "Qinghe",
-      "passwordHash": "831d38bcb4340e46092a45b8fbfe81a419e28392873dc27d5ead00c5222029f3",
-      "name": "Qinghe",
-      "role": "parent"
-    }
+
   ]
 }
