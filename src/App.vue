@@ -311,7 +311,6 @@ const homeLessions = ref([])
 
 const topTabs = [
   { id: 'home', label: '首页', icon: '🏠' },
-  { id: 'practice', label: '竞技场', icon: '⚔️' },
   { id: 'profile', label: '个人中心', icon: '👤' },
 ]
 
@@ -334,6 +333,7 @@ const currentQuestion = computed(() => {
   if (!currentLesson.value) return null
   return currentLesson.value.questions[questionIndex.value]
 })
+const currentQuestionView = ref(null)
 
 const progressPercent = computed(() => {
   if (!currentLesson.value) return 0
@@ -360,6 +360,25 @@ const canSubmit = computed(() => {
   }
   return Boolean(selectedAnswer.value)
 })
+
+function shuffleArray(items) {
+  const next = [...items]
+  for (let i = next.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[next[i], next[j]] = [next[j], next[i]]
+  }
+  return next
+}
+
+function buildQuestionView(question) {
+  if (!question) return null
+  return {
+    ...question,
+    options: Array.isArray(question.options) ? shuffleArray(question.options) : question.options,
+    partsPool: Array.isArray(question.partsPool) ? shuffleArray(question.partsPool) : question.partsPool,
+    tokens: Array.isArray(question.tokens) ? shuffleArray(question.tokens) : question.tokens,
+  }
+}
 
 function openLesson(lessonId) {
   const previousLessonId = lessonId - 1
@@ -501,12 +520,14 @@ function nextQuestion() {
   if (!completedLessonIds.value.includes(currentLesson.value.id)) {
     completedLessonIds.value.push(currentLesson.value.id)
   }
+  activeLessonId.value = null
+  questionIndex.value = 0
   showResult.value = true
   void persistProgressPatch({
     currentCourseId: selectedCourse.value,
     activeLessonId: null,
     questionIndex: 0,
-    completedLessonIds: completedLessonIds.value,
+    completedLessonIds: [...completedLessonIds.value],
     xp: xp.value,
     lives: lives.value,
   })
@@ -514,10 +535,29 @@ function nextQuestion() {
 
 function closeResult() {
   showResult.value = false
-  activeLessonId.value = null
+}
+
+function shouldConfirmLeaveLesson() {
+  if (!activeLessonId.value) return true
+  return window.confirm('当前关卡尚未完成，确定要退出吗？')
 }
 
 function backToPath() {
+  if (!shouldConfirmLeaveLesson()) return
+  activeLessonId.value = null
+  currentTopPage.value = 'home'
+}
+
+function switchTopPage(nextPage) {
+  if (nextPage === currentTopPage.value) return
+  if (!shouldConfirmLeaveLesson()) return
+  currentTopPage.value = nextPage
+}
+
+function handleSelectCourse(courseId) {
+  if (courseId === selectedCourse.value) return
+  if (!shouldConfirmLeaveLesson()) return
+  selectedCourse.value = courseId
   activeLessonId.value = null
 }
 
@@ -626,6 +666,14 @@ watch([selectedCourse, currentUser], ([nextCourseId, user]) => {
 })
 
 watch(
+  currentQuestion,
+  (nextQuestion) => {
+    currentQuestionView.value = buildQuestionView(nextQuestion)
+  },
+  { immediate: true },
+)
+
+watch(
   [selectedCourse, activeLessonId, questionIndex, completedLessonIds, xp, lives, currentUser],
   async () => {
     if (!currentUser.value?.username || !progressReady.value) return
@@ -659,7 +707,7 @@ watch(
       :xp="xp"
       :course-tabs="courseTabs"
       :selected-course="selectedCourse"
-      @select-course="selectedCourse = $event"
+      @select-course="handleSelectCourse"
     />
     <div v-if="currentTopPage !== 'home'" class="auth-bar">
       <span class="auth-user">当前用户：{{ currentUser.name }}</span>
@@ -726,9 +774,9 @@ watch(
         </div>
 
         <PracticeQuestionCard
-          v-if="currentLesson && currentQuestion"
+          v-if="currentLesson && currentQuestion && currentQuestionView"
           :current-lesson="currentLesson"
-          :current-question="currentQuestion"
+          :current-question="currentQuestionView"
           :selected-answer="selectedAnswer"
           :built-parts="builtParts"
           :built-sentence-text="builtSentenceText"
@@ -763,7 +811,7 @@ watch(
         :key="tab.id"
         class="top-page-tab"
         :class="{ active: currentTopPage === tab.id }"
-        @click="currentTopPage = tab.id"
+        @click="switchTopPage(tab.id)"
       >
         <span class="top-page-tab-icon">{{ tab.icon }}</span>
         <span class="top-page-tab-label">{{ tab.label }}</span>

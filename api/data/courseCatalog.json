@@ -9,7 +9,7 @@
       "units": [
         {
           "id": "hanzi-unit-1",
-          "name": "基础识字单元",
+          "name": "基础识字关卡",
           "material": {
             "type": "hanzi_frequency",
             "source": "commonHanzi1000",
@@ -43,7 +43,7 @@
       "units": [
         {
           "id": "pinyin-unit-1",
-          "name": "拼音入门单元",
+          "name": "拼音入门关卡",
           "material": {
             "type": "syllable",
             "source": "pinyinBase",
@@ -70,7 +70,7 @@
       "units": [
         {
           "id": "math-unit-1",
-          "name": "数学启蒙单元",
+          "name": "数学启蒙关卡",
           "material": {
             "type": "number_base",
             "source": "mathBase",

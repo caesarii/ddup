@@ -1,5 +1,11 @@
 {
-  "users":[
-
+  "users": [
+    {
+      "userId": "user_8hf9679l05wp",
+      "username": "qinghe",
+      "passwordHash": "f9e5ec310b641dcadad77d807d90e8924744553b6cc91bec6154a4298e280b27",
+      "name": "qinghe",
+      "role": "student"
+    }
   ]
 }

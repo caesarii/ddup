@@ -248,7 +248,11 @@ const emit = defineEmits([
       <button v-else class="primary" @click="emit('next')">继续</button>
     </div>
 
-    <p v-if="feedback" class="feedback" :class="{ right: feedback.includes('正确') }">
+    <p
+      v-if="feedback"
+      class="feedback"
+      :class="{ right: feedback.includes('正确'), wrong: feedback.includes('错误') }"
+    >
       {{ feedback }}
     </p>
   </article>
