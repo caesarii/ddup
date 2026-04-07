@@ -11,6 +11,7 @@
     "update:hanzi": "python3 scripts/update_common_hanzi_1000.py"
   },
   "dependencies": {
+    "@vercel/kv": "^1.0.1",
     "vue": "^3.5.32"
   },
   "devDependencies": {

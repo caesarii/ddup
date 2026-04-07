@@ -16,7 +16,7 @@ defineProps({
     <div class="brand">
       <span class="owl">🦉</span>
       <div>
-        <p class="brand-title">学习小队</p>
+        <p class="brand-title">Bingo</p>
         <p class="brand-subtitle">儿童识字练习</p>
       </div>
     </div>

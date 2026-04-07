@@ -6,7 +6,7 @@ from pathlib import Path
 from urllib.request import urlopen
 
 SOURCE_URL = "https://raw.githubusercontent.com/ruddfawcett/hanziDB.csv/master/hanzi_db.csv"
-OUTPUT_PATH = Path(__file__).resolve().parents[1] / "src" / "data" / "commonHanzi1000.json"
+OUTPUT_PATH = Path(__file__).resolve().parents[1] / "api" / "commonHanzi1000.json"
 
 
 def main() -> None:

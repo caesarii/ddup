@@ -1,0 +1,14 @@
+{
+  "progress": [
+    {
+      "username": "Harry",
+      "currentCourseId": "hanzi",
+      "activeLessonId": null,
+      "questionIndex": 0,
+      "completedLessonIds": [],
+      "xp": 0,
+      "lives": 5,
+      "updatedAt": "2026-04-07T00:00:00Z"
+    }
+  ]
+}

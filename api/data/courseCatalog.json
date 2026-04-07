@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "description": "课程流程表（与用户进度无关）",
+  "courses": [
+    {
+      "id": "hanzi",
+      "name": "识字",
+      "enabled": true,
+      "material": {
+        "type": "hanzi_frequency",
+        "source": "commonHanzi1000",
+        "unitSize": 10
+      },
+      "fixedFlow": [
+        { "step": 1, "questionType": "builder", "title": "结构拆解" },
+        { "step": 2, "questionType": "meaningTap", "title": "含义点选" },
+        { "step": 3, "questionType": "flashcard", "title": "闪卡配对" },
+        { "step": 4, "questionType": "audioToHanzi", "title": "听音辨字" },
+        { "step": 5, "questionType": "toneBalloon", "title": "声调气球" },
+        { "step": 6, "questionType": "cloze", "title": "词组填空" },
+        { "step": 7, "questionType": "sentenceBuilder", "title": "汉字拼图" },
+        { "step": 8, "questionType": "errorFinder", "title": "汉字挑错" },
+        { "step": 9, "questionType": "guidedTracing", "title": "轨迹描红" },
+        { "step": 10, "questionType": "ghostWriting", "title": "盲写挑战" }
+      ]
+    },
+    {
+      "id": "pinyin",
+      "name": "拼音",
+      "enabled": false,
+      "material": {
+        "type": "syllable",
+        "source": "pinyinBase",
+        "unitSize": 10
+      },
+      "fixedFlow": [
+        { "step": 1, "questionType": "syllableRecognition", "title": "音节识别" },
+        { "step": 2, "questionType": "toneRecognition", "title": "声调识别" },
+        { "step": 3, "questionType": "audioToSyllable", "title": "听音选拼音" }
+      ]
+    },
+    {
+      "id": "math",
+      "name": "数学",
+      "enabled": false,
+      "material": {
+        "type": "number_base",
+        "source": "mathBase",
+        "unitSize": 10
+      },
+      "fixedFlow": [
+        { "step": 1, "questionType": "counting", "title": "数数" },
+        { "step": 2, "questionType": "addSub", "title": "加减计算" },
+        { "step": 3, "questionType": "wordProblem", "title": "应用题" }
+      ]
+    }
+  ]
+}

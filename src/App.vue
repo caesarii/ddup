@@ -1,9 +1,16 @@
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import AppHeader from './components/AppHeader.vue'
 import CourseTabs from './components/CourseTabs.vue'
 import LessonPath from './components/LessonPath.vue'
 import PracticeQuestionCard from './components/PracticeQuestionCard.vue'
+import LoginPage from './components/LoginPage.vue'
+import {
+  getCurrentUser,
+  getUserCourseProgress,
+  login,
+  saveUserCourseProgress,
+} from './components/api'
 
 const courseTabs = [
   { id: 'hanzi', label: '识字', enabled: true },
@@ -292,6 +299,24 @@ const checking = ref(false)
 const feedback = ref('')
 const showResult = ref(false)
 const lessonRightCount = ref(0)
+const currentUser = ref(null)
+const loginLoading = ref(false)
+const loginError = ref('')
+const progressReady = ref(false)
+const currentTopPage = ref('home')
+
+const topTabs = [
+  { id: 'home', label: '首页', icon: '🏠' },
+  { id: 'practice', label: '竞技场', icon: '⚔️' },
+  { id: 'profile', label: '个人中心', icon: '👤' },
+]
+
+const homeCourseList = computed(() =>
+  courseTabs.map((course) => ({
+    ...course,
+    desc: course.id === 'hanzi' ? '已开放，包含关卡练习与答题挑战' : '课程开发中',
+  })),
+)
 
 const currentLesson = computed(() =>
   lessons.find((lesson) => lesson.id === activeLessonId.value),
@@ -309,6 +334,11 @@ const progressPercent = computed(() => {
       currentLesson.value.questions.length) *
     100
   )
+})
+
+const completionRate = computed(() => {
+  if (!lessons.length) return 0
+  return Math.round((completedLessonIds.value.length / lessons.length) * 100)
 })
 
 const canSubmit = computed(() => {
@@ -474,64 +504,177 @@ function closeResult() {
 function backToPath() {
   activeLessonId.value = null
 }
+
+function applyProgress(progress) {
+  selectedCourse.value = progress.currentCourseId || 'hanzi'
+  activeLessonId.value = progress.activeLessonId ?? null
+  questionIndex.value = Number.isInteger(progress.questionIndex) ? progress.questionIndex : 0
+  completedLessonIds.value = Array.isArray(progress.completedLessonIds)
+    ? progress.completedLessonIds
+    : []
+  xp.value = Number.isFinite(progress.xp) ? progress.xp : 0
+  lives.value = Number.isFinite(progress.lives) ? progress.lives : 5
+}
+
+async function loadProgressForUser(user) {
+  if (!user?.username) return
+  const progress = await getUserCourseProgress(user.username)
+  applyProgress(progress)
+  progressReady.value = true
+}
+
+async function handleLogin(payload) {
+  loginError.value = ''
+  loginLoading.value = true
+  try {
+    currentUser.value = await login(payload)
+    await loadProgressForUser(currentUser.value)
+  } catch (error) {
+    loginError.value = error instanceof Error ? error.message : '登录失败'
+  } finally {
+    loginLoading.value = false
+  }
+}
+
+function enterPractice(courseId) {
+  selectedCourse.value = courseId
+  activeLessonId.value = null
+  currentTopPage.value = 'practice'
+}
+
+onMounted(() => {
+  currentUser.value = getCurrentUser()
+  if (currentUser.value) {
+    loadProgressForUser(currentUser.value)
+  }
+})
+
+watch(
+  [selectedCourse, activeLessonId, questionIndex, completedLessonIds, xp, lives, currentUser],
+  async () => {
+    if (!currentUser.value?.username || !progressReady.value) return
+    await saveUserCourseProgress({
+      username: currentUser.value.username,
+      currentCourseId: selectedCourse.value,
+      activeLessonId: activeLessonId.value,
+      questionIndex: questionIndex.value,
+      completedLessonIds: completedLessonIds.value,
+      xp: xp.value,
+      lives: lives.value,
+    })
+  },
+  { deep: true },
+)
 </script>
 
 <template>
-  <main class="shell">
+  <main v-if="!currentUser" class="shell auth-shell">
+    <LoginPage :loading="loginLoading" :error="loginError" @login="handleLogin" />
+  </main>
+
+  <main v-else class="shell">
     <AppHeader :lives="lives" :xp="xp" />
+    <div class="auth-bar">
+      <span class="auth-user">当前用户：{{ currentUser.name }}</span>
+    </div>
 
-    <CourseTabs
-      :course-tabs="courseTabs"
-      :selected-course="selectedCourse"
-      @select-course="selectedCourse = $event"
-    />
-
-    <LessonPath
-      v-if="selectedCourse === 'hanzi' && !activeLessonId"
-      :lessons="lessons"
-      :completed-lesson-ids="completedLessonIds"
-      :is-locked="isLocked"
-      @open-lesson="openLesson"
-    />
-
-    <section v-else-if="selectedCourse === 'hanzi' && activeLessonId" class="practice-view">
-      <div class="practice-head">
-        <button class="link-btn" @click="backToPath">返回路径</button>
-        <div class="progress-bar" role="progressbar" :aria-valuenow="progressPercent">
-          <span :style="{ width: `${progressPercent}%` }"></span>
-        </div>
+    <section v-if="currentTopPage === 'home'" class="page-card">
+      <h2>课程列表</h2>
+      <p class="home-username">你好，{{ currentUser.name }}</p>
+      <p class="page-desc">选择课程后将直接进入练习场。</p>
+      <div class="home-course-list">
+        <button
+          v-for="course in homeCourseList"
+          :key="course.id"
+          class="course-entry"
+          :class="{ disabled: !course.enabled }"
+          @click="enterPractice(course.id)"
+        >
+          <span class="course-entry-title">{{ course.label }}</span>
+          <span class="course-entry-desc">{{ course.desc }}</span>
+        </button>
       </div>
+    </section>
 
-      <PracticeQuestionCard
-        v-if="currentLesson && currentQuestion"
-        :current-lesson="currentLesson"
-        :current-question="currentQuestion"
-        :selected-answer="selectedAnswer"
-        :built-parts="builtParts"
-        :built-sentence-text="builtSentenceText"
-        :sentence-built="sentenceBuilt"
-        :tracing-step="tracingStep"
-        :tracing-mistake="tracingMistake"
-        :checking="checking"
-        :feedback="feedback"
-        :can-submit="canSubmit"
-        @choose-answer="chooseAnswer"
-        @add-part="addPart"
-        @remove-part="removePart"
-        @play-audio="playAudioForQuestion"
-        @add-token="addSentenceToken"
-        @pop-token="popSentenceToken"
-        @tap-stroke="tapStroke"
-        @update-ghost="updateGhostAnswer"
-        @submit="submitAnswer"
-        @next="nextQuestion"
+    <section v-else-if="currentTopPage === 'profile'" class="page-card">
+      <h2>个人中心</h2>
+      <p class="page-desc">查看你的学习档案与当前进度。</p>
+      <ul class="profile-list">
+        <li><span>用户名</span><strong>{{ currentUser.username }}</strong></li>
+        <li><span>昵称</span><strong>{{ currentUser.name }}</strong></li>
+        <li><span>生命值</span><strong>{{ lives }}</strong></li>
+        <li><span>累计 XP</span><strong>{{ xp }}</strong></li>
+        <li><span>课程完成率</span><strong>{{ completionRate }}%</strong></li>
+      </ul>
+    </section>
+
+    <section v-else>
+      <CourseTabs
+        :course-tabs="courseTabs"
+        :selected-course="selectedCourse"
+        @select-course="selectedCourse = $event"
       />
+
+      <LessonPath
+        v-if="selectedCourse === 'hanzi' && !activeLessonId"
+        :lessons="lessons"
+        :completed-lesson-ids="completedLessonIds"
+        :is-locked="isLocked"
+        @open-lesson="openLesson"
+      />
+
+      <section v-else-if="selectedCourse === 'hanzi' && activeLessonId" class="practice-view">
+        <div class="practice-head">
+          <button class="link-btn" @click="backToPath">返回路径</button>
+          <div class="progress-bar" role="progressbar" :aria-valuenow="progressPercent">
+            <span :style="{ width: `${progressPercent}%` }"></span>
+          </div>
+        </div>
+
+        <PracticeQuestionCard
+          v-if="currentLesson && currentQuestion"
+          :current-lesson="currentLesson"
+          :current-question="currentQuestion"
+          :selected-answer="selectedAnswer"
+          :built-parts="builtParts"
+          :built-sentence-text="builtSentenceText"
+          :sentence-built="sentenceBuilt"
+          :tracing-step="tracingStep"
+          :tracing-mistake="tracingMistake"
+          :checking="checking"
+          :feedback="feedback"
+          :can-submit="canSubmit"
+          @choose-answer="chooseAnswer"
+          @add-part="addPart"
+          @remove-part="removePart"
+          @play-audio="playAudioForQuestion"
+          @add-token="addSentenceToken"
+          @pop-token="popSentenceToken"
+          @tap-stroke="tapStroke"
+          @update-ghost="updateGhostAnswer"
+          @submit="submitAnswer"
+          @next="nextQuestion"
+        />
+      </section>
+
+      <section v-else class="placeholder">
+        <h2>课程开发中</h2>
+        <p>当前版本仅开放识字课程。</p>
+      </section>
     </section>
 
-    <section v-else class="placeholder">
-      <h2>课程开发中</h2>
-      <p>当前版本仅开放识字课程。</p>
-    </section>
+    <nav class="top-page-tabs" aria-label="主导航">
+      <button
+        v-for="tab in topTabs"
+        :key="tab.id"
+        class="top-page-tab"
+        :class="{ active: currentTopPage === tab.id }"
+        @click="currentTopPage = tab.id"
+      >
+        <span class="top-page-tab-icon">{{ tab.icon }}</span>
+        <span class="top-page-tab-label">{{ tab.label }}</span>
+      </button>
+    </nav>
 
     <div v-if="showResult" class="result-mask" @click.self="closeResult">
       <div class="result-panel">

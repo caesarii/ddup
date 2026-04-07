@@ -1,4 +1,5 @@
 import commonHanziConfig from './commonHanzi1000.json'
+import courseCatalog from './data/courseCatalog.json'
 
 export function generateHanziLessons({
   lessonCount = 20,
@@ -18,6 +19,14 @@ export function generateHanziLessons({
       chars: lessonChars,
     }
   }).filter((lesson) => lesson.chars.length > 0)
+}
+
+export function getCourseCatalog() {
+  return courseCatalog
+}
+
+export function getCourseFlow(courseId) {
+  return courseCatalog.courses.find((course) => course.id === courseId) || null
 }
 
 export { commonHanziConfig }
