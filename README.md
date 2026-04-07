@@ -1,31 +1,54 @@
 # ddup
 
-这是一个儿童学习类 PWA 工具，面向桌面浏览器与平板设备（如小米平板）。
 
-## 技术栈
+## 开发与调试
 
-- Vue 3
-- Vite
-- vite-plugin-pwa
-- Vercel（部署）
+### 1) 纯前端开发（Vite）
 
-## 本地开发
+适合页面样式、交互、组件开发，不依赖本地 `/api` 函数联调。
 
 ```bash
 npm install
 npm run dev
 ```
 
-默认开发地址：`http://localhost:5173`
+- 默认地址：`http://localhost:5173`
+- 由 Vite Dev Server 提供热更新（HMR）
 
-## 构建与预览
+### 2) 前后端联调（Vercel 本地运行）
+
+适合需要调试 `api/` 路由、Vercel Functions 与 KV 的场景。
+
+1. 首次登录并关联项目：
+
+```bash
+npx vercel login
+npx vercel link
+```
+
+2. 拉取线上环境变量（包含 KV）到本地：
+
+```bash
+npx vercel env pull .env.local
+```
+
+3. 启动本地联调：
+
+```bash
+npx vercel dev
+```
+
+- 默认地址：`http://localhost:3000`
+- 会同时处理静态资源与 `/api/` 开头路由
+
+## 构建与预览（生产构建）
 
 ```bash
 npm run build
 npm run preview
 ```
 
-如果需要局域网访问预览版本，可使用：
+如果需要局域网访问预览版本：
 
 ```bash
 npm run serve
@@ -39,7 +62,13 @@ npm run serve
 
 ## 部署（Vercel）
 
-项目已包含 `vercel.json`，可直接在 Vercel 导入仓库并部署。
+项目已包含 `vercel.json`，Vercel 会使用以下流程部署：
+
+- 执行 `npm run build`（即 `vite build`）
+- 输出目录为 `dist/`
+- `api/` 目录下文件作为 Serverless Functions 运行
+
+直接在 Vercel 导入仓库并部署即可。
 
 ## /api 服务说明
 
@@ -65,38 +94,25 @@ Vercel 需要配置的环境变量：
 说明：
 
 - 前端统一通过 `src/components/api.js` 调用上述 HTTP 接口
-- `vercel.json` 已配置 `filesystem` 优先，`/api/*` 不会被 SPA fallback 覆盖
+- `vercel.json` 已配置 `filesystem` 优先，`/api/` 开头路由不会被 SPA fallback 覆盖
 
-## 本地联调 /api 的步骤
+## 常见问题
 
-推荐使用 `vercel dev` 在本地同时启动前端与 `api/` 函数路由。
+### Vercel 构建时安装依赖失败（EHOSTUNREACH）
 
-1. 安装依赖并登录 Vercel CLI（首次需要）：
-
-```bash
-npm install
-npx vercel login
-```
-
-2. 关联当前项目（首次需要）：
+如果遇到依赖安装阶段访问私有 registry 失败，请确认仓库根目录存在：
 
 ```bash
-npx vercel link
+.npmrc
 ```
 
-3. 拉取 Vercel 环境变量到本地（包含 KV）：
+并包含：
 
 ```bash
-npx vercel env pull .env.local
+registry=https://registry.npmjs.org/
 ```
 
-4. 启动本地联调：
-
-```bash
-npx vercel dev
-```
-
-启动后可通过 `http://localhost:3000` 访问应用，并联调 `/api/*` 接口。
+同时建议提交最新 `package-lock.json`，避免锁文件中残留内网源地址。
 
 ## 运行环境
 
